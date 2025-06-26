@@ -1,0 +1,154 @@
+/* My default styles—a bit of a reset and a bit of a normalization, based on 
+["A Modern CSS Reset" by Josh W. Comeau](https://www.joshwcomeau.com/css/custom-css-reset/).
+Remember to use `*property*:revert` to return specific elements to browser defaults. 
+Use `@import url("./cobbland-style.css");` to import into the default stylesheet.
+(Note: Nothing is done to fix apple product specific problems; y'all are on your own.) */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+  
+* {
+    margin: 0;
+}
+  
+body {
+    line-height: 1.5; /* This requires customizing the line height for larger text. */
+}
+  
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%; /* Use `max-width: revert;` if an image is meant to overflow */
+}
+  
+input, button, textarea, select {
+    font: inherit;
+}
+  
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-top: 1em;
+} /* Consider applying this to ALL elements. Also, consider adding `hyphen: auto;`. */ 
+  
+p {
+    text-wrap: pretty; /* May have a performance impact. */
+} /* Remember to use `p` instead of `div` in your HTML if you want this to work. 
+Also, consider setting `max-width: 60ch` or smaller. (ch being the width of "0" 
+in given `font-size`. (Maybe this belongs on a parent element, though.)*/
+  
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+  
+/* End default styles. */
+
+body { 
+    background-color: #FFF8E7;
+    padding: 2rem;
+}
+
+h1 {
+    padding: 0;
+}
+
+header {
+    line-height: 2em;
+    font-weight: 800;
+    font-size: 2em;
+    color: #D14D41;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a#title,
+a#title:visited {
+    color: #D14D41;
+}
+
+a#title:hover {
+    color: #D14D41;
+}
+
+section {
+    background-color: #FFF8E7;
+    max-width: 60ch;
+    margin: 0 0 1rem;
+}
+
+p {
+    color: #000000aa;
+}
+
+.intro {
+    font-weight: bold;
+    color: #006c67;
+}
+
+.construction {
+    display: inline-block;
+    transform: rotate(-3deg);
+    transition: transform 0.3s;
+}
+
+.construction:hover {
+    transform: rotate(10deg);
+}
+
+a,
+a:visited {
+    color: rgb(193, 83, 0);
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover,
+a:focus {
+    text-decoration: wavy underline;
+    color: #ED6D32;
+    outline: none;
+}
+
+form {
+    margin: 1.5rem 0;
+}
+
+#bd-email {
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius: 10px;
+    border: solid 1px #00000022;
+    padding: 0.2rem 0.5rem;
+}
+
+#bd-email:hover,
+#bd-email:focus {
+    outline: none;
+    outline: solid 2px cornflowerblue;
+}
+
+#bd-submit {
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius: 10px;
+    border: solid 1px #00000022;
+    padding: 0.2rem 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#bd-submit:hover,
+#bd-submit:focus {
+    background-color: cornflowerblue;
+    color: #ffffffdd;
+    outline: none;
+}
+
+.emoji {
+    font-size: 2em;
+    transition: transform 1s;
+    position: absolute;
+}
+
+.emoji:hover {
+    transform: rotate(359deg);
+    cursor: default;
+    transition: transform 2s ease-out;
+}
