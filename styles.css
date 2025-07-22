@@ -145,3 +145,7 @@ a:focus {
     font-size: 0.7em;
     color: #1b1b1b55;
 }
+
+.invisible {
+    display: none;
+}
