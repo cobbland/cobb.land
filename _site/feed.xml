@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>cobb.land</title>
+  <subtitle>A blog.</subtitle>
+  <link href="https://cobb.land/feed.xml" rel="self" />
+  <link href="https://cobb.land/" />
+  <updated>2025-07-23T20:09:50Z</updated>
+  <id>https://cobb.land/</id>
+  <author>
+    <name>Cobb</name>
+  </author>
+  <entry>
+    <title>Another Test</title>
+    <link href="https://cobb.land/blog/another-test/" />
+    <updated>2025-07-23T20:09:50Z</updated>
+    <id>https://cobb.land/blog/another-test/</id>
+    <content type="html">&lt;p&gt;This is another test.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <link href="https://cobb.land/blog/hello-world/" />
+    <updated>2025-07-23T19:23:31Z</updated>
+    <id>https://cobb.land/blog/hello-world/</id>
+    <content type="html">&lt;p&gt;test&lt;/p&gt;
+</content>
+  </entry>
+</feed>

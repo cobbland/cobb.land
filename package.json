@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@11ty/eleventy-plugin-rss": "^2.0.4"
+  }
+}

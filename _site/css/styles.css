@@ -140,7 +140,7 @@ h1.home-title::before {
 }
 
 h1.blog::before {
-    content: "blog/"
+    content: "/blog/"
 }
 
 main {
@@ -151,7 +151,6 @@ main {
 nav ul {
     background-color: var(--bg-color);
     border: 2px solid var(--text-color);
-    font-family: var(--main-font-family);
     list-style-type: none;
     display: flex;
     flex-wrap: nowrap;
@@ -191,6 +190,10 @@ p:first-child {
 
 p {
     color: var(--text-color);
+}
+
+p:last-of-type {
+    margin-bottom: 0;
 }
 
 ul {
@@ -263,4 +266,18 @@ footer {
 
 .link-icon:hover {
     background-color: var(--lt-grey)
+}
+
+.post-card {
+    margin: 0 0 1rem 0;
+}
+
+.post-card:last-of-type {
+    margin: 0;
+}
+
+.post-card .date {
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+    margin: 0;
 }
