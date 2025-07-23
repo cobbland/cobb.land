@@ -139,6 +139,10 @@ h1.home-title::before {
     content: "";
 }
 
+h1.blog::before {
+    content: "/blog/"
+}
+
 main {
     background-color: var(--bg-color);
     padding: 1rem;
@@ -147,13 +151,12 @@ main {
 nav ul {
     background-color: var(--bg-color);
     border: 2px solid var(--text-color);
-    font-family: var(--main-font-family);
     list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 0 0 0 0;
     margin-bottom: 1rem;
-    max-width: max-content;
+    width: max-content;
 }
 
 nav li {
@@ -187,6 +190,10 @@ p:first-child {
 
 p {
     color: var(--text-color);
+}
+
+p:last-of-type {
+    margin-bottom: 0;
 }
 
 ul {
@@ -225,7 +232,8 @@ a:hover {
     text-decoration: none;
 }
 
-.invisible {
+.invisible,
+h1.invisible {
     display: none;
 }
 
@@ -233,7 +241,6 @@ footer {
     margin: 2rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
 }
 
 .link-icon p {
@@ -255,8 +262,40 @@ footer {
     gap: 0.2rem;
     text-decoration: none;
     padding: 0.2rem;
+    margin: 0.4rem;
 }
 
 .link-icon:hover {
     background-color: var(--lt-grey)
+}
+
+.post-card {
+    margin: 0 0 1rem 0;
+}
+
+.post-card:last-of-type {
+    margin: 0;
+}
+
+.post-card .date,
+p.date {
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+    margin: 0;
+}
+
+.e-content {
+    margin: 0 0 0.8rem 0;
+}
+
+code,
+.code {
+    background-color: var(--blue);
+    color: var(--lt-blue);
+}
+
+.code-outer {
+    background-color: var(--lt-blue);
+    padding: 2rem;
+    border: 2px solid var(--text-color);
 }

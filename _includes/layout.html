@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#b2b2b2">
-    <title>about | cobb.land</title>
+    <title>{{ title }} | cobb.land</title>
     <link rel="icon" href="/images/favicon.ico" sizes="16x16 32x32 48x48" type="image/x-icon">
     <link rel=icon href="/images/favicon-16x16.png" sizes="16x16" type="image/png">
     <link rel=icon href="/images/favicon-32x32.png" sizes="32x32" type="image/png">
     <link rel=icon href="/images/android-chrome-192x192.png" sizes="192x192" type="image/png">
     <link rel=icon href="/images/android-chrome-512x512.png" sizes="512x512" type="image/png">
     <link rel="apple-touch-icon icon" href="/images/apple-touch-icon.png" sizes="180x180" type="image/png">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
 
@@ -47,7 +47,7 @@
                     <hr class="title-bar-line">
                     <hr class="title-bar-line">
                 </div>
-                <h1 class="title">About</h1>
+                <h1 class="title {{ special | default: "" }}">{{ title }}</h1>
                 <div class="lines">
                     <hr class="title-bar-line">
                     <hr class="title-bar-line">
@@ -58,13 +58,7 @@
             </div>
         </div>
         <main>
-            <h2>Me</h2>
-            <img src="/images/android-chrome-192x192.png" alt="An orange on green symbol that looks like both a J and a D—it's an cherek.">
-            <p>My name is Cobb (or cobbland or cobb-dot-land).</p>
-            <p>I’m a writer, artist, programmer, and game designer currently dwelling in the foothills of Appalachia.</p>
-        
-            <h2>This website</h2>
-            <p>This website was crafted by hand in HTML and CSS using <a href="https://vscodium.com/">VSCodium</a>. It's hosted on <a href="https://www.netlify.com/">Netlify</a> and deployed from <a href="https://github.com/cobbland/cobb.land">Github</a> (for now).</a></p>
+                {{ content }}
         </main>
     </div>
 
@@ -73,7 +67,7 @@
                 <img src="/images/cobbland-8831.jpg" alt="old-school 88 by 31 pixel web image, orange and green, says cobb.land" height="31" width="88">
                 <p>Link to me</p>
             </a>
-            <a class="link-icon" href="/feed.rss">
+            <a class="link-icon" href="/feed.xml">
                 <img src="/images/rss-8831.jpg" alt="RSS" height="31" width="88">
                 <p>Subscribe</p>
             </a>
