@@ -150,10 +150,10 @@ nav ul {
     font-family: var(--main-font-family);
     list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 0 0 0 0;
     margin-bottom: 1rem;
-    max-width: max-content;
+    width: max-content;
 }
 
 nav li {
@@ -233,7 +233,6 @@ footer {
     margin: 2rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
 }
 
 .link-icon p {
@@ -255,6 +254,7 @@ footer {
     gap: 0.2rem;
     text-decoration: none;
     padding: 0.2rem;
+    margin: 0.4rem;
 }
 
 .link-icon:hover {
