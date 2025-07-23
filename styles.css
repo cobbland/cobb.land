@@ -131,6 +131,14 @@ h1.title {
     text-wrap: nowrap;
 }
 
+h1.title::before {
+    content: "/";
+}
+
+h1.home-title::before {
+    content: "";
+}
+
 main {
     background-color: var(--bg-color);
     padding: 1rem;
