@@ -1,8 +1,58 @@
-/* My default styles—a bit of a reset and a bit of a normalization, based on 
-["A Modern CSS Reset" by Josh W. Comeau](https://www.joshwcomeau.com/css/custom-css-reset/).
-Remember to use `*property*:revert` to return specific elements to browser defaults. 
-Use `@import url("./cobbland-style.css");` to import into the default stylesheet.
-(Note: Nothing is done to fix apple product specific problems; y'all are on your own.) */
+:root { /*C64 colors from https://www.pepto.de/projects/colorvic/*/
+    --black: #000000;
+    --white: #ffffff;
+    --red: #813338;
+    --cyan: #75cec8;
+    --purple: #8e3c97;
+    --green: #56ac4d;
+    --blue: #2e2c9b;
+    --yellow: #edf171;
+    --orange: #8e5029;
+    --brown: #553800;
+    --lt-red: #c46c71;
+    --dk-grey: #4a4a4a;
+    --md-grey: #7b7b7b;
+    --lt-green: #a9ff9f;
+    --lt-blue: #706deb;
+    --lt-grey: #b2b2b2;
+}
+
+/* :root {
+    --border-color: #fff8e7;
+    --bg-color: #fff8e7;
+    --title-color: #D14D41;
+    --heading-color: #006c67;
+    --text-color: #1b1b1b;
+    --link-color: rgb(193, 83, 0);
+    --link-hover-color: #ED6D32;
+    --note-color: #1b1b1b55;
+    --main-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+
+:root {
+    --border-color: var(--lt-grey);
+    --border-color-alt: var(--white);
+    --bg-color: var(--white);
+    --title-color: var(--red);
+    --heading-color: var(--black);
+    --text-color: var(--black);
+    --link-color: var(--black);
+    --link-hover-color: var(--purple);
+    --note-color: var(--md-grey);
+    --main-font-family: 'Courier New', Courier, monospace; 
+}
+
+/* :root {
+    --border-color: #706DEB;
+    --bg-color: #2E2C9B;
+    --title-color: #706DEB;
+    --heading-color: #706DEB;
+    --text-color: #706DEB;
+    --link-color: #706DEB;
+    --link-hover-color: #706DEB;
+    --note-color: #706DEB;
+    --main-font-family: 'Courier New', Courier, monospace; 
+} */
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -10,78 +60,147 @@ Use `@import url("./cobbland-style.css");` to import into the default stylesheet
   
 * {
     margin: 0;
-}
-  
-body {
-    line-height: 1.5; /* This requires customizing the line height for larger text. */
+    padding: 0;
 }
   
 img, picture, video, canvas, svg {
     display: block;
     max-width: 100%; /* Use `max-width: revert;` if an image is meant to overflow */
 }
-  
+
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: var(--main-font-family);
+    margin: 1rem 0 0.5rem 0;
+}
+
 input, button, textarea, select {
     font: inherit;
 }
-  
-p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-    font-family: Helvetica, Arial, sans-serif;
-    padding-top: 1em;
-} /* Consider applying this to ALL elements. Also, consider adding `hyphen: auto;`. */ 
-  
-p {
-    text-wrap: pretty; /* May have a performance impact. */
-} /* Remember to use `p` instead of `div` in your HTML if you want this to work. 
-Also, consider setting `max-width: 60ch` or smaller. (ch being the width of "0" 
-in given `font-size`. (Maybe this belongs on a parent element, though.)*/
-  
-h1, h2, h3, h4, h5, h6 {
-    text-wrap: balance;
-}
-  
-/* End default styles. */
 
 body { 
-    background-color: #FFF8E7;
-    padding: 2rem;
+    line-height: 1.5; /* This requires customizing the line height for larger text. */
+    background-color: var(--border-color);
+    /* height: 100vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-image:  repeating-linear-gradient(45deg, var(--border-color) 25%, transparent 25%, transparent 75%, var(--border-color) 75%, var(--border-color)), repeating-linear-gradient(45deg, var(--border-color) 25%, var(--border-color-alt) 25%, var(--border-color-alt) 75%, var(--border-color) 75%, var(--border-color));
+    background-position: 0 0, 3px 3px;
+    background-size: 6px 6px;
+    width: 100vw;
+}
+
+.content-window {
+    background-color: var(--bg-color);
+    max-width: 70ch;
+    margin: 1rem;
+    height: max-content;
+    border: 2px solid var(--text-color);
+    box-shadow: 5px 5px 0 var(--lt-grey);
+}
+
+.title-bar {
+    height: max-content;
+    border-bottom: 2px solid var(--text-color);
+}
+
+.title-lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.lines {
+    width: 100%;
+}
+
+hr.title-bar-line {
+    border-top: none;
+    padding: 0;
+    margin: 0.1rem 0;
+    border-bottom: 2px solid var(--text-color);
+}
+
+h1.title {
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 0.2rem 0.4rem 0;
+    margin: 0;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+}
+
+h1.title::before {
+    content: "/";
+}
+
+h1.home-title::before {
+    content: "";
+}
+
+main {
+    background-color: var(--bg-color);
+    padding: 1rem;
+}
+
+nav ul {
+    background-color: var(--bg-color);
+    border: 2px solid var(--text-color);
+    font-family: var(--main-font-family);
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 0 0;
+    margin-bottom: 1rem;
+    max-width: max-content;
+}
+
+nav li {
+    border-left: 2px dotted var(--text-color);
+}
+
+nav li:first-of-type {
+    border-left: none;
+}
+
+nav a,
+nav a:visited {
+    padding: 0.2rem 0.4rem;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: var(--heading-color);
+    line-height: 1em;
 }
 
 h1 {
-    padding: 0;
+    font-size: 2rem;
 }
 
-header {
-    line-height: 2em;
-    font-weight: 800;
-    font-size: 2em;
-    color: #D14D41;
-    font-family: Helvetica, Arial, sans-serif;
-}
-
-a#title,
-a#title:visited {
-    color: #D14D41;
-}
-
-a#title:hover {
-    color: #D14D41;
-}
-
-section {
-    background-color: #FFF8E7;
-    max-width: 60ch;
-    margin: 0 0 1rem;
+h1:first-child,
+h2:first-child,
+p:first-child {
+    margin-top: 0;
 }
 
 p {
-    color: #000000aa;
+    color: var(--text-color);
 }
 
-.intro {
+ul {
+    font-family: var(--main-font-family);
+    padding: 1rem 0 0 1.5rem;
+}
+
+li {
+    color: var(--text-color);
+}
+
+.email {
     font-weight: bold;
-    color: #006c67;
+    color: var(--heading-color);
 }
 
 .construction {
@@ -96,59 +215,48 @@ p {
 
 a,
 a:visited {
-    color: rgb(193, 83, 0);
+    color: var(--link-color);
     font-weight: bold;
+}
+
+a:hover {
+    background-color: var(--link-color);
+    color: var(--bg-color);
     text-decoration: none;
-    transition: color 0.3s;
 }
 
-a:hover,
-a:focus {
-    text-decoration: wavy underline;
-    color: #ED6D32;
-    outline: none;
+.invisible {
+    display: none;
 }
 
-form {
-    margin: 1.5rem 0;
+footer {
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
-#bd-email {
-    font-family: Helvetica, Arial, sans-serif;
-    border-radius: 10px;
-    border: solid 1px #00000022;
-    padding: 0.2rem 0.5rem;
+.link-icon p {
+    padding: 0;
+    margin: 0;
+    line-height: 1.7em;
+    font-size: 0.7em;
+    color: var(--dk-grey);
+    background-color: var(--bg-color);
+    text-align: center;
+    width: 100%;
+    text-wrap: wrap;
 }
 
-#bd-email:hover,
-#bd-email:focus {
-    outline: none;
-    outline: solid 2px cornflowerblue;
+.link-icon {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    gap: 0.2rem;
+    text-decoration: none;
+    padding: 0.2rem;
 }
 
-#bd-submit {
-    font-family: Helvetica, Arial, sans-serif;
-    border-radius: 10px;
-    border: solid 1px #00000022;
-    padding: 0.2rem 0.5rem;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-#bd-submit:hover,
-#bd-submit:focus {
-    background-color: cornflowerblue;
-    color: #ffffffdd;
-    outline: none;
-}
-
-.emoji {
-    font-size: 2em;
-    transition: transform 1s;
-    position: absolute;
-}
-
-.emoji:hover {
-    transform: rotate(359deg);
-    cursor: default;
-    transition: transform 2s ease-out;
+.link-icon:hover {
+    background-color: var(--lt-grey)
 }
