@@ -146,12 +146,11 @@ a,
 a:visited {
     color: var(--link-color);
     font-weight: bold;
-    transition: color 0.3s, background-color 0.3s;
+    /* transition: color 0.3s, background-color 0.3s; */
 }
 
 a:hover {
-    /* text-decoration: wavy underline; */
-    background-color: var(--link-hover-color);
+    background-color: var(--link-color);
     color: var(--bg-color);
     text-decoration: none;
 }
