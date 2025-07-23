@@ -292,7 +292,7 @@ code,
 .code {
     background-color: var(--blue);
     color: var(--lt-blue);
-    overflow: scroll;
+    overflow: auto;
 }
 
 .code-outer {
