@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>cobb.land</title>
+  <subtitle>A blog.</subtitle>
+  <link href="https://cobb.land/feed.xml" rel="self" />
+  <link href="https://cobb.land/" />
+  <updated>2025-07-23T21:41:00Z</updated>
+  <id>https://cobb.land/</id>
+  <author>
+    <name>Cobb</name>
+  </author>
+  <entry>
+    <title>Hello World</title>
+    <link href="https://cobb.land/blog/hello-world/" />
+    <updated>2025-07-23T21:41:00Z</updated>
+    <id>https://cobb.land/blog/hello-world/</id>
+    <content type="html">&lt;div class=&quot;code-outer&quot;&gt;
+&lt;div class=&quot;code&quot;&gt;
+&lt;pre&gt;&lt;code&gt;    **** COMMODORE 64 BASIC V2 ****
+ 64K RAM SYSTEM  38911 BASIC BYTES FREE
+
+READY.
+PRINT &amp;quot;HELLO WORLD&amp;quot;
+HELLO WORLD
+
+READY.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+</feed>

@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "@11ty/eleventy-plugin-rss": "^2.0.4"
+  },
+  "scripts": {
+    "build": "npx @11ty/eleventy"
   }
 }
