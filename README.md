@@ -7,4 +7,4 @@ A website.
 ## Todo
 
 - [ ] Add tags
-- [ ] Make IndieWeb stuff work
+- [ ] Make IndieWeb stuff work (current step: [validate h-entry](https://indiewebify.me/validate-h-entry/))
