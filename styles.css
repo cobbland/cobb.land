@@ -28,6 +28,7 @@
   
 * {
     margin: 0;
+    padding: 0;
 }
   
 img, picture, video, canvas, svg {
@@ -37,6 +38,7 @@ img, picture, video, canvas, svg {
 
 p, h1, h2, h3, h4, h5, h6 {
     font-family: var(--main-font-family);
+    margin: 1rem 0 0.5rem 0;
 }
 
 input, button, textarea, select {
@@ -46,7 +48,7 @@ input, button, textarea, select {
 body { 
     line-height: 1.5; /* This requires customizing the line height for larger text. */
     background-color: var(--border-color);
-    padding: 2rem;
+    padding: 2rem 1rem;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -56,29 +58,27 @@ body {
 main {
     background-color: var(--bg-color);
     padding: 1rem;
-    width: 80ch;
+    width: min(95%, 80ch);
     height: max-content;
 }
 
-header h1 {
-    padding: 0;
-    margin: 0;
+section {
+    margin: 1rem 0;
 }
 
 #title {
-    
     line-height: 4rem;
     font-size: 4rem;
     color: var(--title-color);
     font-weight: bolder;
 }
 
-nav {
-    margin-top: 1rem;
-    font-family: var(--main-font-family);
+header h1 {
+    margin: 0;
 }
 
 nav ul {
+    font-family: var(--main-font-family);
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -86,10 +86,16 @@ nav ul {
     gap: 1rem;
 }
 
+nav a,
+nav a:visited {
+    text-decoration: none;
+}
+
 a#title,
 a#title:visited {
     color: var(--title-color);
     font-weight: 900;
+    text-decoration: none;
 }
 
 a#title:hover {
@@ -97,13 +103,9 @@ a#title:hover {
     background-color: var(--border-color);
 }
 
-section {
-    margin: 0 0 1rem;
-}
-
 h1, h2 {
     color: var(--heading-color);
-    padding-top: 1rem;
+    line-height: 1em;
 }
 
 h1 {
@@ -116,7 +118,7 @@ p {
 
 ul {
     font-family: var(--main-font-family);
-    padding: 1rem 0  0 1.5rem;
+    padding: 1rem 0 0 1.5rem;
 }
 
 li {
@@ -142,22 +144,19 @@ a,
 a:visited {
     color: var(--link-color);
     font-weight: bold;
-    text-decoration: none;
-    transition: color 0.3s;
+    transition: color 0.3s, background-color 0.3s;
 }
 
-a:hover,
-a:focus {
+a:hover {
     /* text-decoration: wavy underline; */
     background-color: var(--border-color);
     color: var(--bg-color);
-    color: var(--link-hover-color);
-    outline: none;
+    text-decoration: none;
 }
 
 .note {
-    /* padding: 0;
-    margin: 0; */
+    padding: 0;
+    margin: 0;
     line-height: 1.7em;
     font-size: 0.7em;
     color: var(--note-color);
