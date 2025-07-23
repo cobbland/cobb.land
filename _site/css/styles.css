@@ -156,7 +156,8 @@ nav ul {
     flex-wrap: nowrap;
     padding: 0 0 0 0;
     margin-bottom: 1rem;
-    width: max-content;
+    max-width: max-content;
+    overflow: auto;
 }
 
 nav li {

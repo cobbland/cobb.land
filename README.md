@@ -6,4 +6,5 @@ A website.
 
 ## Todo
 
-- [ ] Add tags.
+- [ ] Add tags
+- [ ] Make IndieWeb stuff work
