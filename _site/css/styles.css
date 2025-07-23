@@ -276,7 +276,8 @@ footer {
     margin: 0;
 }
 
-.post-card .date {
+.post-card .date,
+p.date {
     font-size: 0.7rem;
     line-height: 0.7rem;
     margin: 0;
