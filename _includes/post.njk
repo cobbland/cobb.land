@@ -4,7 +4,11 @@ layout: "layout.html"
 
 <article class="h-entry">
 
-    {{ content | safe}}
+    <h1 class="p-name invisible">{{ title }}</h1>
+
+    <p class="p-summary invisible">{{ summary }}</p>
+
+    <div class="e-content">{{ content | safe}}</div>
 
     <p class="date">Posted or edited on <a class="u-url" href="{{ post.data.url }}"><time class="dt-published dt-updated" datetime="{{ date }}">{{ date.toDateString() }}</time></a> by <a rel="author" class="p-author h-card" href="/">Cobb</a>.</p>
 

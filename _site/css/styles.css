@@ -232,7 +232,8 @@ a:hover {
     text-decoration: none;
 }
 
-.invisible {
+.invisible,
+h1.invisible {
     display: none;
 }
 
@@ -281,4 +282,20 @@ p.date {
     font-size: 0.7rem;
     line-height: 0.7rem;
     margin: 0;
+}
+
+.e-content {
+    margin: 0 0 0.8rem 0;
+}
+
+code,
+.code {
+    background-color: var(--blue);
+    color: var(--lt-blue);
+}
+
+.code-outer {
+    background-color: var(--lt-blue);
+    padding: 2rem;
+    border: 2px solid var(--text-color);
 }
