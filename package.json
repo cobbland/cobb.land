@@ -3,6 +3,7 @@
     "@11ty/eleventy-plugin-rss": "^2.0.4"
   },
   "scripts": {
-    "build": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --serve"
   }
 }
