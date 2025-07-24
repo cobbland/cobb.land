@@ -14,7 +14,7 @@ export default async function(eleventyConfig) {
         metadata: {
             language: "en",
             title: "cobb.land",
-            subtitle: "A blog.",
+            subtitle: "A blog, mostly.",
             base: "https://cobb.land/",
             author: {
                 name: "Cobb",
