@@ -301,11 +301,28 @@ footer {
 }
 
 .post-card {
-    margin: 0 0 1rem 0;
+    margin: 0 0 1.5rem 0;
 }
 
 .post-card:last-of-type {
     margin: 0;
+}
+
+.post-card a {
+    text-decoration: none;
+}
+
+.post-card:hover h2 {
+    text-decoration: none;
+}
+
+.post-card h2 {
+    text-decoration: underline;
+    margin-bottom: 0.2rem;
+}
+
+.post-card-summary {
+    margin-bottom: 0.2rem;
 }
 
 .post-card .date,
@@ -313,6 +330,13 @@ p.date {
     font-size: 0.7rem;
     line-height: 0.7rem;
     margin: 0;
+}
+
+.p-summary,
+.post-card-summary {
+    color: var(--md-grey);
+    margin-top: 0;
+    font-style: italic;
 }
 
 .e-content {

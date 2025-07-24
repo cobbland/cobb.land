@@ -11,6 +11,6 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Make IndieWeb stuff work (current step: [webmentions](https://indiewebify.me/send-webmentions/))
 - [ ] Add tags (to blog page, posts, and make clickable collections)
 - [ ] Add comments of some kind (webmentions and/or fediverse)
-- [ ] Add blog post summaries
+- [x] Add blog post summaries
 - [x] Stop bad bots that follow rules (see [Blocking AI bots and controlling crawlers](https://developers.netlify.com/guides/blocking-ai-bots-and-controlling-crawlers/) and [ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt))
 - [ ] Stop bad bots that don't follow rules (???)
