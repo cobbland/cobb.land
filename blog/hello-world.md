@@ -2,6 +2,7 @@
 title: Hello World
 summary: PRINT "HELLO WORLD"
 date: 2025-07-23T17:41:00.00-04:00
+possed: https://dice.camp/@cobb/114904926288167522
 ---
 
 <div class="code-outer">
