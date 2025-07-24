@@ -3,6 +3,7 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 export default async function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("images");
     eleventyConfig.addPassthroughCopy("css");
+    eleventyConfig.addPassthroughCopy("robots.txt");
 
     eleventyConfig.addPlugin(feedPlugin, {
         type: "atom", // or "rss", "json"

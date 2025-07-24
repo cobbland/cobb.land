@@ -2,7 +2,9 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2ce55473-4a31-4a01-ae29-a5bbd1b46a8f/deploy-status)](https://app.netlify.com/projects/cobbland/deploys)
 
-A website.
+**[cobb.land](https://cobb.land)**
+
+This website was mostly crafted by hand in HTML and CSS using <a href="https://vscodium.com/">VSCodium</a> and generated using [11ty](https://www.11ty.dev/). It's hosted on <a href="https://www.netlify.com/">Netlify</a> and deployed from <a href="https://github.com/cobbland/cobb.land">Github</a> (for now).</a>
 
 ## Todo
 
@@ -10,3 +12,5 @@ A website.
 - [ ] Add tags (to blog page, posts, and make clickable collections)
 - [ ] Add comments of some kind (webmentions and/or fediverse)
 - [ ] Add blog post summaries
+- [x] Stop bad bots that follow rules (see [Blocking AI bots and controlling crawlers](https://developers.netlify.com/guides/blocking-ai-bots-and-controlling-crawlers/) and [ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt))
+- [ ] Stop bad bots that don't follow rules (???)
