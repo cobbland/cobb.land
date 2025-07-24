@@ -8,3 +8,4 @@ A website.
 
 - [ ] Add tags
 - [ ] Make IndieWeb stuff work (current step: [validate h-entry](https://indiewebify.me/validate-h-entry/))
+- [ ] Add comments of some kind
