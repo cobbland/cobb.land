@@ -102,6 +102,8 @@ body {
 .title-bar {
     height: max-content;
     border-bottom: 2px solid var(--text-color);
+    overflow: hidden;
+    
 }
 
 .title-lines {
@@ -120,6 +122,7 @@ hr.title-bar-line {
     padding: 0;
     margin: 0.1rem 0;
     border-bottom: 2px solid var(--text-color);
+    min-width: 1rem;
 }
 
 h1.title {
@@ -172,6 +175,24 @@ nav a,
 nav a:visited {
     padding: 0.2rem 0.4rem;
     text-decoration: none;
+    display: flex;
+}
+
+.logo-image img {
+    height: 1.4rem;
+    width: 100%;
+}
+
+.logo-image img:first-of-type {
+    display: none;
+}
+
+.logo-image:hover img:first-of-type {
+    display: block;
+}
+
+.logo-image:hover img:last-of-type {
+    display: none;
 }
 
 h1, h2 {
