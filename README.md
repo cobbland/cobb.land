@@ -7,5 +7,5 @@ A website.
 ## Todo
 
 - [ ] Add tags
-- [ ] Make IndieWeb stuff work (current step: [validate h-entry](https://indiewebify.me/validate-h-entry/))
+- [ ] Make IndieWeb stuff work (current step: [webmentions](https://indiewebify.me/send-webmentions/))
 - [ ] Add comments of some kind

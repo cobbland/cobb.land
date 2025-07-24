@@ -80,10 +80,6 @@ input, button, textarea, select {
 body { 
     line-height: 1.5; /* This requires customizing the line height for larger text. */
     background-color: var(--border-color);
-    /* height: 100vh; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
     background-image:  repeating-linear-gradient(45deg, var(--border-color) 25%, transparent 25%, transparent 75%, var(--border-color) 75%, var(--border-color)), repeating-linear-gradient(45deg, var(--border-color) 25%, var(--border-color-alt) 25%, var(--border-color-alt) 75%, var(--border-color) 75%, var(--border-color));
     background-position: 0 0, 3px 3px;
     background-size: 6px 6px;
@@ -165,6 +161,7 @@ nav ul {
 
 nav li {
     border-left: 2px dotted var(--text-color);
+    text-transform: lowercase;
 }
 
 nav li:first-of-type {
@@ -172,7 +169,8 @@ nav li:first-of-type {
 }
 
 nav a,
-nav a:visited {
+nav a:visited,
+nav p {
     padding: 0.2rem 0.4rem;
     text-decoration: none;
     display: flex;
@@ -328,4 +326,28 @@ code,
     background-color: var(--lt-blue);
     padding: 2rem;
     border: 2px solid var(--text-color);
+}
+
+.more-page ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+.more-page ul li {
+    padding: 0.2rem 0.4rem;
+}
+
+.more-page ul li:hover {
+    background-color: var(--text-color);
+}
+
+.more-page ul li:hover a {
+    color: var(--bg-color);
+}
+
+.more-page ul li a {
+    text-decoration: none;
 }
