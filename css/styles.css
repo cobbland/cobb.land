@@ -336,18 +336,6 @@ code,
     padding: 0;
 }
 
-.more-page ul li {
-    padding: 0.2rem 0.4rem;
-}
-
-.more-page ul li:hover {
-    background-color: var(--text-color);
-}
-
-.more-page ul li:hover a {
-    color: var(--bg-color);
-}
-
 .more-page ul li a {
-    text-decoration: none;
+    padding: 0.4rem 0.4rem;
 }
