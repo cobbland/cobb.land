@@ -6,6 +6,7 @@ A website.
 
 ## Todo
 
-- [ ] Add tags
 - [ ] Make IndieWeb stuff work (current step: [webmentions](https://indiewebify.me/send-webmentions/))
-- [ ] Add comments of some kind
+- [ ] Add tags (to blog page, posts, and make clickable collections)
+- [ ] Add comments of some kind (webmentions and/or fediverse)
+- [ ] Add blog post summaries

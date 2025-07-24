@@ -99,7 +99,6 @@ body {
     height: max-content;
     border-bottom: 2px solid var(--text-color);
     overflow: hidden;
-    
 }
 
 .title-lines {
@@ -111,6 +110,7 @@ body {
 
 .lines {
     width: 100%;
+    flex: 1 1;
 }
 
 hr.title-bar-line {
@@ -128,6 +128,10 @@ h1.title {
     margin: 0;
     text-transform: uppercase;
     text-wrap: nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-grow: 0;
 }
 
 h1.title::before {
