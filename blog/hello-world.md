@@ -1,7 +1,7 @@
 ---
 title: Hello World
 summary: PRINT "HELLO WORLD"
-date: 2025-07-23 17:41:00.00 -4
+date: 2025-07-23T17:41-04:00
 ---
 
 <div class="code-outer">
