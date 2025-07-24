@@ -173,14 +173,22 @@ nav li:first-of-type {
 
 nav a,
 nav a:visited {
-    padding: 0.2rem 0.4rem;
+    padding: 0.2rem 0.4rem 0.1rem;
     text-decoration: none;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-image {
+    min-width: 125px;
+    justify-content: end;
 }
 
 .logo-image img {
     height: 1.4rem;
     width: 100%;
+    padding-bottom: 0.1rem;
 }
 
 .logo-image img:first-of-type {
