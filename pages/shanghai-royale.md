@@ -1,7 +1,7 @@
 ---
 layout: layout.html
 title: 'Shanghai Royale'
-permalink: /shanghai-royale.html
+permalink: /shanghai-royale/
 ---
 
 # Shanghai Royale

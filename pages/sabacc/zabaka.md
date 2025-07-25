@@ -2,6 +2,7 @@
 layout: layout.html
 title: "Zabaka's Corellian Spike"
 special: sabacc
+permalink: /sabacc/zabaka/
 ---
 
 # Zabaka's Corellian Spike
@@ -16,12 +17,12 @@ Toydarian Toymaker can be found nestled among the other shops of Merchant Row in
 - Each player puts one credit in the hand pot. This is the ante and can increase later on in the game, especially in tournament-style play. (At some tables, there is also a sabacc pot. At these tables, players put credits in the hand pot and the sabacc pot, usually two to one.)
 - The dealer deals two hand cards to each player. These cards are kept secret from all but the player who holds them. The remaining cards are placed face-down in the center of the table and constitute the draw pile.
 - The dealer then flips the top card from the draw pile and places it face-up beside it. This is the discard pile.
-- Starting with the player to the dealer's left, each player checks or bets (the bet must be at least equal to the ante -- typically one credit). If a player bets, all subsequent players must either call (match the bet), bet (increase the bet in increments of the ante), or junk (discard their cards face-up and exit the hand). Betting continues around the table until all players have either called or junked. (If all but one player has junked, that remaining player wins the hand.)
+- Starting with the player to the dealer's left, each player checks or bets (the bet must be at least equal to the ante—typically one credit). If a player bets, all subsequent players must either call (match the bet), bet (increase the bet in increments of the ante), or junk (discard their cards face-up and exit the hand). Betting continues around the table until all players have either called or junked. (If all but one player has junked, that remaining player wins the hand.)
 - Starting with the player to the dealer's left, each player can now choose to either gain, swap, or stand. (At some tables, players have to put credits equal to the ante amount into the hand pot to take any of these actions, other than to stand. At these tables, you may be allowed to discard the card you drew using the gain action if you decide after seeing it that you don't want it.)
   - To gain, either discard a card or don't, then take the top card from the draw pile. You cannot discard after you have already drawn.
   - To swap, take the top card from the discard pile and discard one card from your hand. You can never take a card from the discard pile without also discarding.
   - To stand, take no actions. Choose this option if you do not which to gain or swap.
-- Once all players have taken a turn, another betting phase begins -- identical in rules to the first betting phase -- and continues around the table until all players have either called or junked. (If all but one player has junked, that remaining player wins the hand.)
+- Once all players have taken a turn, another betting phase begins—identical in rules to the first betting phase—and continues around the table until all players have either called or junked. (If all but one player has junked, that remaining player wins the hand.)
 - The dealer then rolls the spike dice. If the symbols on the dice match, all players discard all their hand cards and are dealt an equal number of new cards.
 - Everyone gets another chance to gain, swap, or stand; and then to bet. If more than one player still remains, the spike dice are rolled again, following the same rules as before.
 - Players then get to gain, swap, or stand; and then to bet one more time. If more than one player remains, the spike dice are rolled a final time.

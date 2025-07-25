@@ -2,6 +2,7 @@
 layout: layout.html
 title: "Yarith Bespin Casino's Corellian Spike"
 special: sabacc
+permalink: /sabacc/yarith/
 ---
 
 # Yarith Bespin Casino's Corellian Spike
@@ -15,10 +16,10 @@ At the Yarith Bespin Casino, a challenging wrinkle is added to the game: In addi
 - Choose one player to be the dealer. That player deals for the first round. The dealer rotates to the left in subsequent rounds. The dealer also plays.
 - Each player puts two credits in the hand pot and one in the sabacc pot to enter the hand. This is the ante and can increase later on in the game, especially in tournament-style play. (At some tables, there is only a hand pot and no sabacc pot. At these tables, the ante into the hand pot usually starts at one rather than two credits.)
 - The dealer deals two hand cards to each player. These cards are kept secret from all but the player who holds them. The remaining cards are placed face-down in the center of the table and constitute the draw pile.
-- Starting with the player to the dealer's left, each player checks or bets (the bet must be at least equal to the hand pot ante -- typically two credits). If a player bets, all subsequent players must either call (match the bet), bet (increase the bet in increments of the hand pot ante), or junk (discard their cards face-up and exit the hand). Betting continues around the table until all players have either called or junked. (If all but one player has junked, that remaining player wins the hand.)
-- After the initial betting phase, the dealer places a third card -- the spike card -- face-up in front of each remaining player.
+- Starting with the player to the dealer's left, each player checks or bets (the bet must be at least equal to the hand pot ante—typically two credits). If a player bets, all subsequent players must either call (match the bet), bet (increase the bet in increments of the hand pot ante), or junk (discard their cards face-up and exit the hand). Betting continues around the table until all players have either called or junked. (If all but one player has junked, that remaining player wins the hand.)
+- After the initial betting phase, the dealer places a third card—the spike card—face-up in front of each remaining player.
 - Starting with the player to the dealer's left, each player may now choose to buy a card by adding the hand pot ante amount to the hand pot (typically two credits). The player draws the top card from the draw pile and can either discard it, swap it with one of their hand cards, or swap it with their spike card. In any case, at least one card is discarded so the player ends their turn with two hand cards and one spike card. (At some tables, players may choose to swap a hand card with their spike card, with or without buying a card. This action can be performed at any time during that player's turn. There is also an optional rule where players may buy the top card from the discard pile for twice the hand pot ante instead of buying from the draw pile. Another optional rule allows players to continue buying new cards until they run out of credits.)
-- Once all players have taken a turn, another betting phase begins -- identical in rules to the first betting phase -- and continues around the table until all players have either called or junked. (If all but one player has junked, that remaining player wins the hand.)
+- Once all players have taken a turn, another betting phase begins—identical in rules to the first betting phase—and continues around the table until all players have either called or junked. (If all but one player has junked, that remaining player wins the hand.)
 - The dealer then rolls the spike dice. If the symbols on the dice match, all players discard their two hand cards and are dealt two new cards. If the symbols on the dice are both spikes, players also discard their spike card and are dealt a new one.
 - Everyone gets another chance to buy a card, and then to bet. If more than one player still remains, the spike dice are rolled again, following the same rules as before.
 - Players then get to buy and bet one more time. If more than one player remains, the spike dice are rolled a final time.

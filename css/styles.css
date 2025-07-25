@@ -73,6 +73,10 @@ p, h1, h2, h3, h4, h5, h6, ul {
     margin: 1rem 0 0.5rem 0;
 }
 
+hr {
+    margin: 1rem 0;
+}
+
 input, button, textarea, select {
     font: inherit;
 }

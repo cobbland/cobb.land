@@ -1,7 +1,7 @@
 ---
 layout: layout.html
 title: 'Writing Advice'
-permalink: /writing-advice.html
+permalink: /writing-advice/
 ---
 
 # Writing Advice

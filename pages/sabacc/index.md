@@ -1,7 +1,7 @@
 ---
 layout: layout.html
 title: 'Sabacc'
-permalink: /sabacc.html
+permalink: /sabacc/
 ---
 
 # Sabacc
@@ -14,7 +14,7 @@ Sabacc has been called the greatest card game in the galaxy. True or not, it's a
 
 Corellian Spike is one of the most popular variations of sabacc. It uses a deck of sixty-two cards. The deck is divided into three suits (called staves): circles, squares, and triangles. Each stave contains twenty cards ranging from -10 to +10. There are also two zero cards called sylops. Also, to add a touch of randomness to the game, it is played using a pair of dice called "spike dice."
 
-The object of Corellian Spike is to have a hand worth exactly zero points -- called sabacc -- or at least to have a hand that is closer to zero than anyone else at the table -- called nulrhek. In most versions of Corellian Spike -- yes, variations of sabacc often have numerous variations themselves -- there are also several special hands that can beat a regular sabacc, such as an idiot's array or a pure sabacc.
+The object of Corellian Spike is to have a hand worth exactly zero points—called sabacc—or at least to have a hand that is closer to zero than anyone else at the table—called nulrhek. In most versions of Corellian Spike—yes, variations of sabacc often have numerous variations themselves—there are also several special hands that can beat a regular sabacc, such as an idiot's array or a pure sabacc.
 
 ## Variations of Corellian Spike
 

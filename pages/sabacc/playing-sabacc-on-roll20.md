@@ -2,6 +2,7 @@
 layout: layout.html
 title: 'Playing Sabacc on Roll20'
 special: sabacc
+permalink: /sabacc/playing-sabacc-on-roll20/
 ---
 
 # Playing Sabacc on Roll20
@@ -21,7 +22,7 @@ First, of course, you need to join the site and create a game.
 - From the "[Welcome](https://roll20.net/welcome)" page, click "[Create New Game](https://app.roll20.net/campaigns/new)"
 - Name the game something like "Smuggler's Luck Sabacc Club" or something fun like that
 - Click the "I'm ready, Create Game!" button
-- On the game page, upload an evocative banner image -- a 600 by 400 pixel JPG image works best
+- On the game page, upload an evocative banner image—a 600 by 400 pixel JPG image works best
 - Under "Playing" select "Card Games"
 - Feel free to add a date for the next game and a description of the game
 
@@ -31,7 +32,7 @@ You're not using a real table, so you need a virtual one. Make it nice.
 
 - Click the "Launch Game" button
 - Click the cube looking icon in the upper left of the screen and then select the "Map & Background" layer
-- Drag an image (such as the "Holo Table" image from the attached digital sabacc set) from your file system onto the virtual tabletop that you want to use as the background for your game -- it should be a 3500 by 3500 pixel JPG file -- and resize it as necessary
+- Drag an image (such as the "Holo Table" image from the attached digital sabacc set) from your file system onto the virtual tabletop that you want to use as the background for your game—it should be a 3500 by 3500 pixel JPG file—and resize it as necessary
 - Open the "Page Toolbar" by clicking the little blue page icon in the upper right
 - Hover over the "Start" page to reveal the gear button, then click on it to open the "Page Settings"
 - Decrease the page size to make it match up with your background image
@@ -49,7 +50,7 @@ This is the most time consuming part of setting everything up. Put on some Star 
 - Name the deck "Sabacc Deck" or "Corellian Spike Deck" or something like that
 - Select "Draw most recent/top card" next to "Discard Pile"
 - Click the "+Add Card" button, drag the first card from your file system into the image area (either from the attached digital sabacc set or from a set of your own creation), name the card (or leave the name as "New Card" because it doesn't really matter), click "Save Changes"
-- Repeat for the rest of the cards in the deck -- twice for the sylop card
+- Repeat for the rest of the cards in the deck—twice for the sylop card
 - Scroll down to the "Card Back" section and drag the card back image from your file system into the image area
 - Click "Save Changes"
 - Click "Show" next to the deck name to add the deck to the virtual tabletop
@@ -84,7 +85,7 @@ You don't have to bet to play Sabacc, especially Zabaka's version from the Toyda
 - Click the "+Add" button next to "Decks"
 - Click on "New Deck" to open the editor
 - Name the deck "Silver Credits" or "Gold Credits" or something like that
-- Uncheck the "Show deck to players" and "Players can draw cards" boxes because you're going to be the one handing out credits -- lucky you
+- Uncheck the "Show deck to players" and "Players can draw cards" boxes because you're going to be the one handing out credits—lucky you
 - Check the box next to "Cards in deck are infinite"
 - For "Card Size" enter 70 x 70 px
 - Click the "+Add Card" button, drag the credit image from your file system into the image area (either from the attached digital sabacc set or from a set of your own creation), name the card (or leave the name as "New Card" because it doesn't really matter), click "Save Changes"
@@ -123,7 +124,7 @@ Depending on what version of sabacc you're playing and what betting rules you're
 - To deal out credit chips, hover over the credits on the bottom right of the screen and click "Deal"
 - Type in the number of chips everyone gets, select "All Players", and then click the "Deal" button
 - Notice that a small picture of a credit chip with a number in it appeared above each players video
-- To bet, click on the image of the credit chip above your own video and then drag credits, one by one, onto the virtual tabletop in front of your avatar -- be sure to tidy them up after you drag them out
+- To bet, click on the image of the credit chip above your own video and then drag credits, one by one, onto the virtual tabletop in front of your avatar—be sure to tidy them up after you drag them out
 - When a player wins a hand and needs to collect their winnings from the table, they right-click on each credit chip and select "Take Card" or, if everyone is keeping the table nice and neat, they can click and drag the mouse to select all of them at once, and then click "Take Card" to pick them all up
 - To deal cards, hover the mouse over the sabacc deck in the bottom right of the screen and click "Deal" (I'll usually first click "Recall" to make sure I have all the cards in the deck, and then "Shuffle" just for good measure)
 - Type in the number of cards to deal to each player, select "All Players", and then click the "Deal" button
