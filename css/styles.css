@@ -138,20 +138,31 @@ h1.title {
     flex-grow: 0;
 }
 
-h1.title::before {
+.title span::before {
     content: "/";
 }
 
-h1.home-title::before {
+.backlink.home-title {
+    display: none;
+}
+
+.backlink.backlink.home-title + span::before {
     content: "";
 }
 
-h1.blog::before {
-    content: "/blog/"
+.backlink::before {
+    content: "/";
 }
 
-h1.sabacc::before {
-    content: "/sabacc/"
+.backlink.no-slash::before {
+    content: "";
+}
+
+.backlink:link,
+.backlink:hover {
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--bg-color);
 }
 
 main {
@@ -288,7 +299,7 @@ footer {
     margin: 2rem;
     display: flex;
     flex-wrap: wrap;
-    max-width: 525px;
+    max-width: 710px;
 }
 
 .link-icon p {

@@ -50,7 +50,7 @@
                     <hr class="title-bar-line">
                     <hr class="title-bar-line">
                 </div>
-                <h1 class="title {{ special | default: "" }}">{{ title }}</h1>
+                <h1 class="title"><a class="backlink {{ special | default: "no-slash" }}" href="../">{{ special | default: "" }}</a><span class="title-text">{{ title }}</span></h1>
                 <div class="lines">
                     <hr class="title-bar-line">
                     <hr class="title-bar-line">
