@@ -9,6 +9,7 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 ## Todo
 
 - [ ] Make IndieWeb stuff work (current step: [webmentions](https://indiewebify.me/send-webmentions/))
+    - [ ] Sending ([Your first webmention](https://aaronparecki.com/2018/06/30/11/your-first-webmention))
 - [ ] Add tags (to blog page, posts, and make clickable collections)
 - [ ] Fetch and display webmentions and such
 - [ ] Add other indieweb content types (notes, etc)
