@@ -68,7 +68,7 @@ img, picture, video, canvas, svg {
     max-width: 100%; /* Use `max-width: revert;` if an image is meant to overflow */
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p, h1, h2, h3, h4, h5, h6, ul {
     font-family: var(--main-font-family);
     margin: 1rem 0 0.5rem 0;
 }
@@ -146,6 +146,10 @@ h1.blog::before {
     content: "/blog/"
 }
 
+h1.sabacc::before {
+    content: "/sabacc/"
+}
+
 main {
     background-color: var(--bg-color);
     padding: 1rem;
@@ -159,6 +163,7 @@ nav ul {
     flex-wrap: nowrap;
     padding: 0 0 0 0;
     margin-bottom: 1rem;
+    margin-top: 0;
     max-width: max-content;
     overflow: auto;
 }
@@ -229,7 +234,7 @@ p:last-of-type {
 
 ul {
     font-family: var(--main-font-family);
-    padding: 1rem 0 0 1.5rem;
+    padding: 0 0 0 1.5rem;
 }
 
 li {
@@ -367,7 +372,7 @@ code,
 .more-page ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.2rem;
+    gap: 0.4rem;
     list-style-type: none;
     padding: 0;
 }
