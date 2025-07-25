@@ -12,7 +12,7 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
     - [ ] Sending ([Your first webmention](https://aaronparecki.com/2018/06/30/11/your-first-webmention))
 - [ ] Add tags (to blog page, posts, and make clickable collections)
 - [ ] Fetch and display webmentions and such
-- [ ] Add other indieweb content types (notes, etc)
+- [ ] Add other indieweb content types (see [posts](https://indieweb.org/posts))
 - [ ] Add proper visible h-card to home
 - [x] Add blog post summaries
 - [x] Stop bad bots that follow rules (see [Blocking AI bots and controlling crawlers](https://developers.netlify.com/guides/blocking-ai-bots-and-controlling-crawlers/) and [ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt))
