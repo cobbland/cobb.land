@@ -2,7 +2,7 @@
 title: Page Migration
 summary: What's old is new again
 date: 2025-07-25T19:32:00.00-04:00
-possed: 
+possed: https://dice.camp/@cobb/114916547284465593
 ---
 
 I've been digging through the bones of my old website, trying to decide what is worth resurrecting on this new one. I'm skipping over all the media lists for now, because I have BIG PLANS™ for all that. Same with recipes. And I've got a couple guides (one on writing novels and the other on prepping D&D—because I'm an expert!) and project pages that will make their way over after an edit. After all that, I present to you the following three new-old pages:
