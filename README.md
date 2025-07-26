@@ -8,6 +8,7 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 
 ## Todo
 
+- [ ] Add PGP
 - [ ] Add RSS link on "blog" page
 - [ ] Make and use my own button outline
 - [ ] Add more to the home page (link to "more about me and this website", most recent posts, top pages, etc)
