@@ -8,6 +8,8 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 
 ## Todo
 
+- [ ] Make mobile changes branch for updates on the go
+- [ ] Enable optional HTTP access
 - [ ] Add PGP
 - [ ] Add RSS link on "blog" page
 - [ ] Make and use my own button outline
