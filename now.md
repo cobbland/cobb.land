@@ -1,6 +1,7 @@
 ---
 title: Now
 layout: layout.html
+tags: slashpage
 ---
 Aside from trying to piece together this website, I'm also:
 
