@@ -5,7 +5,7 @@ date: 2025-07-25T19:32:00.00-04:00
 possed: https://dice.camp/@cobb/114916547284465593
 ---
 
-I've been digging through the bones of my old website, trying to decide what is worth resurrecting on this new one. I'm skipping over all the media lists for now, because I have BIG PLANS™ for all that. Same with recipes. And I've got a couple guides (one on writing novels and the other on prepping D&D—because I'm an expert!) and project pages that will make their way over after an edit. After all that, I present to you the following three new-old pages:
+I've been digging through the bones of my old website, trying to decide what is worth resurrecting on this new one. I'm skipping over all the media lists currently, because I have BIG PLANS™ for all that later. Same with recipes. And I've got a couple guides (one on writing novels and the other on prepping D&D—because I'm an expert!) and project pages that will make their way over after an edit. So for now, I present to you the following three new-old pages:
 
 - [Sabacc](/sabacc), the best card game in a galaxy far far away
 - [Shanghai Royale](/shanghai-royale), a good modification on an okay card game from right here on Earth
