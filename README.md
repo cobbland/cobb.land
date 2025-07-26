@@ -8,6 +8,7 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 
 ## Todo
 
+- [ ] Move "about this site" to "colophon"
 - [ ] Make button to go to random webring site 
 - [x] Make mobile changes branch for updates on the go
 - [ ] Enable optional HTTP access
