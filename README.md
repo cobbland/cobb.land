@@ -15,7 +15,7 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Add PGP
 - [x] Add RSS link on "blog" page
 - [x] Make and use my own button outline
-- [ ] Add more to the home page (link to "more about me and this website", most recent posts, top pages, etc)
+- [x] Add more to the home page (link to "more about me and this website", most recent posts, top pages, etc)
 - [ ] Add additional nav bar to "more" window (can link to more "more" categories when needed)
 - [ ] Add maximize (and maybe close) buttons to window
 - [ ] Make IndieWeb stuff work (current step: [webmentions](https://indiewebify.me/send-webmentions/))

@@ -24,4 +24,8 @@ export default async function(eleventyConfig) {
         }
     });
 
+    eleventyConfig.addFilter("limit", function (arr, limit) {
+        return arr.reverse().slice(0, limit);
+    });
+
 };
