@@ -9,23 +9,7 @@ special: home-title
 <p>I'm <a href="/about">Cobb</a> (or cobbland or cobb-dot-land) and this is my <a href="/colophon">website</a>. Follow my <a href="/feed.xml">RSS feed</a> to keep up. I also have a <a href="https://buttondown.com/orbitaldetritus">newsletter</a> (for some reason). And you can find me on the <a href="https://dice.camp/@cobb">Fediverse</a>.</p>
 
 <div class="home-latest">
-    <div>
-        <h2>Posts</h2>
-    
-        <ul>
-            {% for post in collections.post | limit(4) %}
-                <li>
-                    <a href="{{ post.url }}">
-                        {{ post.data.title }}
-                    </a>
-                    <p class="date">{{ post.date.toDateString() }}</p>
-                </li>
-            {% endfor %}
-        </ul>
-    
-        <p><a href="/posts">More posts</a></p>
-    </div>
-    
+
     <div>
         <h2>Pages</h2>
     
@@ -43,4 +27,22 @@ special: home-title
     
         <p><a href="/pages">More pages</a></p>
     </div>
+
+    <div>
+        <h2>Posts</h2>
+    
+        <ul>
+            {% for post in collections.post | limit(4) %}
+                <li>
+                    <a href="{{ post.url }}">
+                        {{ post.data.title }}
+                    </a>
+                    <p class="date">{{ post.date.toDateString() }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    
+        <p><a href="/posts">More posts</a></p>
+    </div>
+    
 </div>
