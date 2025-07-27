@@ -3,7 +3,7 @@ title: Posts
 layout: layout.html
 tags: [slashpage, page]
 ---
-{% for post in collections.post | reverse %}
+{% for post in collections.post %}
 <div class="post-card">
     <a href="{{ post.url }}">
         <h2>{{ post.data.title }}</h2>

@@ -396,6 +396,11 @@ code,
     padding: 0;
 }
 
+ul.pages,
+ul.posts {
+    margin-bottom: 0;
+}
+
 .more-page ul li a {
     padding: 0.4rem 0.4rem;
 }
@@ -403,14 +408,24 @@ code,
 .home-latest {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
     padding: 1rem 0;
 }
 
 .home-latest > div {
     flex: 1 0 200px;
+    display: flex;
+    flex-direction: column;
 }
 
-.home-latest .pages {
-    column-width: 13ch;
+.home-latest h2 {
+    margin: 0;
 }
+
+/* .home-latest .pages {
+    column-width: 15ch;
+} */
+
+/* .pushdown {
+    margin-top: auto;
+} */

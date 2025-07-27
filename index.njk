@@ -25,14 +25,14 @@ special: home-title
             </ul>
         </div>
     
-        <p><a href="/pages">More pages</a></p>
+        <p class="pushdown"><a href="/pages">More pages</a></p>
     </div>
 
     <div>
         <h2>Posts</h2>
     
-        <ul>
-            {% for post in collections.post | limit(4) %}
+        <ul class="posts">
+            {% for post in collections.post | limit(6) %}
                 <li>
                     <a href="{{ post.url }}">
                         {{ post.data.title }}
@@ -42,7 +42,7 @@ special: home-title
             {% endfor %}
         </ul>
     
-        <p><a href="/posts">More posts</a></p>
+        <p class="pushdown"><a href="/posts">More posts</a></p>
     </div>
     
 </div>
