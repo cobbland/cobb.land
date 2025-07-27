@@ -8,13 +8,13 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 
 ## Todo
 
-- [ ] Move "about this site" to "colophon"
-- [ ] Make button to go to random webring site 
+- [x] Move "about this site" to "colophon"
+- [x] Make button to go to random webring site 
 - [x] Make mobile changes branch for updates on the go
 - [ ] Enable optional HTTP access
 - [ ] Add PGP
-- [ ] Add RSS link on "blog" page
-- [ ] Make and use my own button outline
+- [x] Add RSS link on "blog" page
+- [x] Make and use my own button outline
 - [ ] Add more to the home page (link to "more about me and this website", most recent posts, top pages, etc)
 - [ ] Add additional nav bar to "more" window (can link to more "more" categories when needed)
 - [ ] Add maximize (and maybe close) buttons to window
