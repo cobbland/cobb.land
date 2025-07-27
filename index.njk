@@ -1,0 +1,25 @@
+---
+title: cobb.land
+layout: layout.html
+special: home-title
+---
+
+<h2>Howdy!</h2>
+
+<p>I'm <a href="/about">Cobb</a> (or cobbland or cobb-dot-land) and this is my <a href="/colophon">website</a>. Follow my <a href="/feed.xml">RSS feed</a> to keep up. I also have a <a href="https://buttondown.com/orbitaldetritus">newsletter</a> (for some reason). And you can find me on the <a href="https://dice.camp/@cobb">Fediverse</a>.</p>
+
+<h2>Latest posts</h2>
+
+<ul>
+    {% for post in collections.post | reverse %}
+        <li>
+            <a href="{{ post.url }}">
+                {{ post.data.title }}
+            </a>
+            <p class="date">{{ post.date.toDateString() }}</p>
+        </li>
+    {% endfor %}
+</ul>
+
+<p><a href="/blog">More posts</a></p>
+
