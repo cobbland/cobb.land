@@ -1,7 +1,7 @@
 ---
 title: Contact
 layout: layout.html
-tags: slashpage
+tags: [slashpage, page]
 ---
 Have a comment or question? Want to collaborate on something? Maybe you just want to chat? I love email. Really. Please email me. I promise I'll write back:
 

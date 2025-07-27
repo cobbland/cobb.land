@@ -2,6 +2,7 @@
 layout: layout.html
 title: 'Writing Advice'
 permalink: /writing-advice/
+tags: [page]
 ---
 
 # Writing Advice

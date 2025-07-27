@@ -2,6 +2,7 @@
 layout: layout.html
 title: 'Sabacc'
 permalink: /sabacc/
+tags: [page, game, starwars]
 ---
 
 # Sabacc

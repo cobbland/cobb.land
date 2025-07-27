@@ -1,7 +1,7 @@
 ---
 title: Uses
 layout: layout.html
-tags: slashpage
+tags: [slashpage, page]
 ---
 
 Coming soon

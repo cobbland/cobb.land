@@ -1,0 +1,15 @@
+---
+title: More
+layout: layout.html
+---
+<div class="more-page">
+    <ul>
+        {% for page in collections.page | reverse %}
+            <li>
+                <a href="{{ page.url }}">
+                    {{ page.data.title }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

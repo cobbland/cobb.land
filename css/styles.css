@@ -399,3 +399,18 @@ code,
 .more-page ul li a {
     padding: 0.4rem 0.4rem;
 }
+
+.home-latest {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.home-latest > div {
+    flex: 1 0 200px;
+}
+
+.home-latest .pages {
+    column-width: 13ch;
+}

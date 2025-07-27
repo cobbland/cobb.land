@@ -2,13 +2,14 @@
 layout: layout.html
 title: 'Shanghai Royale'
 permalink: /shanghai-royale/
+tags: [page, game]
 ---
 
 # Shanghai Royale
 
 *v1.2*
 
-A card game using standard Shanghai rules with the following exceptions:
+A card game using standard [Shanghai rummy](https://en.wikipedia.org/wiki/Shanghai_rum) rules with the following exceptions:
 
 - Up to sixteen players may play at once using one deck per two players (rounded up).
 - At the end of each hand, players are eliminated using the chosen elimination rules (see below) until only four players remain.

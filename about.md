@@ -1,7 +1,7 @@
 ---
 title: About
 layout: layout.html
-tags: slashpage
+tags: [slashpage, page]
 ---
 
 <img src="/images/android-chrome-192x192.png" alt="An orange on green symbol that looks like both a J and a D—it's an cherek." height="192" width="192">
