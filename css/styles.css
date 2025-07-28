@@ -300,10 +300,10 @@ h1.invisible {
 }
 
 footer {
-    margin: 2rem;
+    margin: 1rem;
     display: flex;
     flex-wrap: wrap;
-    max-width: 710px;
+    max-width: 750px;
 }
 
 .link-icon p {
