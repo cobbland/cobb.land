@@ -26,7 +26,8 @@ export default async function(eleventyConfig) {
     });
 
     eleventyConfig.addFilter("limit", function (arr, limit) {
-        return arr.reverse().slice(0, limit);
+        const newArr = arr;
+        return newArr.reverse().slice(0, limit);
     });
 
 };

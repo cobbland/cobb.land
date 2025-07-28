@@ -19,7 +19,7 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Add additional nav bar to "more" window (can link to more "more" categories when needed)
 - [ ] Add maximize (and maybe close) buttons to window
 - [ ] Make IndieWeb stuff work (current step: [webmentions](https://indiewebify.me/send-webmentions/))
-    - [ ] Sending ([Your first webmention](https://aaronparecki.com/2018/06/30/11/your-first-webmention))
+    - [ ] Sending ([Your first webmention](https://aaronparecki.com/2018/06/30/11/your-first-webmention) and/or [webmentions.app](https://webmention.app/))
     - [ ] Recieving 
     - [ ] Displaying
 - [ ] Add tags (to blog page, posts, and make clickable collections)
