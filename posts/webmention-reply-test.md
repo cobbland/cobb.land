@@ -7,3 +7,5 @@ tags: [mets]
 ---
 
 This is a test to see if I can reply to [my post](https://blog.jacobdensford.com/webmentions-2) on my other website. Self, are you reading me?
+
+**Edit:** Take two.
