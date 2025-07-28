@@ -375,14 +375,14 @@ p.date {
     margin: 0 0 0.8rem 0;
 }
 
-code,
-.code {
+.c64-code,
+.c64-code-inner {
     background-color: var(--blue);
     color: var(--lt-blue);
     overflow: auto;
 }
 
-.code-outer {
+.c64-code-outer {
     background-color: var(--lt-blue);
     padding: 2rem;
     border: 2px solid var(--text-color);
