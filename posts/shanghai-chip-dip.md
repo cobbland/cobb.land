@@ -2,7 +2,7 @@
 title: Shanghai Chip Dip
 summary: The world famous secret family recipe
 date: 2025-07-28T07:10:00.00-04:00
-possed: 
+possed: https://dice.camp/@cobb/114930806736702180
 tags: [recipe]
 ---
 
