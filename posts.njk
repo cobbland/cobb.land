@@ -9,6 +9,14 @@ tags: [slashpage, page]
         <h2>{{ post.data.title }}</h2>
         <p class="post-card-summary">{{ post.data.summary }}</p>
         <p class="date">{{ post.date.toDateString() }}</p>
+{#        <div class="tags">
+            <p>Tags:</p>
+            {% for tag in post.data.tags %}
+                <a href="" class="post-tag">
+                    {{ tag }}
+                </a>
+            {% endfor %}
+        </div> #}
     </a>
 </div>
 {% endfor %}

@@ -11,8 +11,8 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [x] Move "about this site" to "colophon"
 - [x] Make button to go to random webring site 
 - [x] Make mobile changes branch for updates on the go
-- [ ] Enable optional HTTP access
-- [ ] Add PGP
+- [ ] Enable optional HTTP access (not possible with Netlify?)
+- [x] Add PGP
 - [x] Add RSS link on "blog" page
 - [x] Make and use my own button outline
 - [x] Add more to the home page (link to "more about me and this website", most recent posts, top pages, etc)
@@ -28,3 +28,9 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [x] Add blog post summaries
 - [x] Stop bad bots that follow rules (see [Blocking AI bots and controlling crawlers](https://developers.netlify.com/guides/blocking-ai-bots-and-controlling-crawlers/) and [ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt))
 - [ ] Stop bad bots that don't follow rules (???)
+- [x] Join some webrings
+- [ ] Join more webrings
+- [ ] Clean up CSS
+- [ ] Make more accessible
+- [ ] Finish "blogroll"
+- [ ] Finish "uses"

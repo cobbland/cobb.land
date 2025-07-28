@@ -1,3 +1,11 @@
+---
+title: Shanghai Chip Dip
+summary: The world famous secret family recipe
+date: 2025-07-28T07:10:00.00-04:00
+possed: 
+tags: [recipe]
+---
+
 Kids aren't allowed to play Shanghai with the grown ups. Those were the rules. Mom and Dad, Grandma and Grandpa, aunts and uncles would gather around the grown up table, cards in hand, accompanied by glasses of ice cold Coca-Cola and chips and dip on Henn Pottery plates.
 
 Me, my siblings, and my cousins were relegated to the kids table, but no one was keeping us from having our own game. We would drink our plastic cups of Sprite and Mug, eat our chips and dip from paper plates, and try and fail to finish a game of Shanghai without parental guidance. Our failure was more from lack of attention span than anything else.
@@ -26,15 +34,15 @@ Grandpa had a handful of phrases he'd repeat over and over during a game of Shan
 
 And then, after an elbow from Grandma, "Alright. I'll hush. Alright. I'll hush. I'll hush. I'll hush." He was singing it by the end. "I'll hush, I'll hush, I'll hush."
 
-Dad's go-to, which the rest of us have wholeheartedly adopted, is "Let's keep this breezing right along."
+Dad's go-to, which the rest of us have wholeheartedly adopted, is "Let's breeze right along."
 
-Dad has made the World Famous Densford Secret Family Recipe Chip Dip for as long as I can remember. It isn't a family gathering, especially a card based family gathering, without THE dip. It is an integral part of our get-togethers. (Last year's cream cheese shortage was hard on us.)
+Dad has made the **World Famous Secret Family Recipe Chip Dip** for as long as I can remember. It isn't a family gathering, especially a card based family gathering, without THE dip. It is an integral part of our get-togethers. (The recent cream cheese shortage was especially hard on us.)
 
-This past summer, Dad finally handed over the keys to the kingdom: the recipe and responsibility for THE dip.
+A few summers ago, Dad finally handed over the keys to the kingdom: the recipe and responsibility for THE dip:
 
-- 2 packets ranch dip mix  
-- 1 lb sour cream  
-- 1 lb cream cheese  
+- 2 packets ranch dip mix (must be Hidden Valley)
+- 1 lb sour cream (must be Daisy)
+- 1 lb cream cheese (must be Philadelphia, and none of that lowfat crap)
 
 The ingredients might seem simple, it's just a slight variation on the recipe from the back of the dip mix package, after all. But there are subtle nuances in technique and specificity of ingredients that one must consider.
 

@@ -429,3 +429,16 @@ ul.posts {
 /* .pushdown {
     margin-top: auto;
 } */
+
+.tags {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+}
+
+.tags a,
+.tags p {
+    margin: 0;
+    font-size: 0.7rem;
+    font-family: var(--main-font-family);
+}
