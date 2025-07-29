@@ -88,11 +88,11 @@ header {
 .time {
     background-color: var(--bg-color);
     border: 2px solid var(--text-color);
-    margin-bottom: 16px;
     padding: 3.2px 6.4px;
     font-family: var(--main-font-family);
     font-weight: bold;
     color: var(--text-color);
+    height: max-content;
 }
 
 nav {
@@ -106,10 +106,10 @@ nav ul {
     display: flex;
     flex-wrap: nowrap;
     padding: 0 0 0 0;
-    margin-bottom: 16px;
     margin-top: 0;
     max-width: max-content;
     overflow: auto;
+    margin-bottom: 0;
 }
 
 nav li {
@@ -386,6 +386,10 @@ ul.posts {
     margin: 0;
     font-size: 0.7rem;
     font-family: var(--main-font-family);
+}
+
+.link-button {
+    height: 31px;
 }
 
 /* Footer */
