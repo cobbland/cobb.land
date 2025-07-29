@@ -1,8 +1,10 @@
 /* Variables */
 
 :root { /* C64 colors from https://www.pepto.de/projects/colorvic/ */
-    --black: #1b1b1b; /* #000000; */
-    --white: #fff8e7; /* #ffffff */
+    --black: #000000;
+    /* --black: #1b1b1b; */
+    --white: #ffffff;
+    /* --white: #fff8e7; */
     --red: #813338;
     --cyan: #75cec8;
     --purple: #8e3c97;
@@ -20,8 +22,8 @@
 }
 
 :root {
-    --border-color: var(--cyan);
-    --border-color-alt: var(--lt-blue);
+    --border-color: var(--white);
+    --border-color-alt: var(--lt-grey);
     --bg-color: var(--white);
     --title-color: var(--black);
     --heading-color: var(--black);
@@ -46,7 +48,17 @@ body {
     background-size: 6px 6px;
     /* width: 100vw; */
     margin: 0;
+    /* position: relative; */
 }
+
+/* .color-div {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff8e7;
+    opacity: 20%;
+    pointer-events: none;
+} */
 
 p, h1, h2, h3, h4, h5, h6, ul {
     font-family: var(--main-font-family);
