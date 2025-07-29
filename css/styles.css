@@ -2,7 +2,7 @@
 
 :root { /* C64 colors from https://www.pepto.de/projects/colorvic/ */
     --black: #1b1b1b; /* #000000; */
-    --white: #F9F6EE; /* #ffffff */
+    --white: #fff8e7; /* #ffffff */
     --red: #813338;
     --cyan: #75cec8;
     --purple: #8e3c97;
