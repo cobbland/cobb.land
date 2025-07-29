@@ -15,8 +15,7 @@
     <meta name="fediverse:creator" content="@cobb@dice.camp">
     <link rel="webmention" href="https://webmention.io/cobb.land/webmention">
     <link rel="pingback" href="https://webmention.io/cobb.land/xmlrpc">
-    <script src="/js/bigButton.js" async></script>
-    <script src="/js/time.js" async></script>
+    <script type="module" src="/js/scripts.js"></script>
 </head>
 <body>
 
@@ -42,10 +41,10 @@
                 </li>
             </ul>
         </nav>
-        <div class="time">00/00/0000 00:00</div>
+        <div class="time" aria-hidden="true">00/00/0000 00:00</div>
     </header>
 
-    <div class="content-window">
+    <div class="content-window" onload="loadWindow">
         <div class="title-bar">
             <div class="title-lines">
                 <div class="lines" aria-hidden="true">

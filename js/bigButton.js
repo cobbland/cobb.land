@@ -1,12 +1,23 @@
-const header = document.getElementById("header");
-const footer = document.getElementById("footer");
+const header = document.querySelector("#header");
+const footer = document.querySelector("#footer");
 const main = document.querySelector("main");
-const button = document.getElementById("big-button");
+const button = document.querySelector("#big-button");
 const contentWindow = document.querySelector(".content-window");
+
+let big = sessionStorage.getItem("big") !== null ? JSON.parse(sessionStorage.getItem("big")) : false;
+
+if (big) {
+    header.classList.toggle("invisible");
+    footer.classList.toggle("invisible");
+    contentWindow.classList.toggle("big-window");
+    main.classList.toggle("main-big");
+}
 
 button.addEventListener("click", () => {
     header.classList.toggle("invisible");
     footer.classList.toggle("invisible");
-    contentWindow.classList.toggle("big-window")
+    contentWindow.classList.toggle("big-window");
     main.classList.toggle("main-big");
+    big = !big;
+    sessionStorage.setItem("big", JSON.stringify(big));
 });
