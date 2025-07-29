@@ -15,10 +15,11 @@
     <meta name="fediverse:creator" content="@cobb@dice.camp">
     <link rel="webmention" href="https://webmention.io/cobb.land/webmention">
     <link rel="pingback" href="https://webmention.io/cobb.land/xmlrpc">
+    <script src="/js/bigButton.js" async></script>
 </head>
 <body>
 
-    <header>
+    <header id="header">
         <nav>
             <ul>
                 <li>
@@ -51,12 +52,22 @@
                     <hr class="title-bar-line">
                 </div>
                 <div class="title-bar-title"><a class="backlink {{ special | default: "no-slash" }}" href="../">{{ special | default: "" }}</a><h1 class="title-text">{{ title }}</h1></div>
-                <div class="lines" aria-hidden="true">
-                    <hr class="title-bar-line">
-                    <hr class="title-bar-line">
-                    <hr class="title-bar-line">
-                    <hr class="title-bar-line">
-                    <hr class="title-bar-line">
+                <div class="lines lines-left" aria-hidden="true">
+                    <div class="lines-left-of-button">
+                        <hr class="title-bar-line">
+                        <hr class="title-bar-line">
+                        <hr class="title-bar-line">
+                        <hr class="title-bar-line">
+                        <hr class="title-bar-line">
+                    </div>
+                    <div class="big-button" id="big-button"><div class="inside-button"></div></div>
+                    <div class="lines-right-of-button">
+                        <hr class="title-bar-line">
+                        <hr class="title-bar-line">
+                        <hr class="title-bar-line">
+                        <hr class="title-bar-line">
+                        <hr class="title-bar-line">
+                    </div>
                 </div>
             </div>
         </div>
@@ -65,7 +76,7 @@
         </main>
     </div>
 
-    <footer>
+    <footer id="footer">
             <a class="link-icon" href="https://cobb.land">
                 <img src="/images/cobbland-8831.jpg" alt="old-school 88 by 31 pixel web image, orange and green, says cobb.land" height="31" width="88">
                 <!-- <p>Link to me</p> -->

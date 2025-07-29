@@ -3,6 +3,7 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 export default async function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("images");
     eleventyConfig.addPassthroughCopy("css");
+    eleventyConfig.addPassthroughCopy("js");
     eleventyConfig.addPassthroughCopy("robots.txt");
     eleventyConfig.addPassthroughCopy("hello@cobb.land-0x58E8E614B1589522-pub.asc");
 
