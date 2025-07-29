@@ -1,6 +1,6 @@
 /* Variables */
 
-:root { /*C64 colors from https://www.pepto.de/projects/colorvic/*/
+:root { /* C64 colors from https://www.pepto.de/projects/colorvic/ */
     --black: #000000;
     --white: #ffffff;
     --red: #813338;
@@ -19,18 +19,6 @@
     --lt-grey: #b2b2b2;
 }
 
-/* :root {
-    --border-color: #fff8e7;
-    --bg-color: #fff8e7;
-    --title-color: #D14D41;
-    --heading-color: #006c67;
-    --text-color: #1b1b1b;
-    --link-color: rgb(193, 83, 0);
-    --link-hover-color: #ED6D32;
-    --note-color: #1b1b1b55;
-    --main-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-} */
-
 :root {
     --border-color: var(--lt-grey);
     --border-color-alt: var(--white);
@@ -44,32 +32,37 @@
     --main-font-family: 'Courier New', Courier, monospace; 
 }
 
-/* :root {
-    --border-color: #706DEB;
-    --bg-color: #2E2C9B;
-    --title-color: #706DEB;
-    --heading-color: #706DEB;
-    --text-color: #706DEB;
-    --link-color: #706DEB;
-    --link-hover-color: #706DEB;
-    --note-color: #706DEB;
-    --main-font-family: 'Courier New', Courier, monospace; 
-} */
-
 /* Default styles */
 
 *, *::before, *::after {
     box-sizing: border-box;
 }
   
-* {
+body { 
+    line-height: 1.5; /* This requires customizing the line height for larger text. */
+    background-color: var(--border-color);
+    background-image:  repeating-linear-gradient(45deg, var(--border-color) 25%, transparent 25%, transparent 75%, var(--border-color) 75%, var(--border-color)), repeating-linear-gradient(45deg, var(--border-color) 25%, var(--border-color-alt) 25%, var(--border-color-alt) 75%, var(--border-color) 75%, var(--border-color));
+    background-position: 0 0, 3px 3px;
+    background-size: 6px 6px;
+    width: 100vw;
     margin: 0;
-    padding: 0;
 }
-  
-img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%; /* Use `max-width: revert;` if an image is meant to overflow */
+
+p, h1, h2, h3, h4, h5, h6, ul {
+    font-family: var(--main-font-family);
+}
+
+h1, h2, h3, h4, h5 {
+    color: var(--heading-color);
+    line-height: 1em;
+}
+
+p {
+    color: var(--text-color);
+}
+
+input, button, textarea, select, text {
+    font-family: var(--main-font-family);
 }
 
 a,
@@ -84,64 +77,6 @@ a:hover {
     text-decoration: none;
 }
 
-p, h1, h2, h3, h4, h5, h6, ul {
-    font-family: var(--main-font-family);
-    margin: 1rem 0 0.5rem 0;
-}
-
-h1, h2 {
-    color: var(--heading-color);
-    line-height: 1em;
-}
-
-h1 {
-    font-size: 2rem;
-}
-
-h1:first-child,
-h2:first-child,
-p:first-child {
-    margin-top: 0;
-}
-
-p {
-    color: var(--text-color);
-}
-
-p:last-of-type {
-    margin-bottom: 0;
-}
-
-ul {
-    font-family: var(--main-font-family);
-    padding: 0 0 0 1.5rem;
-}
-
-li {
-    color: var(--text-color);
-}
-
-text {
-    font-family: var(--main-font-family);
-}
-
-hr {
-    margin: 1rem 0;
-}
-
-input, button, textarea, select {
-    font: inherit;
-}
-
-body { 
-    line-height: 1.5; /* This requires customizing the line height for larger text. */
-    background-color: var(--border-color);
-    background-image:  repeating-linear-gradient(45deg, var(--border-color) 25%, transparent 25%, transparent 75%, var(--border-color) 75%, var(--border-color)), repeating-linear-gradient(45deg, var(--border-color) 25%, var(--border-color-alt) 25%, var(--border-color-alt) 75%, var(--border-color) 75%, var(--border-color));
-    background-position: 0 0, 3px 3px;
-    background-size: 6px 6px;
-    width: 100vw;
-}
-
 /* Navigation */
 
 nav ul {
@@ -151,7 +86,7 @@ nav ul {
     display: flex;
     flex-wrap: nowrap;
     padding: 0 0 0 0;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
     margin-top: 0;
     max-width: max-content;
     overflow: auto;
@@ -169,16 +104,11 @@ nav li:first-of-type {
 nav a,
 nav a:visited,
 nav p {
-    padding: 0.2rem 0.4rem;
+    padding: 3.2px 6.4px;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.logo-image {
-    min-width: 121.5px;
-    justify-content: end;
 }
 
 .logo-image img {
@@ -202,8 +132,8 @@ nav p {
 
 .content-window {
     background-color: var(--bg-color);
-    max-width: 750px;
-    margin: 1rem;
+    max-width: 90ch;
+    margin: 16px;
     height: max-content;
     border: 2px solid var(--text-color);
     box-shadow: 5px 5px 0 var(--lt-grey);
@@ -250,7 +180,12 @@ nav p {
     flex-grow: 0;
 }
 
-.title-bar-title span::before {
+.title-text {
+    font-size: 1rem;
+    display: inline;
+}
+
+.title-bar-title .title-text::before {
     content: "/";
 }
 
@@ -284,13 +219,15 @@ main {
     padding: 1rem;
 }
 
-.email {
-    font-weight: bold;
-    color: var(--heading-color);
+main *:first-child {
+    margin-top: 0;
 }
 
-.invisible,
-h1.invisible {
+main *:last-child {
+    margin-bottom: 0;
+}
+
+.invisible {
     display: none;
 }
 
@@ -303,10 +240,6 @@ h1.invisible {
 
 .post-card {
     margin: 0 0 1.5rem 0;
-}
-
-.post-card:last-of-type {
-    margin: 0;
 }
 
 .post-card a {
@@ -326,13 +259,6 @@ h1.invisible {
     margin-bottom: 0.2rem;
 }
 
-.post-card .date,
-p.date {
-    font-size: 0.7rem;
-    line-height: 0.7rem;
-    margin: 0;
-}
-
 .p-summary,
 .post-card-summary {
     color: var(--md-grey);
@@ -340,8 +266,16 @@ p.date {
     font-style: italic;
 }
 
-.e-content {
-    margin: 0 0 0.8rem 0;
+.post-card .date,
+p.date {
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+    margin: 0;
+}
+
+.article-date {
+    font-size: 0.7rem;
+    line-height: 0.7rem;
 }
 
 .c64-code,
@@ -357,7 +291,7 @@ p.date {
     border: 2px solid var(--text-color);
 }
 
-.more-page ul {
+.pages ul {
     display: flex;
     flex-wrap: wrap;
     gap: 0.4rem;
@@ -370,7 +304,7 @@ ul.posts {
     margin-bottom: 0;
 }
 
-.more-page ul li a {
+.pages ul li a {
     padding: 0.4rem 0.4rem;
 }
 
@@ -378,17 +312,10 @@ ul.posts {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    padding: 1rem 0;
 }
 
 .home-latest > div {
     flex: 1 0 200px;
-    display: flex;
-    flex-direction: column;
-}
-
-.home-latest h2 {
-    margin: 0;
 }
 
 .tags {
