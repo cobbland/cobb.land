@@ -249,8 +249,12 @@ nav p {
     display: inline;
 }
 
-.title-bar-title .title-text::before {
+.title-text::before {
     content: "/";
+}
+
+.home-title::before {
+    content: "";
 }
 
 .backlink.home-title {

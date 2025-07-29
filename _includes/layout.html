@@ -17,7 +17,7 @@
     <link rel="pingback" href="https://webmention.io/cobb.land/xmlrpc">
     <script type="module" src="/js/scripts.js"></script>
 </head>
-<body>
+<body style="display: none;">
 
     <!-- <div class="color-div"></div> -->
 
@@ -54,7 +54,7 @@
                     <hr class="title-bar-line">
                     <hr class="title-bar-line">
                 </div>
-                <div class="title-bar-title"><a class="backlink {{ special | default: "no-slash" }}" href="../">{{ special | default: "" }}</a><h1 class="title-text">{{ title }}</h1></div>
+                <div class="title-bar-title"><a class="backlink {{ special | default: "no-slash" }}" href="../">{{ special | default: "" }}</a><h1 class="title-text {{ special | default: "" }}">{{ title }}</h1></div>
                 <div class="lines lines-left" aria-hidden="true">
                     <div class="lines-left-of-button">
                         <hr class="title-bar-line">
