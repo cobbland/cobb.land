@@ -1,8 +1,8 @@
 /* Variables */
 
 :root { /* C64 colors from https://www.pepto.de/projects/colorvic/ */
-    --black: #000000;
-    --white: #ffffff;
+    --black: #1b1b1b; /* #000000; */
+    --white: #F9F6EE; /* #ffffff */
     --red: #813338;
     --cyan: #75cec8;
     --purple: #8e3c97;
@@ -20,14 +20,14 @@
 }
 
 :root {
-    --border-color: var(--lt-grey);
-    --border-color-alt: var(--white);
+    --border-color: var(--cyan);
+    --border-color-alt: var(--lt-blue);
     --bg-color: var(--white);
-    --title-color: var(--red);
+    --title-color: var(--black);
     --heading-color: var(--black);
     --text-color: var(--black);
     --link-color: var(--black);
-    --link-hover-color: var(--purple);
+    --link-hover-color: var(--black);
     --note-color: var(--md-grey);
     --main-font-family: 'Courier New', Courier, monospace; 
 }
@@ -92,6 +92,7 @@ header {
     padding: 3.2px 6.4px;
     font-family: var(--main-font-family);
     font-weight: bold;
+    color: var(--text-color);
 }
 
 nav {
@@ -155,7 +156,7 @@ nav p {
     margin: 16px;
     height: max-content;
     border: 2px solid var(--text-color);
-    box-shadow: 5px 5px 0 var(--lt-grey);
+    box-shadow: 5px 5px 0 var(--border-color-alt);
 }
 
 .big-window {
@@ -317,7 +318,7 @@ main *:last-child {
 
 .p-summary,
 .post-card-summary {
-    color: var(--md-grey);
+    color: var(--note-color);
     margin-top: 0;
     font-style: italic;
 }
@@ -401,7 +402,7 @@ footer {
     margin: 0;
     line-height: 1.7em;
     font-size: 0.7em;
-    color: var(--dk-grey);
+    color: var(--note-color);
     background-color: var(--bg-color);
     text-align: center;
     width: 100%;
@@ -419,7 +420,7 @@ footer {
 }
 
 .link-icon:hover {
-    background-color: var(--lt-grey)
+    background-color: var(--note-color)
 }
 
 @media (max-width: 600px) {
