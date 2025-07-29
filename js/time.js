@@ -9,7 +9,7 @@ function updateTime(timeDOM) {
   let minutes = String(now.getMinutes()).padStart(2, "0");
   let seconds = String(now.getSeconds()).padStart(2, "0");
 
-  timeDOM.innerText = `${year}-${month}-${date} ${hours}:${minutes}:${seconds}`;
+  timeDOM.innerText = `${month}/${date}/${year} ${hours}:${minutes}`;
 }
 
 setInterval(() => updateTime(time), 100);
