@@ -242,6 +242,14 @@ nav p {
     overflow: hidden;
     text-overflow: ellipsis;
     flex-grow: 0;
+    gap: 1rem;
+}
+
+.title-bar-title a,
+.title-bar-title a:hover {
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--bg-color);
 }
 
 .title-text {
@@ -249,35 +257,12 @@ nav p {
     display: inline;
 }
 
-.title-text::before {
-    content: "/";
-}
-
-.home-title::before {
-    content: "";
-}
-
 .backlink.home-title {
     display: none;
 }
 
-.backlink.backlink.home-title + span::before {
-    content: "";
-}
-
-.backlink::before {
-    content: "/";
-}
-
-.backlink.no-slash::before {
-    content: "";
-}
-
-.backlink:link,
-.backlink:hover {
-    text-decoration: none;
-    color: var(--text-color);
-    background-color: var(--bg-color);
+.first-slash.home-title {
+    display: none;
 }
 
 /* Main content */

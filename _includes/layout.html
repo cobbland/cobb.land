@@ -54,7 +54,9 @@
                     <div class="title-bar-line"></div>
                     <div class="title-bar-line"></div>
                 </div>
-                <div class="title-bar-title"><a class="backlink {{ special | default: "no-slash" }}" href="../">{{ special | default: "" }}</a><h1 class="title-text {{ special | default: "" }}">{{ title }}</h1></div>
+                <div class="title-bar-title">
+                    <a href="/" class="first-slash {{ special | default: "" }}">/</a><a class="backlink {{ special | default: "invisible" }}" href="../">{{ special | default: "" }}/</a><h1 class="title-text">{{ title }}</h1>
+                </div>
                 <div class="lines lines-left" aria-hidden="true">
                     <div class="lines-left-of-button">
                         <div class="title-bar-line"></div>
