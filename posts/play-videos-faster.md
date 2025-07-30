@@ -2,7 +2,7 @@
 title: Play Videos Faster
 summary: Because 2x isn't quite fast enough
 date: 2025-07-30T10:53:00.00-04:00
-possed: 
+possed: https://dice.camp/@cobb/114942764940748371
 ---
 
 I have a problem. Two problems, in fact. (Well, I'm sure I have more than two problems, but I'll only address the following for now.)
