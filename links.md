@@ -1,5 +1,5 @@
 ---
-title: Blogroll
+title: Links
 layout: layout.html
 tags: [slashpage, page]
 ---

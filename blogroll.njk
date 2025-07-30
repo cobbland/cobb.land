@@ -1,0 +1,34 @@
+---
+title: Blogroll
+layout: layout.html
+tags: [slashpage, page]
+---
+
+<p>There are so many blogs in my RSS reader that I'm having trouble getting this page started. In an effort to just get something going, here are a few. (More to come.)</p>
+
+<p class="note">Note that I use the term "blogroll" loosely here. Most linked websites are blogs, but some may be digital gardens, wikis, et cetera.</p>
+
+<div class="blogroll">
+    <ul>
+        {% for blog in collections.blog | sort(attribute='data.title') %}
+            <li>
+                {% if blog.data.icon === "yes" %}
+                    <a class="link-icon" href="{{ blog.data.link }}">
+                        <img class="icon-image" src="{{ blog.data.image }}" alt="{{ blog.data.title }}">
+                    </a>
+                {% else %}
+                    <a class="link-icon" href="{{ blog.data.link }}">
+                        <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" alt="{{ blog.data.title }}" height="31" width="88">
+                            <rect class="rect-icon" width="88" height="31" fill="#{{ blog.data.color }}">
+                            {% if blog.data.image %}
+                                <img class="icon-image" src="{{ blog.data.image }}" alt="{{ blog.data.title }}">
+                            {% endif %}
+                            <span class="icon-text">{{ blog.data.title }}</span>
+                            <img class="icon-border" src="/images/button-outline-88x31.png">
+                        </svg>
+                    </a>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</div>
