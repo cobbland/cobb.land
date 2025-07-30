@@ -116,46 +116,43 @@
             <a class="link-icon" href="https://microformats.org/">
                 <img src="/images/microformats88x31-flat.png" alt="microformats" height="31" width="88">
             </a>
-            <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" height="31" width="88" style="image-rendering: crisp-edges; vertical-align: middle;">
-                <rect height="31" width="88" fill="#FC4F1E"></rect>
-                <image href="/images/button-outline-88x31.png" opacity="0.6" height="31" width="88"></image>
-                <a href="https://xn--sr8hvo.ws/previous">
-                    <text y="19px" x="4px" style="letter-spacing: -0.1em; font-size: 20px;stroke: white;paint-order: stroke;stroke-width: 2px; fill: black;">←</text>
-                </a>
-                <a href="https://xn--sr8hvo.ws">
-                    <text y="21px" x="23px" style="font-size: 18px; filter: drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white) drop-shadow(0 1px 0 white) drop-shadow(0 -1px 0 white);">🕸💍</text>
-                </a>
-                <a href="https://xn--sr8hvo.ws/next">
-                    <text y="19px" style="font-size: 20px; letter-spacing: -0.1em; stroke: white;paint-order: stroke;stroke-width: 2px; fill: black;" x="71px">→</text>
-                </a>
-            </svg>
-            <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" height="31" width="88" style="image-rendering: crisp-edges; vertical-align: middle;">
-                <rect height="31" width="88" fill="#FD8F25"></rect>
-                <image href="/images/button-outline-88x31.png" opacity="0.6" height="31" width="88"></image>
-                <a href="https://xn--sr8hvo.ws/random">
-                <text y="21px" x="10px" style="font-size: 18px; filter: drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white) drop-shadow(0 1px 0 white) drop-shadow(0 -1px 0 white);">🕸💍🎲</text>
-                </a>
-            </svg>
-            <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" height="31" width="88" style="image-rendering: crisp-edges; vertical-align: middle;">
-                <rect height="31" width="88" fill="#ccc"></rect>
-                <image href="/images/button-outline-88x31.png" opacity="0.6" height="31" width="88"></image>
-                <a href="https://fediring.net/previous?host=cobb.land">
-                <text y="19px" x="4px" style="letter-spacing: -0.1em; font-size: 20px;stroke: white;paint-order: stroke;stroke-width: 2px; fill: black;">←</text>
-                </a>
-                <a href="https://fediring.net">
-                <text y="19px" style="font-size: 10px; filter: drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white) drop-shadow(0 1px 0 white) drop-shadow(0 -1px 0 white);" x="19px">fediring</text>
-                </a>
-                <a href="https://fediring.net/next?host=cobb.land">
-                <text y="19px" style="font-size: 20px; letter-spacing: -0.1em; stroke: white;paint-order: stroke;stroke-width: 2px; fill: black;" x="71px">→</text>
-                </a>
-            </svg>
-            <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" height="31" width="88" style="image-rendering: crisp-edges; vertical-align: middle;">
-                <rect height="31" width="88" fill="#555"></rect>
-                <image href="/images/button-outline-88x31.png" opacity="0.6" height="31" width="88"></image>
-                <a href="">
-                <text y="21px" x="18px" style="font-size: 14px; filter: drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white) drop-shadow(0 1px 0 white) drop-shadow(0 -1px 0 white);">© {% year %}</text>
-                </a>
-            </svg>
+            <div class="link-icon">
+                <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" height="31" width="88" >
+                    <rect class="icon-rect" height="31" width="88" fill="#FC4F1E">
+                </svg>
+                <span class="icon-text" style="font-size: 18px;">
+                    <a href="https://xn--sr8hvo.ws/previous">←</a>
+                    <a href="https://xn--sr8hvo.ws">🕸💍</a>
+                    <a href="https://xn--sr8hvo.ws/next">→</a>
+                </span>
+                <img class="icon-border" src="/images/button-outline-88x31.png">
+            </div>
+
+            <a class="link-icon" href="https://xn--sr8hvo.ws/random">
+                <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" height="31" width="88">
+                    <rect class="icon-rect" height="31" width="88" fill="#FD8F25">
+                </svg>
+                <span class="icon-text" style="font-size: 18px;">🕸💍🎲</span>
+                <img class="icon-border" src="/images/button-outline-88x31.png">
+            </a>
+            <div class="link-icon">
+                <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" height="31" width="88" >
+                    <rect class="icon-rect" height="31" width="88" fill="#ccc">
+                </svg>
+                <span class="icon-text">
+                    <a href="https://fediring.net/previous?host=cobb.land">←</a>
+                    <a href="https://fediring.net">fediring</a>
+                    <a href="https://fediring.net/next?host=cobb.land">→</a>
+                </span>
+                <img class="icon-border" src="/images/button-outline-88x31.png">
+            </div>
+            <a class="link-icon" href="">
+                <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" height="31" width="88">
+                    <rect class="icon-rect" height="31" width="88" fill="#555">
+                </svg>
+                <span class="icon-text">© {% year %}</span>
+                <img class="icon-border" src="/images/button-outline-88x31.png">
+            </a>
     </footer>
 
     <div class="h-card invisible">

@@ -493,7 +493,7 @@ footer {
     background-color: inherit;
 }
 
-.link-icon * {
+.link-icon > * {
     position: absolute;
 }
 
@@ -503,18 +503,34 @@ footer {
 }
 
 .icon-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     text-align: center;
     font-weight: normal;
     font-size: 12px;
     font-family: var(--main-font-family);
     line-height: 1em;
     word-break: break-all;
-    max-width: 84px;
+    width: 84px;
     filter: 
         drop-shadow(1px 0 0 white) 
         drop-shadow(-1px 0 0 white) 
         drop-shadow(0 1px 0 white) 
         drop-shadow(0 -1px 0 white);
+}
+
+.icon-text a {
+    text-decoration: none;
+}
+
+.icon-text a:hover {
+    background-color: inherit;
+    color: inherit;
+}
+
+.icon-border {
+    pointer-events: none;
 }
 
 /* Media styles */
