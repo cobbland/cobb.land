@@ -408,6 +408,48 @@ ul.posts {
     height: 31px;
 }
 
+.bookmarklet {
+    display: block;
+    border: 2px solid var(--text-color);
+    width: 100px;
+    overflow: hidden;
+    text-wrap: nowrap;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 0.6rem 0.4rem;
+    text-decoration: none;
+    box-shadow: 2px 2px var(--md-grey);
+}
+
+.bookmarklet:hover {
+    color: inherit;
+    background-color: inherit;
+    box-shadow: 1px 1px var(--dk-grey);
+}
+
+/* .fold {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-top: 50px solid var(--bg-color);
+    border-left: 50px solid transparent;
+    z-index: 2;
+}
+
+.fold-border {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 54px solid var(--text-color);
+    border-left: 54px solid transparent;
+    z-index: 1;
+} */
+
+.page {
+    border-bottom: 2px solid var(--text-color);
+    margin: 0 0 4px 0;
+}
+
 /* Footer */
 
 footer {
@@ -442,6 +484,8 @@ footer {
 .link-icon:hover {
     background-color: var(--note-color)
 }
+
+/* Media styles */
 
 @media (max-width: 600px) {
     .time {

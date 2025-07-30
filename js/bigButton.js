@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         contentWindow.classList.toggle("big-window");
         main.classList.toggle("main-big");
     }
-    body.style.display = "initial";
+    // body.style.display = "initial";
 });
 
 button.addEventListener("click", () => {

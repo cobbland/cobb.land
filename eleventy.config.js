@@ -33,6 +33,8 @@ export default async function(eleventyConfig) {
 
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
+    eleventyConfig.addShortcode("uri", function(text) { return `${encodeURIComponent(text)}` });
+
     // first (failed) attempt at showing webmentions
     eleventyConfig.addShortcode("webmentions", async function(postUrl) {
         const domain = postUrl;

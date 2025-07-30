@@ -17,10 +17,10 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [x] Make and use my own button outline
 - [x] Add more to the home page (link to "more about me and this website", most recent posts, top pages, etc)
 - [ ] Add additional nav bar to "more" window (can link to more "more" categories when needed)
-- [ ] Add maximize (and maybe close) buttons to window
+- [x] Add maximize buttons to window
 - [ ] Make IndieWeb stuff work (current step: [webmentions](https://indiewebify.me/send-webmentions/))
     - [ ] Sending ([Your first webmention](https://aaronparecki.com/2018/06/30/11/your-first-webmention) and/or [webmentions.app](https://webmention.app/))
-    - [ ] Recieving 
+    - [ ] Receiving 
     - [ ] Displaying
 - [ ] Add tags (to blog page, posts, and make clickable collections)
 - [ ] Add other indieweb content types (see [posts](https://indieweb.org/posts))
