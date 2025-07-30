@@ -10,4 +10,4 @@ Have a comment or question? Want to collaborate on something? Maybe you just wan
 - [@cobb.land](https://bsky.app/profile/cobb.land) on Bluesky (I don't really use it, though)
 - [Illuminated Snail Press](https://illuminatedsnail.itch.io/) on itch.io
 - [Orbital Detritus](https://buttondown.com/orbitaldetritus)—my newsletter
-- **cobbland** on the libra.chat IRC server
+- **cobbland** on the [libra.chat](https://libera.chat/) IRC server
