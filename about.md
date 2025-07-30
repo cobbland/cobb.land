@@ -4,7 +4,7 @@ layout: layout.html
 tags: [slashpage, page]
 ---
 
-<img src="/images/android-chrome-192x192.png" alt="An orange on green symbol that looks like both a J and a D—it's an cherek." height="192" width="192">
+<img src="/images/sheepy-tv.jpg" alt="A sheep on a pixelated black and white tv" height="144">
 
 I'm Cobb (or cobbland or cobb-dot-land or even Jacob), a writer, artist, programmer, and game designer currently dwelling in the foothills of Appalachia.
 
