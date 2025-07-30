@@ -16,8 +16,27 @@ export default async function(eleventyConfig) {
         },
         metadata: {
             language: "en",
-            title: "cobb.land",
+            title: "cobb.land | Posts",
             subtitle: "A blog, mostly.",
+            base: "https://cobb.land/",
+            author: {
+                name: "Cobb",
+                email: "", // Optional
+            }
+        }
+    });
+
+    eleventyConfig.addPlugin(feedPlugin, {
+        type: "atom", // or "rss", "json"
+        outputPath: "/links-feed.xml",
+        collection: {
+            name: "link", // iterate over `collections.post`
+            limit: 0,     // 0 means no limit
+        },
+        metadata: {
+            language: "en",
+            title: "cobb.land | Links",
+            subtitle: "A collection of links",
             base: "https://cobb.land/",
             author: {
                 name: "Cobb",
