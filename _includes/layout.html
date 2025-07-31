@@ -44,48 +44,7 @@
         <div class="time" aria-hidden="true">00/00/0000 00:00</div>
     </header>
 
-    <div class="content-window" onload="loadWindow">
-        <div class="title-bar">
-            <div class="title-lines">
-                <div class="lines" aria-hidden="true">
-                    <div class="title-bar-line"></div>
-                    <div class="title-bar-line"></div>
-                    <div class="title-bar-line"></div>
-                    <div class="title-bar-line"></div>
-                    <div class="title-bar-line"></div>
-                </div>
-                <div class="title-bar-title">
-                    <a href="/" class="first-slash {{ special | default: "" }}">/</a><a class="backlink {{ special | default: "invisible" }}" href="../">{{ special | default: "" }}/</a><h1 class="title-text">{{ title }}</h1>
-                </div>
-                <div class="lines lines-left" aria-hidden="true">
-                    <div class="lines-left-of-button">
-                        <div class="title-bar-line"></div>
-                        <div class="title-bar-line"></div>
-                        <div class="title-bar-line"></div>
-                        <div class="title-bar-line"></div>
-                        <div class="title-bar-line"></div>
-                    </div>
-                    <div class="big-button" id="big-button"><div class="inside-button"></div></div>
-                    <div class="lines-right-of-button">
-                        <div class="title-bar-line"></div>
-                        <div class="title-bar-line"></div>
-                        <div class="title-bar-line"></div>
-                        <div class="title-bar-line"></div>
-                        <div class="title-bar-line"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <main>
-                {{ content }}
-        </main>
-        <!-- <div style="position: relative;">
-            <div class="fold-border"></div>
-            <div class="fold"></div>
-        </div> -->
-        <!-- <hr class="page">
-        <hr class="page"> -->
-    </div>
+    {{ content }}
 
     <footer id="footer">
             <a class="link-icon" href="https://cobb.land">
@@ -97,26 +56,24 @@
             <a class="link-icon" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
                 <img src="/images/by-nc-sa.png" alt="cc by-nc-sa" height="31" width="88">
             </a>
+            <a class="link-icon" href="/">
+                <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" height="31" width="88">
+                    <rect class="icon-rect" height="31" width="88" fill="#555">
+                </svg>
+                <span class="icon-text">cobb.land © {% year %}</span>
+                <img class="icon-border" src="/images/button-outline-88x31.png">
+            </a>
             <a class="link-icon" href="https://www.11ty.dev/">
                 <img src="/images/eleventy.gif" alt="built with 11ty" height="31" width="88">
-            </a>
-            <a class="link-icon" href="https://moonpr1sm.com/random/30plusclub">
-                <img src="/images/30plusclub.gif" alt="30+ club" height="31" width="88">
-            </a>
-            <a class="link-icon" href="https://32bit.cafe/">
-                <img src="/images/32b-pcb.png" alt="32b cafe" height="31" width="88">
             </a>
             <a class="link-icon" href="https://indieweb.org/">
                 <img src="/images/indieweb-88x31.gif" alt="EWC Now! indieweb.org" height="31" width="88">
             </a>
-            <a class="link-icon" href="https://indieweb.org/">
-                <img src="/images/indieweb88x31-flat.png" alt="Eindieweb.org" height="31" width="88">
+            <a class="link-icon" href="https://32bit.cafe/">
+                <img src="/images/32b-pcb.png" alt="32b cafe" height="31" width="88">
             </a>
-            <a class="link-icon" href="https://www.w3.org/TR/webmention/">
-                <img src="/images/webmention88x31-flat.png" alt="webmentions" height="31" width="88">
-            </a>
-            <a class="link-icon" href="https://microformats.org/">
-                <img src="/images/microformats88x31-flat.png" alt="microformats" height="31" width="88">
+            <a class="link-icon" href="https://moonpr1sm.com/random/30plusclub">
+                <img src="/images/30plusclub.gif" alt="30+ club" height="31" width="88">
             </a>
             <div class="link-icon">
                 <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" height="31" width="88" >
@@ -129,17 +86,9 @@
                 </span>
                 <img class="icon-border" src="/images/button-outline-88x31.png">
             </div>
-
-            <a class="link-icon" href="https://xn--sr8hvo.ws/random">
-                <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" height="31" width="88">
-                    <rect class="icon-rect" height="31" width="88" fill="#FD8F25">
-                </svg>
-                <span class="icon-text" style="font-size: 18px;">🕸💍🎲</span>
-                <img class="icon-border" src="/images/button-outline-88x31.png">
-            </a>
             <div class="link-icon">
                 <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" height="31" width="88" >
-                    <rect class="icon-rect" height="31" width="88" fill="#ccc">
+                    <rect class="icon-rect" height="31" width="88" fill="#00A4FF">
                 </svg>
                 <span class="icon-text">
                     <a href="https://fediring.net/previous?host=cobb.land">←</a>
@@ -148,13 +97,14 @@
                 </span>
                 <img class="icon-border" src="/images/button-outline-88x31.png">
             </div>
-            <a class="link-icon" href="">
+            <a class="link-icon" id="random-blog-button" href="/">
                 <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" height="31" width="88">
-                    <rect class="icon-rect" height="31" width="88" fill="#555">
+                    <rect class="icon-rect" height="31" width="88" fill="#A82CB9">
                 </svg>
-                <span class="icon-text">© {% year %}</span>
+                <span class="icon-text" style="font-size: 18px;">🎲</span>
                 <img class="icon-border" src="/images/button-outline-88x31.png">
             </a>
+
     </footer>
 
     <div class="h-card invisible">

@@ -1,0 +1,45 @@
+---
+layout: layout.html
+---
+<div class="content-window" onload="loadWindow">
+    <div class="title-bar">
+        <div class="title-lines">
+            <div class="lines" aria-hidden="true">
+                <div class="title-bar-line"></div>
+                <div class="title-bar-line"></div>
+                <div class="title-bar-line"></div>
+                <div class="title-bar-line"></div>
+                <div class="title-bar-line"></div>
+            </div>
+            <div class="title-bar-title">
+                <a href="/" class="first-slash {{ special | default: "" }}">/</a><a class="backlink {{ special | default: "invisible" }}" href="../">{{ special | default: "" }}/</a><h1 class="title-text">{{ title }}</h1>
+            </div>
+            <div class="lines lines-left" aria-hidden="true">
+                <div class="lines-left-of-button">
+                    <div class="title-bar-line"></div>
+                    <div class="title-bar-line"></div>
+                    <div class="title-bar-line"></div>
+                    <div class="title-bar-line"></div>
+                    <div class="title-bar-line"></div>
+                </div>
+                <div class="big-button" id="big-button"><div class="inside-button"></div></div>
+                <div class="lines-right-of-button">
+                    <div class="title-bar-line"></div>
+                    <div class="title-bar-line"></div>
+                    <div class="title-bar-line"></div>
+                    <div class="title-bar-line"></div>
+                    <div class="title-bar-line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+            {{ content }}
+    </main>
+    <!-- <div style="position: relative;">
+        <div class="fold-border"></div>
+        <div class="fold"></div>
+    </div> -->
+    <div class="page"></div>
+    <div class="page"></div>
+</div>

@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: window.html
 title: "Zabaka's Corellian Spike"
 special: sabacc
 permalink: /sabacc/zabaka/

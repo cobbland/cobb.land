@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: window.html
 title: 'Writing Advice'
 permalink: /writing-advice/
 tags: [page, quote]

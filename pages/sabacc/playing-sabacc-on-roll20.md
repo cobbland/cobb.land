@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: window.html
 title: 'Playing Sabacc on Roll20'
 special: sabacc
 permalink: /sabacc/playing-sabacc-on-roll20/

@@ -1,6 +1,6 @@
 ---
 title: Contact
-layout: layout.html
+layout: window.html
 tags: [slashpage, page]
 ---
 Have a comment or question? Want to collaborate on something? Maybe you just want to chat? I love email. Really. Please email me. I promise I'll write back. (Or contact me in one of the other less exciting ways.)

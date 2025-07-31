@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: window.html
 title: 'Sabacc'
 permalink: /sabacc/
 tags: [page, game, starwars]

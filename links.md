@@ -1,6 +1,6 @@
 ---
 title: Links
-layout: layout.html
+layout: window.html
 tags: [slashpage, page]
 ---
 

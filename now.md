@@ -1,6 +1,6 @@
 ---
 title: Now
-layout: layout.html
+layout: window.html
 tags: [slashpage, page]
 ---
 Aside from trying to piece together this website, I'm also:

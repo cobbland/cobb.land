@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: window.html
 title: "Yarith Bespin Casino's Corellian Spike"
 special: sabacc
 permalink: /sabacc/yarith/

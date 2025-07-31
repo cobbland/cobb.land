@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: window.html
 title: 'Shanghai Royale'
 permalink: /shanghai-royale/
 tags: [page, game]

@@ -1,7 +1,7 @@
 ---
-title: maya.land
-link: https://maya.land/
-color: 000000
+title: LMNT
+link: https://lmnt.me/
+color: 
 image: https://maya.land/assets/banner.png
 icon: yes
 ---
