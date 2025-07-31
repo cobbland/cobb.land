@@ -275,6 +275,7 @@ main {
 
 .main-big {
     margin: auto;
+    min-height: calc(100vh - 38px);
 }
 
 main *:first-child {
@@ -430,9 +431,13 @@ ul.posts {
     z-index: 1;
 } */
 
-.page {
+.leaf {
     border-bottom: 2px solid var(--text-color);
     margin: 0 0 4px 0;
+}
+
+.leaves {
+    margin-top: auto;
 }
 
 .blogroll ul {
