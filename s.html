@@ -1,0 +1,44 @@
+---
+title: Shortcuts
+layout: window.html
+tags: [slashpage, page]
+---
+
+<style>
+    [data-url]:after {
+        content: " #" attr(id);
+        visibility: visible;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .shortcut {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: normal;
+    }
+    .note:last-of-type {
+        margin-bottom: 0;
+    }
+    p:first-of-type {
+        margin-top: 0;
+    }
+</style>
+
+<p>To shortcut to one of the links below, go to <code>cobb.land/s/#whattever</code>, replacing "whatever" with the listed hashtag.</p>
+
+<ul>
+
+    <li rel="bookmark" id="cobb" data-url="https://cobb.land">
+        <a href="https://cobb.land" class="shortcut">https://cobb.land</a>
+    </li>
+
+</ul>
+
+<hr>
+
+<p class="note">Copied from <a href="https://mat.tl/s/">mattl</a>.</p>
+
+<script>
+    var hash = window.location.hash.substring(1);
+    const article = document.getElementById(hash);
+    location.replace(article.dataset.url)
+</script>
