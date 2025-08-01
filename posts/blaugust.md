@@ -16,6 +16,6 @@ What better way to inaugurate my new website than by posting every single day of
 
 I'm going to try to avoid posting too many meta posts about the event and the act of blogging—that would be too easy. Instead, I plan on using this as an opportunity to explore all of the different types of [IndieWeb posts](https://indieweb.org/posts).
 
-As for the community building aspect, I'm following the #blaugust and #blaugust2025 hashtags on the Fediverse (Mastodon or whatever) in the hopes of connecting with some cool, like-minded folks.
+As for the community building aspect, I'm following the #blaugust and #blaugust2025 hashtags on the Fediverse (Mastodon or whatever) in the hopes of connecting with some cool, like-minded folks and following their blogs. I can already hear my RSS reader groaning.
 
 We'll see how it goes!
