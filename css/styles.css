@@ -501,7 +501,7 @@ footer {
     font-size: 12px;
     font-family: var(--main-font-family);
     line-height: 1em;
-    word-break: break-all;
+    word-wrap: break-word;
     width: 84px;
     filter: 
         drop-shadow(1px 0 0 white) 
