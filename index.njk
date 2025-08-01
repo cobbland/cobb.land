@@ -15,7 +15,7 @@ special: home-title
     
         <div>
             <ul class="pages">
-                {% for page in collections.page | limit(12) | sort(attribute='data.title') %}
+                {% for page in collections.page | sort(attribute='data.title') | limit(20) %}
                     <li>
                         <a href="{{ page.url }}">
                             {{ page.data.title }}
@@ -32,7 +32,7 @@ special: home-title
         <h2>Posts</h2>
     
         <ul class="posts">
-            {% for post in collections.post | reverse | limit(6) %}
+            {% for post in collections.post | reverse | limit(12) %}
                 <li>
                     <a href="{{ post.url }}">
                         {{ post.data.title }}
