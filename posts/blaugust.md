@@ -2,7 +2,7 @@
 title: Blaugust First
 summary: In which I outline my Blaugust plans
 date: 2025-08-01T08:13:00.00-04:00
-possed: 
+possed: https://dice.camp/@cobb/114953635789745939
 tags: article, blaugust
 ---
 
