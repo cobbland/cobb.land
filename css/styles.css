@@ -271,6 +271,7 @@ main {
     background-color: var(--bg-color);
     padding: 1rem;
     /* max-width: 90ch; */
+    word-wrap: break-word;
 }
 
 .main-big {
