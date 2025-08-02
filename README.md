@@ -34,3 +34,4 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Make more accessible
 - [ ] Finish "blogroll"
 - [ ] Finish "uses"
+- [ ] Add automatic POSSE (maybe [EchoFeed](https://echofeed.app/) or [Feed Classic](https://echo.rknight.me/))
