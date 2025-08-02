@@ -1,3 +1,11 @@
+---
+title: Webtop
+summary: Its a desktop... on the web
+date: 2025-08-01T08:13:00.00-04:00
+possed: 
+tags: article
+---
+
 https://en.wikipedia.org/wiki/Web_desktop
 https://github.com/syxanash/awesome-web-desktops
 https://blog.simone.computer/desktops-zip

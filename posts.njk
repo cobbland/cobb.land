@@ -6,8 +6,14 @@ tags: [slashpage, page]
 {% for post in collections.post | reverse %}
 <div class="post-card">
     <a href="{{ post.url }}">
-        <h2>{{ post.data.title }}</h2>
-        <p class="post-card-summary">{{ post.data.summary }}</p>
+        {% if post.data.title %}
+            <h2>{{ post.data.title }}</h2>
+        {% else %}
+            <p>{{ post.data.short }}</p>
+        {% endif %}
+        {% if post.data.summary %}
+            <p class="post-card-summary">{{ post.data.summary }}</p>
+        {% endif %}
         <p class="date">{{ post.date.toDateString() }}</p>
 {#        <div class="tags">
             <p>Tags:</p>

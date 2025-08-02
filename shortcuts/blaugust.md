@@ -1,4 +1,4 @@
 ---
 id: blaugust
-site: https://docs.google.com/spreadsheets/d/1lGPTuvc_4ulribJOj1NJEWGwwzFLXGqph-PSvohbVQs/
+site: https://tagn.wordpress.com/2025/08/01/welcome-to-blaugust-oh-no-now-what/
 ---

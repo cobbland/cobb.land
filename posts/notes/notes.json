@@ -1,0 +1,5 @@
+{
+    "override:layout": "note.njk",
+    "override:tags": ["post", "note"],
+    "override:special": "notes"
+}
