@@ -303,15 +303,11 @@ main *:last-child {
 }
 
 .post-card a {
-    text-decoration: none;
-}
-
-.post-card:hover h2 {
-    text-decoration: none;
+    display: inline;
+    width: min-content;
 }
 
 .post-card h2 {
-    text-decoration: underline;
     margin-bottom: 0.2rem;
 }
 
@@ -331,6 +327,16 @@ p.date {
     font-size: 0.7rem;
     line-height: 0.7rem;
     margin: 0;
+    font-weight: bold;
+}
+
+.post-card-note {
+    font-weight: normal;
+    margin-bottom: 0.2rem;
+}
+
+.post-card-note p:last-of-type {
+    margin-bottom: 0;
 }
 
 .article-date {

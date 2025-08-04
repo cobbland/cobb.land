@@ -4,27 +4,23 @@ layout: window-pages.html
 tags: [slashpage, page]
 ---
 {% for post in collections.post | reverse %}
-<div class="post-card">
-    <a href="{{ post.url }}">
-        {% if post.data.title %}
-            <h2>{{ post.data.title }}</h2>
-        {% else %}
-            <p>{{ post.data.short }}</p>
-        {% endif %}
-        {% if post.data.summary %}
-            <p class="post-card-summary">{{ post.data.summary }}</p>
-        {% endif %}
-        <p class="date">{{ post.date.toDateString() }}</p>
-{#        <div class="tags">
-            <p>Tags:</p>
-            {% for tag in post.data.tags %}
-                <a href="" class="post-tag">
-                    {{ tag }}
-                </a>
-            {% endfor %}
-        </div> #}
-    </a>
-</div>
+            {% if "article" in post.data.tags %}
+                <div class="post-card">
+                    <a href="{{ post.url }}">
+                        <h2>{{ post.data.title }}</h2>
+                    </a>
+                    <p class="post-card-summary">{{ post.data.summary }}</p>
+                    <p class="date">{{ post.date.toDateString() }}</p>
+                </div>
+            {% endif %}
+            {% if "note" in post.data.tags %}
+                <div class="post-card">
+                    <div class="post-card-note">{{ post.content | safe }}</div>
+                    <a href="{{ post.url }}">
+                        <p class="date">{{ post.date.toDateString() }}</p>
+                    </a>
+                </div>
+            {% endif %}
 {% endfor %}
 
 <p>Subscribe via <a href="/feed.xml">RSS</a>.</p>

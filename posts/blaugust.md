@@ -3,7 +3,7 @@ title: Blaugust First
 summary: In which I outline my Blaugust plans
 date: 2025-08-01T08:13:00.00-04:00
 possed: https://dice.camp/@cobb/114953635789745939
-tags: article, blaugust
+tags: blaugust
 ---
 
 Blaugust is a month-long celebration of blogs. Participants are encouraged to post every day and to interact with each other, all to facilitate community building and the creation of genuine writing in this era of AI slop.

@@ -1,5 +1,5 @@
 {
     "layout": "post.njk",
-    "tags": "post",
+    "tags": ["post", "article"],
     "special": "posts"
 }
