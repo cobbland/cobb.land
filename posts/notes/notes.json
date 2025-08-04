@@ -1,5 +1,6 @@
 {
     "override:layout": "note.njk",
     "override:tags": ["post", "note"],
-    "override:special": "posts"
+    "override:special": "posts",
+    "title": "A Note"
 }
