@@ -265,6 +265,34 @@ nav p {
     display: none;
 }
 
+.window-nav {
+    min-width: 100%;
+    background-color: var(--bg-color);
+    border-bottom: 2px solid var(--text-color);
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 0 0 0;
+    margin-top: 0;
+    max-width: max-content;
+    overflow: auto;
+    margin-bottom: 0;
+}
+
+.window-nav li {
+    text-transform: lowercase;
+}
+
+.window-nav a,
+.window-nav a:visited,
+.window-nav p {
+    padding: 3.2px 6.4px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Main content */
 
 main {
@@ -355,6 +383,10 @@ p.date {
     background-color: var(--lt-blue);
     padding: 2rem;
     border: 2px solid var(--text-color);
+}
+
+.pages {
+    margin-bottom: 0.8rem;
 }
 
 .pages ul {

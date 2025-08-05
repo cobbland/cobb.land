@@ -1,5 +1,5 @@
 ---
-title: Shortcuts
+title: Links
 layout: window.html
 tags: [slashpage, page]
 ---
@@ -23,11 +23,11 @@ tags: [slashpage, page]
     }
 </style>
 
-<p>To shortcut to one of the links below, go to <code>cobb.land/s/#whattever</code>, replacing "whatever" with the listed hashtag.</p>
+<p>To shortcut to one of the links below, go to <code>cobb.land/links/#whattever</code>, replacing "whatever" with the listed hashtag.</p>
 
 <ul>
 
-    {% for shortcut in collections.shortcut | sort(attribute='data.id') %}
+    {% for shortcut in collections.link | sort(attribute='data.id') %}
         <li rel="bookmark" id="{{shortcut.data.id}}" data-url="{{shortcut.data.site}}">
             <a href="{{shortcut.data.site}}" class="shortcut">{{shortcut.data.site}}</a>
         </li>
