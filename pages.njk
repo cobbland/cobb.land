@@ -1,16 +1,36 @@
 ---
 title: Pages
 layout: window.html
-tags: [slashpage, page]
 ---
+
+<h2>Slash Pages</h2>
+
+<p>What are <a href="https://slashpages.net/">slash pages</a>?</p>
+
+<div class="pages">
+    <ul>
+        {% for page in collections.slashpage | sort(attribute='data.title') %}
+            <li>
+                <a href="{{ page.url }}">
+                    /{{ page.data.title }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<h2>More Pages</h2>
+
 <div class="pages">
     <ul>
         {% for page in collections.page | sort(attribute='data.title') %}
-            <li>
-                <a href="{{ page.url }}">
-                    {{ page.data.title }}
-                </a>
-            </li>
+            {% if "slashpage" not in page.data.tags %}
+                <li>
+                    <a href="{{ page.url }}">
+                        {{ page.data.title }}
+                    </a>
+                </li>
+            {% endif %}
         {% endfor %}
     </ul>
 </div>
