@@ -4,6 +4,8 @@ layout: window.html
 tags: [slashpage, page]
 ---
 
-Subscribe via [RSS](/feed.xml) (well, Atom, really).
+Subscribe via RSS (well, Atom, really):
 
-Right now, all post types come through the same feed. In the future, I will break them up. Eventually.
+- [All posts](/feed.xml)
+- [Articles](/feed-articles.xml)
+- [Notes](/feed-notes.xml)

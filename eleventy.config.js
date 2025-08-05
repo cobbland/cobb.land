@@ -27,6 +27,44 @@ export default async function(eleventyConfig) {
         }
     });
 
+    eleventyConfig.addPlugin(feedPlugin, {
+        type: "atom", // or "rss", "json"
+        outputPath: "/feed-articles.xml",
+        collection: {
+            name: "article", // iterate over `collections.article`
+            limit: 0,     // 0 means no limit
+        },
+        metadata: {
+            language: "en",
+            title: "cobb.land | Articles",
+            subtitle: "A blog, mostly",
+            base: "https://cobb.land/",
+            author: {
+                name: "Cobb",
+                email: "", // Optional
+            }
+        }
+    });
+
+    eleventyConfig.addPlugin(feedPlugin, {
+        type: "atom", // or "rss", "json"
+        outputPath: "/feed-notes.xml",
+        collection: {
+            name: "note", // iterate over `collections.note`
+            limit: 0,     // 0 means no limit
+        },
+        metadata: {
+            language: "en",
+            title: "cobb.land | Notes",
+            subtitle: "A blog, mostly",
+            base: "https://cobb.land/",
+            author: {
+                name: "Cobb",
+                email: "", // Optional
+            }
+        }
+    });
+
     eleventyConfig.addFilter("limit", function (arr, limit) {
         const newArr = arr;
         return newArr.slice(0, limit);
