@@ -20,13 +20,13 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [x] Add blog post summaries
 - [x] Stop bad bots that follow rules (see [Blocking AI bots and controlling crawlers](https://developers.netlify.com/guides/blocking-ai-bots-and-controlling-crawlers/) and [ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt))
 - [ ] Enable optional HTTP access (not possible with Netlify?)
-- [ ] Add additional nav bar to "more" window (can link to more "more" categories when needed)
 - [ ] Make IndieWeb stuff work (current step: [webmentions](https://indiewebify.me/send-webmentions/))
     - [ ] Sending ([Your first webmention](https://aaronparecki.com/2018/06/30/11/your-first-webmention) and/or [webmentions.app](https://webmention.app/))
     - [ ] Receiving 
     - [ ] Displaying
 - [ ] Add tags (to blog page, posts, and make clickable collections)
 - [ ] Add other indieweb content types (see [posts](https://indieweb.org/posts))
+    - [x] Add notes
 - [ ] Add proper visible h-card to home
 - [ ] Stop bad bots that don't follow rules (???)
 - [ ] Join more webrings (or maybe start one)
@@ -34,4 +34,6 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Make more accessible
 - [ ] Finish "blogroll"
 - [ ] Finish "uses"
-- [ ] Add automatic POSSE (maybe [EchoFeed](https://echofeed.app/) or [Feed Classic](https://echo.rknight.me/))
+- [ ] Add automatic POSSE (maybe [EchoFeed](https://echofeed.app/), [Feed Classic](https://echo.rknight.me/), or [Bridgy](https://brid.gy/))
+- [ ] Add summary to atom feed
+- [ ] Consider doing some of these things from [100 things you can do on your personal website](https://jamesg.blog/2024/02/19/personal-website-ideas)
