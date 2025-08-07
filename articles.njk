@@ -3,15 +3,15 @@ title: Articles
 layout: window-pages.html
 ---
 {% for post in collections.post | reverse %}
-            {% if "article" in post.data.tags %}
-                <div class="post-card">
-                    <a href="{{ post.url }}">
-                        <h2>{{ post.data.title }}</h2>
-                    </a>
-                    <p class="post-card-summary">{{ post.data.summary }}</p>
-                    <p class="date">{{ post.date.toDateString() }}</p>
-                </div>
-            {% endif %}
+    {% if "article" in post.data.tags %}
+        <div class="post-card">
+            <a href="{{ post.url }}">
+                <h2>{{ post.data.title }}</h2>
+            </a>
+            <p class="post-card-summary">{{ post.data.summary }}</p>
+            <p class="date">{{ post.date.toDateString() }}</p>
+        </div>
+    {% endif %}
 {% endfor %}
 
 <p class="note">Subscribe via <a href="/follow">RSS</a>.</p>

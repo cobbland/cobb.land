@@ -2,7 +2,7 @@
 layout: "window.html"
 ---
 <div class="h-entry">
-    <img class="u-photo" src="{{ photo }}">
+    <img class="u-photo" src="/posts/photos/images/{{ photo }}" alt="{{ caption }}">
     <p class="p-content">{{ caption }}</p>
     <p class="article-date">Posted or edited on <a class="u-url" href="{{ page.url }}"><time class="dt-published dt-updated" datetime="{{ date }}">{{ date.toDateString() }}</time></a> by <a rel="author" class="p-author h-card" href="/">Cobb</a>.</p>
     <a rel="syndication invisible" class="u-syndication" href="{{ possed }}"></a>

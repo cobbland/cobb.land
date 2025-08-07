@@ -1,0 +1,6 @@
+{
+    "override:layout": "photo.njk",
+    "override:tags": ["post", "photo"],
+    "override:special": "photos",
+    "title": "A Photo"
+}

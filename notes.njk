@@ -3,14 +3,14 @@ title: Notes
 layout: window-pages.html
 ---
 {% for post in collections.post | reverse %}
-            {% if "note" in post.data.tags %}
-                <div class="post-card">
-                    <div class="post-card-note">{{ post.content | safe }}</div>
-                    <a href="{{ post.url }}">
-                        <p class="date">{{ post.date.toDateString() }}</p>
-                    </a>
-                </div>
-            {% endif %}
+    {% if "note" in post.data.tags %}
+        <div class="post-card">
+            <div class="post-card-note">{{ post.content | safe }}</div>
+            <a href="{{ post.url }}">
+                <p class="date">{{ post.date.toDateString() }}</p>
+            </a>
+        </div>
+    {% endif %}
 {% endfor %}
 
 <p class="note">Subscribe via <a href="/follow">RSS</a>.</p>

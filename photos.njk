@@ -1,0 +1,17 @@
+---
+title: Photos
+layout: window-pages.html
+---
+<div class="photo-wall">
+    {% for post in collections.post | reverse %}
+        {% if "photo" in post.data.tags %}
+                <a href="{{ post.url }}" style="background-color:inherit;">
+                    <div>
+                        <img src="/posts/photos/images/{{ post.data.photo }}" alt="{{ post.data.caption }}">
+                    </div>
+                </a>
+        {% endif %}
+    {% endfor %}
+</div>
+
+<p class="note">Subscribe via <a href="/follow">RSS</a>.</p>
