@@ -10,6 +10,8 @@ I've seen a couple posts over the past as many days in which their author compla
 
 Now, I'll admit that I'm new to Blaugust. It's possible that I've completely missed the point of the whole thing.
 
+And I understand how it feels to have a bunch of new folks who don't understand the established culture invade your space. 
+
 I understand a desire for a comment section. Engaging with a work in that way, especially when you feel strongly that you have something to add (or correct), can be satisfying. I often long to respond when listening to a podcast that touches on topics I have strong feelings about, especially when I either want to vehemently agree with what is being said, but—more often and even more so—when they got something very wrong.
 
 Who is a blog for?
