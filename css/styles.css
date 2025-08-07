@@ -309,11 +309,6 @@ main {
     word-wrap: break-word;
 }
 
-.main-big {
-    margin: auto;
-    min-height: calc(100vh - 38px);
-}
-
 main *:first-child {
     margin-top: 0;
 }
