@@ -27,6 +27,7 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Add tags (to blog page, posts, and make clickable collections)
 - [ ] Add other indieweb content types (see [posts](https://indieweb.org/posts))
     - [x] Add notes
+    - [x] Add photos
 - [ ] Add proper visible h-card to home
 - [ ] Stop bad bots that don't follow rules (???)
 - [ ] Join more webrings (or maybe start one)
