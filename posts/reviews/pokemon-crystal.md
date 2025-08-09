@@ -3,7 +3,7 @@ title: Pokémon Crystal
 summary: Is Pokémon still fun? Sort of.
 score: 2
 date: 2025-08-09T17:25:00.00-04:00
-possed: 
+possed: https://dice.camp/@cobb/115000925902152945
 ---
 
 As a child of the 90s and 00s, of course I played Pokémon. Blue was my first, followed by Yellow. Then came Silver and another hundred or so creatures. Yeah, I caught them all (with the help of a GameShark—shh, don't tell). I dabbled in Go on mobile and the Let's Go remakes on Switch, but never got very far. They just didn't have the same charm. But, recently, when I started to get into "retro" games, I knew I had to give Crystal a shot. 
