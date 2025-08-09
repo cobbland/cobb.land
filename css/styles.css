@@ -502,6 +502,14 @@ ul.posts {
     color: var(--dk-grey);
 }
 
+.rating {
+    font-weight: bold;
+}
+
+.rating::before {
+    content: "Rating: ";
+}
+
 /* Footer */
 
 footer .content-window {

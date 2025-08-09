@@ -1,13 +1,15 @@
 ---
 layout: "window.html"
 ---
-<article class="h-entry">
+<article class="h-review">
 
     <h1 class="p-name">{{ title }}</h1>
 
     <p class="p-summary">{{ summary }}</p>
 
     <div class="e-content">{{ content | safe}}</div>
+
+    <p class="rating p-rating">{{ score }}/4</p>
 
     <p class="article-date">Posted or edited on <a class="u-url" href="{{ page.url }}"><time class="dt-published dt-updated" datetime="{{ date }}">{{ date.toDateString() }}</time></a> by <a rel="author" class="p-author h-card" href="/">Cobb</a>.</p>
 
