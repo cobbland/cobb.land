@@ -1,0 +1,73 @@
+---
+title: Media
+layout: window.html
+tags: [slashpage, page]
+---
+<h2>Status</h2>
+
+<ul class="media-card">
+    <li><b>Level:</b> 2</li>
+    <li><b>Coins:</b> 4</li>
+    <li><b>Progress:</b> 3/4 shelved to level 3</li>
+    <li><b>Playlist Slots Unlocked:</b> 3</li>
+</ul>
+
+<h2>Playlist</h2>
+
+<p>Active "carts". What I'm playing, reading, and watching now.</p>
+
+<ol>
+    {% for post in collections.media %}
+        {% if "playlist" in post.data.tags %}
+            <li>
+                <a href="{{post.url}}">{{post.data.title}}</a>{# , 
+                {{post.data.creator}}, 
+                {{post.data.cart}} ({{post.data.type}}),
+                {{post.data.date.toDateString()}} #}
+            </li>
+        {% endif %}
+    {% endfor %}
+</ol>
+
+<p><b>Bonus Slot:</b> EMPTY</p>
+
+<h2>Shelved</h2>
+
+<p>Past "carts". Things I've finished (or abandoned).</p>
+
+<ol>
+    {% for post in collections.media %}
+        {% if "shelved" in post.data.tags %}
+            <li>
+                <a href="{{post.url}}">{{post.data.title}}</a>{# , 
+                {{post.data.creator}}, 
+                {{post.data.cart}} ({{post.data.type}}),
+                {{post.data.date.toDateString()}}, 
+                {% if post.data.review %}
+                    <a href="{{post.data.review}}">{{post.data.score}}/4</a>
+                    {% else %}
+                    {{post.data.score}}/4
+                {% endif %} #}
+            </li>
+        {% endif %}
+    {% endfor %}
+</ol>
+
+<h2>Binned</h2>
+
+<p>Future "carts". Collections to choose from when loading my playlist.</p>
+
+<ol>
+    {% for post in collections.media %}
+        {% if "binned" in post.data.tags %}
+            <li>
+                <a href="{{post.url}}">{{post.data.title}}</a>{# , 
+                {{post.data.creator}}, 
+                {{post.data.cart}} ({{post.data.type}}),
+                {{post.data.date.toDateString()}} #}
+            </li>
+        {% endif %}
+    {% endfor %}
+</ol>
+
+<p class="note">The above is all part of a gamified intentional media tracker with RPG-light mechanics. More information about the system is coming!</p>

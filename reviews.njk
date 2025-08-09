@@ -1,0 +1,19 @@
+---
+title: Articles
+layout: window-pages.html
+---
+{% for post in collections.post | reverse %}
+    {% if "review" in post.data.tags %}
+        <div class="post-card">
+            <h2><a href="{{ post.url }}">{{ post.data.title }}</a>
+                {% if post.data.score %}
+                    ({{post.data.score}}/4)
+                {% endif %}
+            </h2>
+            <p class="post-card-summary">{{ post.data.summary }}</p>
+            <p class="date">{{ post.date.toDateString() }}</p>
+        </div>
+    {% endif %}
+{% endfor %}
+
+<p class="note">Subscribe via <a href="/follow">RSS</a>.</p>

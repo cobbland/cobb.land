@@ -1,0 +1,5 @@
+{
+    "override:layout": "post.njk",
+    "override:tags": ["post", "review"],
+    "override:special": "reviews"
+}

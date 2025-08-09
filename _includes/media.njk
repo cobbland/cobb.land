@@ -1,0 +1,18 @@
+---
+layout: window.html
+---
+
+<h2>{{title}}</h2>
+
+<ul>
+    <li>{{creator}}</li>
+    <li>{{cart}} ({{type}})</li>
+    <li>{{date.toDateString()}}</li>
+    {% if review %}
+        <li><a href="{{review}}">{{score}}/4</a></li>
+        {% elseif score %}
+            <li>{{score}}/4</li>
+    {% endif %}
+</ul>
+
+{{content | safe}}

@@ -85,6 +85,25 @@ export default async function(eleventyConfig) {
         }
     });
 
+    eleventyConfig.addPlugin(feedPlugin, {
+        type: "atom", // or "rss", "json"
+        outputPath: "/feed-reviews.xml",
+        collection: {
+            name: "review", // iterate over `collections.review`
+            limit: 0,     // 0 means no limit
+        },
+        metadata: {
+            language: "en",
+            title: "cobb.land | Reviews",
+            subtitle: "A blog, mostly",
+            base: "https://cobb.land/",
+            author: {
+                name: "Cobb",
+                email: "", // Optional
+            }
+        }
+    });
+
     eleventyConfig.addFilter("limit", function (arr, limit) {
         const newArr = arr;
         return newArr.slice(0, limit);

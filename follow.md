@@ -10,6 +10,7 @@ Subscribe via RSS (well, Atom, really):
 - [Articles](/feed-articles.xml)
 - [Notes](/feed-notes.xml)
 - [Photos](/feed-photos.xml)
+- [Reviews](/feed-reviews.xml)
 
 <div class="reply-buttons">
     <a class="link-button" href="http://validator.w3.org/feed/check.cgi?url=https%3A//cobb.land/feed.xml">
