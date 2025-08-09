@@ -1,5 +1,5 @@
 const header = document.querySelector("#header");
-const footer = document.querySelector("#footer");
+const footer = document.querySelector("footer");
 const main = document.querySelector("main");
 const button = document.querySelector("#big-button");
 const contentWindow = document.querySelector(".content-window");

@@ -1,10 +1,10 @@
 /* Variables */
 
 :root { /* C64 colors from https://www.pepto.de/projects/colorvic/ */
-    --black: #000000;
-    /* --black: #1b1b1b; */
-    --white: #ffffff;
-    /* --white: #fff8e7; */
+    /* --black: #000000; */
+    --black: #1b1b1b;
+    /* --white: #ffffff; */
+    --white: #fff8e7;
     --red: #813338;
     --cyan: #75cec8;
     --purple: #8e3c97;
@@ -19,11 +19,15 @@
     --lt-green: #a9ff9f;
     --lt-blue: #706deb;
     --lt-grey: #b2b2b2;
+
+    /* not from c64 */
+    --cobbland-orange: #C15300;
+    --cobbland-green: #006C67;
 }
 
 :root {
-    --border-color: var(--white);
-    --border-color-alt: var(--lt-grey);
+    --border-color: var(--cyan);
+    --border-color-alt: var(--lt-blue);
     --bg-color: var(--white);
     --title-color: var(--black);
     --heading-color: var(--black);
