@@ -1,6 +1,6 @@
 ---
 title: Pokémon Crystal
-summary: Still fun? Sort of.
+summary: Is Pokémon still fun? Sort of.
 score: 2
 date: 2025-08-09T08:50:00.00-04:00
 possed: 
