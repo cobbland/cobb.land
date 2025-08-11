@@ -49,3 +49,5 @@ https://www.timetoloot.com/blog/they-paved-paradise-and-put-up-a-static-site/
 https://bhagpuss.blogspot.com/2025/08/i-couldnt-possibly-comment.html
 
 https://www.timetoloot.com/blog/blaugust-in-a-post-comment-box-world/
+
+https://axxuy.xyz/blog/posts/2025/lazycomments/
