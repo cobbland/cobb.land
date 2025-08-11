@@ -1,0 +1,6 @@
+{
+    "override:layout": "note.njk",
+    "override:tags": ["post", "reply"],
+    "override:special": "notes",
+    "title": "A Reply"
+}
