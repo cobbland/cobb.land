@@ -4,4 +4,4 @@ date: 2025-08-11T08:00:14.00-04:00
 possed: 
 ---
 
-Welcome to the good internet, <a href="https://blog.saisarida.com">Sai</a>!
+Welcome to the good internet, <a href="{{ reply }}" class="u-in-reply-to">Sai</a>!
