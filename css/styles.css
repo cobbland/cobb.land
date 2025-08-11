@@ -102,6 +102,32 @@ img {
     display: block;
 }
 
+hr {
+    border: none;
+    display:flex;
+    position:relative;
+    border:0px;
+    height:20px;
+    margin-right: 20px;
+    background-image: url('/images/logotiny-hr.png');
+    background-size: contain;
+    background-position: right;
+    overflow: visible;
+}
+
+hr::after {
+    content: '';
+    display: inline-block;
+    border:0px;
+    height:20px;
+    width: 20px;
+    background-image: url('/images/logotiny.png');
+    background-size: contain;
+    position:absolute;
+    right: -20px;
+    display: block;
+}
+
 /* Navigation */
 
 header {
