@@ -3,7 +3,7 @@ title: Who's a blog for?
 summary: An argument against comments
 tags: blaugust
 date: 2025-08-11T14:46:00.00-04:00
-possed: 
+possed: https://dice.camp/@cobb/115011710924109767
 ---
 
 <p class="note"><b>Note:</b> A draft version of this post accidentally went up a few days ago. I pulled it down within minutes, but at least <a href="https://mtwb.blog/posts/2025/blaugust2025/should-there-be-comments/">one person</a> had already seen it. Sorry for the bait-n-switch, Matt!</p>
