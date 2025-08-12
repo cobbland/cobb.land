@@ -538,6 +538,19 @@ ul.posts {
     content: "Rating: ";
 }
 
+#webmentions-heading {
+    margin: 1rem 0 0.6rem;
+}
+
+#webmentions ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+#webmentions li {
+    margin-bottom: 0.4rem;
+}
+
 /* Footer */
 
 footer .content-window {
