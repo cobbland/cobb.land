@@ -21,6 +21,7 @@ async function getWebmentions(postUrl) {
                     author = authorUrl;
                 }
                 const newLi = document.createElement('li');
+                newLi.classList.add('note');
                 newLi.innerHTML = ` 
                 <a href="${replyUrl}">${property}</a> by 
                 <a href="${authorUrl}">${author}</a> on
@@ -28,8 +29,6 @@ async function getWebmentions(postUrl) {
                 `;
                 newUl.appendChild(newLi);
             }
-            const newEl = document.createElement('p');
-            newEl.textContent = JSON.stringify(children);
             return newUl;
         }
     } catch (err) {

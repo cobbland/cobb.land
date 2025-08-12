@@ -539,7 +539,8 @@ ul.posts {
 }
 
 #webmentions-heading {
-    margin: 1rem 0 0.6rem;
+    margin: 1rem 0 0.4rem;
+    font-size: 1.4rem;
 }
 
 #webmentions ul {
@@ -548,7 +549,7 @@ ul.posts {
     list-style-type: none;
 }
 #webmentions li {
-    margin-bottom: 0.4rem;
+    margin-top: 0.2rem;
 }
 
 /* Footer */
