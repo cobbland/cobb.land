@@ -5,7 +5,6 @@
                 <h1 class="p-name">{{ post.data.title }}</h1>
             </a>
             <time class="dt-published dt-updated" datetime="{{ post.data.date }}"><p>{{ post.data.date.toDateString() }}</p></time>
-            <a class="u-url p-name" rel="me" href="https://cobb.land">Cobb</a>
             {% if post.data.reply %}
                 <a href="{{ post.data.reply }}" class="u-in-reply-to"><p>{{ post.data.reply }}</p></a>
             {% endif %}
