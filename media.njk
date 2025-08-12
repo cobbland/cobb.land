@@ -20,10 +20,11 @@ tags: [slashpage, page]
     {% for post in collections.media | reverse %}
         {% if "playlist" in post.data.tags %}
             <li>
-                <a href="{{post.url}}">{{post.data.title}}</a>{# , 
-                {{post.data.creator}}, 
-                {{post.data.cart}} ({{post.data.type}}),
-                {{post.data.date.toDateString()}} #}
+                {% if post.data.title != "LOCKED" and post.data.title != "EMPTY" %}
+                    <a href="{{post.url}}">{{post.data.title}}</a>
+                {% else %}
+                    <p>{{post.data.title}}</p>
+                {% endif %}
             </li>
         {% endif %}
     {% endfor %}
@@ -39,15 +40,7 @@ tags: [slashpage, page]
     {% for post in collections.media %}
         {% if "shelved" in post.data.tags %}
             <li>
-                <a href="{{post.url}}">{{post.data.title}}</a>{# , 
-                {{post.data.creator}}, 
-                {{post.data.cart}} ({{post.data.type}}),
-                {{post.data.date.toDateString()}}, 
-                {% if post.data.review %}
-                    <a href="{{post.data.review}}">{{post.data.score}}/4</a>
-                    {% else %}
-                    {{post.data.score}}/4
-                {% endif %} #}
+                <a href="{{post.url}}">{{post.data.title}}</a>
             </li>
         {% endif %}
     {% endfor %}

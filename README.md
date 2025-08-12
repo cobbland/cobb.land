@@ -41,4 +41,4 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Add automatic POSSE (maybe [EchoFeed](https://echofeed.app/), [Feed Classic](https://echo.rknight.me/), or [Bridgy](https://brid.gy/))
 - [ ] Add summary to atom feed
 - [ ] Consider doing some of these things from [100 things you can do on your personal website](https://jamesg.blog/2024/02/19/personal-website-ideas)
-- [ ] Finish media system
+- [x] Finish media system
