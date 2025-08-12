@@ -1,4 +1,5 @@
 let time = document.querySelector(".time");
+time.classList.remove("invisible");
 
 function updateTime(timeDOM) {
   let now = new Date();

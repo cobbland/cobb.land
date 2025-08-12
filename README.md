@@ -20,14 +20,17 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [x] Add blog post summaries
 - [x] Stop bad bots that follow rules (see [Blocking AI bots and controlling crawlers](https://developers.netlify.com/guides/blocking-ai-bots-and-controlling-crawlers/) and [ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt))
 - [ ] Enable optional HTTP access (not possible with Netlify?)
-- [ ] Make IndieWeb stuff work (current step: [webmentions](https://indiewebify.me/send-webmentions/))
-    - [ ] Sending ([Your first webmention](https://aaronparecki.com/2018/06/30/11/your-first-webmention) and/or [webmentions.app](https://webmention.app/))
-    - [ ] Receiving 
-    - [ ] Displaying
+- [x] Make IndieWeb stuff work (current step: [webmentions](https://indiewebify.me/send-webmentions/))
+    - [x] Sending ([Your first webmention](https://aaronparecki.com/2018/06/30/11/your-first-webmention) and/or [webmentions.app](https://webmention.app/))
+    - [x] Receiving 
+    - [x] Displaying
 - [ ] Add tags (to blog page, posts, and make clickable collections)
 - [ ] Add other indieweb content types (see [posts](https://indieweb.org/posts))
     - [x] Add notes
     - [x] Add photos
+    - [x] Add replies
+    - [x] Add reviews
+    - [ ] Add RSVPs
 - [ ] Add proper visible h-card to home?
 - [ ] Stop bad bots that don't follow rules (???)
 - [ ] Join more webrings (or maybe start one)

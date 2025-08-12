@@ -3,7 +3,7 @@ layout: "window.html"
 ---
 <article class="h-entry">
     {% if reply %}
-        <p class="note">In reply to <a href="{{ reply }}" class="u-in-reply-to">{{ reply }}</a></p>
+        <p class="note">In reply to <a href="{{ reply }}" class="u-in-reply-to in-reply-to">{{ reply }}</a></p>
     {% endif %}
     <div class="p-content p-name">{{ content | safe }}</div>
     <p class="article-date">Posted or edited on <a class="u-url" href="{{ page.url }}"><time class="dt-published dt-updated" datetime="{{ date }}">{{ date.toDateString() }}</time></a> by <a rel="author" class="p-author h-card" href="/">Cobb</a></p>
