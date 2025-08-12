@@ -17,12 +17,13 @@
                 <h1 class="p-name">{{ post.data.title }}</h1>
             </a>
             <time class="dt-published dt-updated" datetime="{{ post.data.date }}"><p>{{ post.data.date.toDateString() }}</p></time>
-            <a rel="syndication invisible" class="u-syndication" href="{{ possed }}"></a>
+            <a class="u-url p-name" rel="me" href="https://cobb.land">Cobb</a>
             {% if post.data.reply %}
                 <a href="{{ post.data.reply }}" class="u-in-reply-to"><p>{{ post.data.reply }}</p></a>
             {% endif %}
             <p class="p-summary">{{ post.data.summary }}</p>
             <div class="e-content p-content">{{ post.content | safe }}</div>
+            <a rel="syndication" class="u-syndication" href="{{ post.data.possed }}">{{ post.data.possed }}</a>
         </article>
     {% endfor %}
 </div>
