@@ -7,17 +7,17 @@ tags: [slashpage, page]
 
 <ul class="media-card">
     <li><b>Level:</b> 2</li>
-    <li><b>Coins:</b> 5</li>
+    <li><b>Coins:</b> 3</li>
     <li><b>Progress:</b> 3/4 shelved to level 3</li>
     <li><b>Playlist Slots Unlocked:</b> 3</li>
 </ul>
 
 <h2>Playlist</h2>
 
-<p>Active "carts". What I'm playing, reading, and watching now.</p>
+<p>Active "carts". What I'm playing, reading, and watching now. (Choose or roll.)</p>
 
 <ol>
-    {% for post in collections.media %}
+    {% for post in collections.media | reverse %}
         {% if "playlist" in post.data.tags %}
             <li>
                 <a href="{{post.url}}">{{post.data.title}}</a>{# , 
@@ -55,7 +55,7 @@ tags: [slashpage, page]
 
 <h2>Binned</h2>
 
-<p>Future "carts". Collections to choose from when loading my playlist. (Have to spend coins.)</p>
+<p>Future "carts". Collections to choose from when loading my playlist. (Spend one coin to roll or two to pick.)</p>
 
 <ol>
     {% for post in collections.media %}
@@ -70,4 +70,20 @@ tags: [slashpage, page]
     {% endfor %}
 </ol>
 
-<p class="note">The above is all part of a gamified intentional media tracker with RPG-light mechanics. More information about the system is coming!</p>
+<h2>Rules</h2>
+
+<p>A gamified intentional media tracker with RPG-light mechanics.</p>
+
+<p>Play begins at <b>level 1</b> with <b>3 coins</b> and <b>2 slots</b>.</p>
+
+<h3>Levels</h3>
+
+<p>Finishing and shelve current level times two "carts" to advance to the next level. This number resets after each level-up.</p>
+
+<h3>Coins</h3>
+
+<p>Earn 1 coin for each of the following: finishing a cart, shelving a cart, writing a review.</p>
+
+<h3>Slots</h3>
+
+<p>Unlock additional playlist slots at levels 2, 4, 6, and 8.</p>
