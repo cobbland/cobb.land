@@ -6,13 +6,13 @@ date: 2025-08-11T14:46:00.00-04:00
 possed: https://dice.camp/@cobb/115011710924109767
 ---
 
-<p class="note"><b>Note:</b> A draft version of this post accidentally went up a few days ago. I pulled it down within minutes, but at least <a href="https://mtwb.blog/posts/2025/blaugust2025/should-there-be-comments/">one person</a> had already seen it. Sorry for the bait-n-switch, Matt!</p>
+<p class="note"><b>Note:</b> A draft version of this post accidentally went up a few days ago. I pulled it down within minutes, but at least <a href="https://mtwb.blog/posts/2025/blaugust2025/should-there-be-comments/">one person</a> had already seen it. (Sorry for the bait-n-switch, Matt!)</p>
 
 I've seen a few Blaugust posts<sup><a href=#1down id="1up">1</a></sup> over the past as many days in which their authors bemoan the lack of comment sections on other people's blogs. I'm writing this response post in lieu of leaving a comment (and undermining my entire thesis).
 
 Who is a blog for?
 
-A blog is for its author. Engagement and community are byproducts, and not always welcome ones, and certainly not ones the author is obligated to host.
+A blog is for its author. Engagement and community are byproducts, and not <i>always</i> welcome ones, and certainly not ones the author is obligated to host.
 
 Let me explain.
 
@@ -30,7 +30,7 @@ What is a blog?
 
 I'll tell you what it's not. A blog is not social media. And it shouldn't be.
 
-There have been scientific studies that find social media can be harmful to mental health (and if I was a professional journalist, this is where I would cite my sources). The likes. The shares. The comments. They can all contribute to the addictive nature of social media. They can also provide the drip-drip-drip of dopamine that keeps folks coming back and perpetually scrolling. I don't want or need to be addicted to my own website.
+There have been scientific studies that find social media can be harmful to mental health (and if I was a professional journalist, this is where I would cite my sources). The likes. The shares. The comments. They all contribute to the addictive nature of social media. They also provide the drip-drip-drip of dopamine that keeps folks coming back and perpetually scrolling. I don't want or need to be addicted to my own website (more than I already am).
 
 What is a blog?
 
@@ -46,6 +46,6 @@ Who is a blog for?
 
 A blog is for the person writing it. It's for the person who built it, who's hosting it, who's spending hours tweaking it until it looks just right (and spending countless more hours redoing the whole thing again and again).
 
-If I wanted engagement, I'd be on social media (and I am, to a small extent). If I wanted to foster a community, I'd host a forum or my own fediverse instance (which I might actually want to do one day). But I'm not here on this website for either of those things. I'm here to share my thoughts with the void. If someone out there wants to share their thoughts back, I welcome their email (or, better yet, their webmention).
+If I wanted engagement, I'd be on social media (and I am, to a small extent). If I wanted to foster a community, I'd host a forum or my own fediverse instance (which I might actually want to do one day). But I'm not here on this website for either of those things. I'm here to share my thoughts with the void. If someone out there wants to share their thoughts back, please do! I welcome your emails (or, better yet, webmentions).
 
 <p class="note"><a href="#1up" id="1down">1</a>: <a href="https://www.timetoloot.com/blog/they-paved-paradise-and-put-up-a-static-site/">They Paved Paradise and Put Up a Static Site</a>, <a href="https://bhagpuss.blogspot.com/2025/08/i-couldnt-possibly-comment.html">I Couldn't Possibly Comment</a>, <a href="https://www.timetoloot.com/blog/blaugust-in-a-post-comment-box-world/">Blaugust in a Post-Comment-Box World</a>, <a href="https://axxuy.xyz/blog/posts/2025/lazycomments/">Are Comments Worth It?</a>, <a href="https://mtwb.blog/posts/2025/blaugust2025/should-there-be-comments/">Should There Be Comments?</a></p>
