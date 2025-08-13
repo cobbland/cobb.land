@@ -2,7 +2,7 @@
 title: I have webmentions
 summary: A real blogging community
 tags: blaugust
-date: 2025-08-12T19:02:00.00-04:00
+date: 2025-08-12T21:14:00.00-04:00
 possed: https://dice.camp/@cobb/115018800794666943
 ---
 
