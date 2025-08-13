@@ -11,23 +11,25 @@ async function getWebmentions(postUrl) {
             const children = await feed.children;
             const newUl = document.createElement('ul');
             for (const reply of children) {
-                let author = reply.author.name;
-                const authorUrl = reply.author.url;
-                const property = reply["wm-property"];
-                const replyTargetUrl = reply["wm-target"];
-                const replyUrl = reply.url;
-                const received = new Date(reply["wm-received"]).toDateString();
-                if (!author) {
-                    author = authorUrl;
+                if (reply.author.name != "Cobb") {
+                    let author = reply.author.name;
+                    const authorUrl = reply.author.url;
+                    const property = reply["wm-property"];
+                    const replyTargetUrl = reply["wm-target"];
+                    const replyUrl = reply.url;
+                    const received = new Date(reply["wm-received"]).toDateString();
+                    if (!author) {
+                        author = authorUrl;
+                    }
+                    const newLi = document.createElement('li');
+                    newLi.classList.add('note');
+                    newLi.innerHTML = ` 
+                    <a href="${replyUrl}">${property}</a> by 
+                    <a href="${authorUrl}">${author}</a> on
+                    ${received}
+                    `;
+                    newUl.insertBefore(newLi, newUl.firstChild);
                 }
-                const newLi = document.createElement('li');
-                newLi.classList.add('note');
-                newLi.innerHTML = ` 
-                <a href="${replyUrl}">${property}</a> by 
-                <a href="${authorUrl}">${author}</a> on
-                ${received}
-                `;
-                newUl.appendChild(newLi);
             }
             return newUl;
         }
