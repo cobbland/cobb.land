@@ -3,7 +3,7 @@ title: I have webmentions
 summary: A real blogging community
 tags: blaugust
 date: 2025-08-12T19:02:00.00-04:00
-possed: 
+possed: https://dice.camp/@cobb/115018800794666943
 ---
 
 I have a confession to make. I lied. Sort of. In my previous post (<a class="u-in-reply-to" href="https://cobb.land/posts/whos-a-blog-for/">Who's a blog for?</a>) I said I wasn't here for engagement or community. I stand by everything I said in the context of a blog having a comments section. But there is one area where engagement and community are something I really enjoy: being part of an ongoing conversation that spans multiple blogs and posts and authors and days.
