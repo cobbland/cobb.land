@@ -1,0 +1,26 @@
+---
+title: Now
+layout: page.njk
+tags: [slashpage, page]
+date: 2025-08-13T08:05:00.00-04:00
+---
+<p>Aside from trying to piece together this website, I'm also:</p>
+
+<ul>
+    <li>Getting really into the Commodore 64</li>
+    <li>Working my way through <a href="https://www.theodinproject.com/">The Odin Project</a></li>
+    <li>Trying to learn Thai</li>
+    <li>Attempting to make it through Blaugust</li>
+</ul>
+
+<p>And I'm reading/watching/playing:</p>
+
+<ul>
+    {% for post in collections.media | reverse %}
+    {% if "playlist" in post.data.tags %}
+    {% if post.data.title != "LOCKED" and post.data.title != "EMPTY" %}
+    <li><a href="{{post.url}}">{{post.data.title}}</a></li>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</ul>
