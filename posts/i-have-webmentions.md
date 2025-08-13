@@ -6,7 +6,7 @@ date: 2025-08-12T21:14:00.00-04:00
 possed: https://dice.camp/@cobb/115018800794666943
 ---
 
-I have a confession to make. I lied. Sort of. In my previous post (<a class="u-in-reply-to" href="https://cobb.land/posts/whos-a-blog-for/">Who's a blog for?</a>) I said I wasn't here for engagement or community. I stand by everything I said in the context of a blog having a comments section. But there is one area where engagement and community are something I really enjoy: being part of an ongoing conversation that spans multiple blogs and posts and authors and days.
+I have a confession to make. I lied. Sort of. In my previous post (<a class="u-in-reply-to" href="/posts/whos-a-blog-for/">Who's a blog for?</a>) I said I wasn't here for engagement or community. I stand by everything I said in the context of a blog having a comments section. But there is one area where engagement and community are something I really enjoy: being part of an ongoing conversation that spans multiple blogs and posts and authors and days.
 
 Right now, the topic du jour is blog comments. And I've already read over half a dozen related posts, some (read: one) of which mentioned this very website. (The most recent of which, and maybe my favorite, was [Rabbit](https://jackalope.city/)'s [Blaugust Notes on Comments](https://talk.jackalope.city/talk/blaugust-notes-on-comments/).)
 
