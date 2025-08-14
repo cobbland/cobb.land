@@ -39,7 +39,11 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Finish "blogroll"
 - [ ] Finish "uses"
 - [ ] Add automatic POSSE (maybe [EchoFeed](https://echofeed.app/), [Feed Classic](https://echo.rknight.me/), or [Bridgy](https://brid.gy/))
-- [ ] Add summary to atom feed
+- [ ] Customize atom feeds
+    - [ ] Add summary
+    - [ ] Fix replies
+    - [ ] Fix bookmarks
+    - [ ] Make separate feeds for replies and bookmarks
 - [ ] Consider doing some of these things from [100 things you can do on your personal website](https://jamesg.blog/2024/02/19/personal-website-ideas)
 - [x] Finish media system
 - [ ] Add fancy initial letter to article posts (see [Fancy initial letter](https://blog.jacobdensford.com/fancy-initial-letter))
