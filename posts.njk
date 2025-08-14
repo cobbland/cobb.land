@@ -10,12 +10,6 @@ layout: window-pages.html
             <p class="date">{{ post.date.toDateString() }}</p>
         </div>
     {% endif %}
-    {% if "note" in post.data.tags %}
-        <div class="post-card">
-            <div class="post-card-note">{{ post.content | safe }}</div>
-            <p class="date"><a href="{{ post.url }}">{{ post.date.toDateString() }}</a></p>
-        </div>
-    {% endif %}
     {% if "photo" in post.data.tags %}
         <div class="post-card">
             <a href="{{ post.url }}" style="background-color:inherit;">
@@ -38,9 +32,27 @@ layout: window-pages.html
     {% endif %}
     {% if "reply" in post.data.tags %}
         <div class="post-card">
-            <p class="note" style="margin: 0 0 3.2px;">In reply to <a href="{{ post.data.reply }}">{{ post.data.author }}</a></p>
+            <p class="note" style="margin: 0 0 3.2px;">Reply to <a href="{{ post.data.reply }}">{{ post.data.author }}</a></p>
             <div class="post-card-note">{{ post.content | safe }}</div>
             <p class="date"><a href="{{ post.url }}">{{ post.date.toDateString() }}</a></p>
+        </div>
+    {% elif "bookmark" in post.data.tags %}
+        <div class="post-card">
+            <p class="note" style="margin: 0 0 3.2px;">Bookmark of <a href="{{ post.data.bookmark }}">{{ post.data.name }}</a></p>
+            {% if post.data.quote %}
+                <blockquote style="margin: 0;" cite="{{ post.data.bookmark }}">{{ post.data.quote }}</blockquote>
+            {% endif %}
+            <div class="post-card-note">{{ post.content | safe }}</div>
+            <a href="{{ post.url }}">
+                <p class="date">{{ post.date.toDateString() }}</p>
+            </a>
+        </div>
+    {% elif "note" in post.data.tags %}
+        <div class="post-card">
+            <div class="post-card-note">{{ post.content | safe }}</div>
+            <a href="{{ post.url }}">
+                <p class="date">{{ post.date.toDateString() }}</p>
+            </a>
         </div>
     {% endif %}
 {% endfor %}

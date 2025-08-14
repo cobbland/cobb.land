@@ -8,7 +8,7 @@ Subscribe via RSS (well, Atom, really):
 
 - [All posts](/feed.xml)
 - [Articles](/feed-articles.xml)
-- [Notes](/feed-notes.xml)
+- [Notes](/feed-notes.xml) (including replies and bookmarks)
 - [Photos](/feed-photos.xml)
 - [Reviews](/feed-reviews.xml)
 

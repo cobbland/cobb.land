@@ -66,7 +66,8 @@ body {
     pointer-events: none;
 } */
 
-p, h1, h2, h3, h4, h5, h6, ul, ol, li {
+p, h1, h2, h3, h4, h5, h6, ul, ol, li,
+blockquote {
     font-family: var(--main-font-family);
 }
 
@@ -77,6 +78,13 @@ h1, h2, h3, h4, h5 {
 
 p {
     color: var(--text-color);
+}
+
+blockquote {
+    margin-left: 0;
+    padding-left: 1rem;
+    border-left: 2px solid var(--md-grey);
+    color: var(--dk-grey);
 }
 
 input, button, textarea, select, text {

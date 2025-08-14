@@ -6,7 +6,16 @@
             </a>
             <time class="dt-published dt-updated" datetime="{{ post.data.date }}"><p>{{ post.data.date.toDateString() }}</p></time>
             {% if post.data.reply %}
-                <a href="{{ post.data.reply }}" class="u-in-reply-to"><p>{{ post.data.reply }}</p></a>
+                <p class="note">In reply to <a href="{{ post.data.reply }}" class="u-in-reply-to">{{ post.data.author }}</a></p>
+            {% elif post.data.bookmark %}
+                <p>
+                    <a class="u-bookmark-of h-cite" href="{{ post.data.bookmark }}">
+                        {{ post.data.name }}
+                    </a>
+                </p>
+                {% if post.data.quote %}
+                    <blockquote cite="{{ post.data.bookmark }}">{{ post.data.quote }}</blockquote>
+                {% endif %}
             {% endif %}
             <p class="p-summary">{{ post.data.summary }}</p>
             <div class="e-content p-content">{{ post.content | safe }}</div>

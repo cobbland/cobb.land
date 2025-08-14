@@ -27,10 +27,12 @@ tags: [slashpage, page]
 
 <ul>
 
-    {% for shortcut in collections.link | sort(attribute='data.id') %}
-        <li rel="bookmark" id="{{shortcut.data.id}}" data-url="{{shortcut.data.site}}">
-            <a href="{{shortcut.data.site}}" class="shortcut">{{shortcut.data.site}}</a>
-        </li>
+    {% for shortcut in collections.bookmark | sort(attribute='data.id') %}
+        {% if shortcut.data.id %}
+            <li rel="bookmark" id="{{shortcut.data.id}}" data-url="{{shortcut.data.site}}">
+                <a href="{{shortcut.data.bookmark}}" class="shortcut">{{shortcut.data.bookmark}}</a>
+            </li>
+        {% endif %}
     {% endfor %}
 
 </ul>
