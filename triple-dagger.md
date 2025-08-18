@@ -24,6 +24,6 @@ Another level of notation.
 — The Chronicler, <i>N4704R</i>
 
 Join the Triumvirate.  
-Send word to the first with what is replaced.
+Send word to the first with what is to be replaced.
 
 - [cobb.land](https://cobb.land)

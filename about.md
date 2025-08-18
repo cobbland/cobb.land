@@ -13,4 +13,4 @@ I'll tell you more about me eventually. I just have to write it down. Come back 
 ## See also
 
 - Me, but elsewhere: [Contact](/contact/)
-- About this website: [Colophon](/colophon/)
+- About this website: [Colophon](/colophon/)<sup class="triple-dagger">⹋</sup>

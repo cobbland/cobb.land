@@ -10,7 +10,7 @@ This website was mostly crafted by hand in HTML and CSS (with a tiny bit of non-
 
 The current design is inspired by the [GEOS operating system](https://en.wikipedia.org/wiki/GEOS_(8-bit_operating_system)) for the Commodore 64. Colors are mostly from [Calculating the color palette of the VIC II](https://www.pepto.de/projects/colorvic/).
 
-<p class="triple-dagger">Seek the third depth of the modern obelus.</p>
+<p class="note triple-dagger">Seek the third depth of the modern obelus.<sup class="triple-dagger">⹋</sup></p>
 
 <div class="reply-buttons">
     <a class="link-button" href="https://indieweb.org/">

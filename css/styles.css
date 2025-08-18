@@ -583,8 +583,11 @@ ul.posts {
     margin-top: 0.2rem;
 }
 
-p.triple-dagger {
-    font-size: 0.8em;
+.triple-dagger {
+    color: var(--lt-red);
+}
+
+.triple-dagger a {
     color: var(--lt-red);
 }
 

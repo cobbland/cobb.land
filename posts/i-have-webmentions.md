@@ -32,4 +32,4 @@ Send me webmentions!
 
 <p class="note footnote"><a href="#1up" id="1down">1</a>: <a href="https://indieweb.org/Webmention">Webmentions on indieweb.org</a></p>
 <p class="note footnote"><a href="#2up" id="2down">2</a>: <a href="https://www.w3.org/TR/webmention/">Webmentions W3C Recommendation</a></p>
-<p class="note footnote"><b>⹋: </b><a href="/triple-dagger">Proposal to add Medievalist punctuation characters to the UCS</a></p>
+<p class="note footnote triple-dagger"><b>⹋: </b><a href="/triple-dagger">Proposal to add Medievalist punctuation characters to the UCS</a></p>
