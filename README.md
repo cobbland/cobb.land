@@ -48,3 +48,4 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [x] Finish media system
 - [ ] Add fancy initial letter to article posts (see [Fancy initial letter](https://blog.jacobdensford.com/fancy-initial-letter))
 - [ ] Remove shortform posts from homepage
+- [ ] Fix webmention code

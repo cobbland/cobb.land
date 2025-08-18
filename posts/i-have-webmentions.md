@@ -14,7 +14,7 @@ Normally, all of these related posts would be lost to me (especially without web
 
 Anyway. Something, something, transition...
 
-**Webmentions<sup><a href=#1down id="1up">1</a></sup>!**
+**Webmentions<sup><a href=#1down id="1up">1</a></sup><sup><a href=#2down id="2up">2</a></sup>!**
 
 I just finished implementing webmentions on my own site. I can send 'em, I can receive 'em, and now I can even display 'em. If you look towards the bottom of each of my posts, you just might find links to where others have liked and commented upon them.
 
@@ -30,4 +30,6 @@ Setting this whole thing up seemed daunting at first, but it actually wasn't too
 
 Send me webmentions!
 
-<p class="note"><a href="#1up" id="1down">1</a>: <a href="https://indieweb.org/Webmention">Webmentions on indieweb.org</a>, <a href="https://www.w3.org/TR/webmention/">Webmentions W3C Recommendation</a></p>
+<p class="note footnote"><a href="#1up" id="1down">1</a>: <a href="https://indieweb.org/Webmention">Webmentions on indieweb.org</a></p>
+<p class="note footnote"><a href="#2up" id="2down">2</a>: <a href="https://www.w3.org/TR/webmention/">Webmentions W3C Recommendation</a></p>
+<p class="note footnote"><b>⹋: </b><a href="/triple-dagger">Proposal to add Medievalist punctuation characters to the UCS</a></p>

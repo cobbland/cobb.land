@@ -557,6 +557,10 @@ ul.posts {
     color: var(--dk-grey);
 }
 
+.footnote {
+    margin: 0;
+}
+
 .rating {
     font-weight: bold;
 }
@@ -577,6 +581,11 @@ ul.posts {
 }
 #webmentions li {
     margin-top: 0.2rem;
+}
+
+p.triple-dagger {
+    font-size: 0.8em;
+    color: var(--lt-red);
 }
 
 /* Footer */
