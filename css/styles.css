@@ -591,6 +591,16 @@ ul.posts {
     color: var(--lt-red);
 }
 
+.triple-dagger a:hover {
+    background-color: inherit;
+}
+
+.dagger {
+    height: 1.2em;
+    display: inline;
+    fill: var(--lt-red);
+}
+
 /* Footer */
 
 footer .content-window {
