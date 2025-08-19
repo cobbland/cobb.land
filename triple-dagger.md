@@ -28,7 +28,7 @@ Another level of notation.
 — The Chronicler, <i>N4704R</i>
 
 Join the Triumvirate.  
-Send word to the first with what is to be replaced.
+Send word to the first with the first book and chapters marked, thrice bladed.
 
 - [cobb.land](https://cobb.land)
 
