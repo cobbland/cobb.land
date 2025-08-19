@@ -28,7 +28,7 @@ The Secret Web.
 
 Join send to us  
 Triumvirate:  
-First book and chapter  
+First book and chapters  
 Marked thrice bladed.
 
 - [cobb.land](https://cobb.land)
