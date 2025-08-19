@@ -39,6 +39,10 @@ body {
     line-height: 1.5em;
 }
 
+h1 {
+    margin-bottom: 16px;
+}
+
 ul {
     padding-left: inherit;
 }
@@ -48,8 +52,11 @@ li {
 }
 
 li::before {
-    content: "⹋ ";
+    content: "† ";
     width: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: var(--lt-red);
 }
 
 a {
