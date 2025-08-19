@@ -1,0 +1,141 @@
+:root { /* C64 colors from https://www.pepto.de/projects/colorvic/ */
+    /* --black: #000000; */
+    --black: #1b1b1b;
+    --white: #ffffff;
+    --red: #813338;
+    --cyan: #75cec8;
+    --purple: #8e3c97;
+    --green: #56ac4d;
+    --blue: #2e2c9b;
+    --yellow: #edf171;
+    --orange: #8e5029;
+    --brown: #553800;
+    --lt-red: #c46c71;
+    --dk-grey: #4a4a4a;
+    --md-grey: #7b7b7b;
+    --lt-green: #a9ff9f;
+    --lt-blue: #706deb;
+    --lt-grey: #b2b2b2;
+
+    /* not from c64 */
+    --eerie-black: #1b1b1b;
+    --cosmic-latte: #fff8e7;
+    --bone-white: #F9F6EE;
+    --cobbland-orange: #C15300;
+    --cobbland-green: #006C67;
+
+    --border-trim: 4px solid var(--yellow);
+    --border-background: var(--lt-blue);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--eerie-black);
+    color: var(--eerie-black);
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5em;
+}
+
+ul {
+    padding-left: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+li::before {
+    content: "⹋ ";
+    width: 1em;
+}
+
+a {
+    color: var(--lt-red);
+}
+
+blockquote {
+    margin-right: 0;
+}
+
+.dagger {
+    height: 1em;
+    fill: var(--lt-red);
+}
+
+.cite {
+    text-align: right;
+}
+
+.content {
+    background-color: var(--bone-white);
+    padding: 0 1rem;
+    overflow: auto;
+}
+
+.border {
+    border: var(--border-trim);
+    margin: 1rem;
+    max-width: 25rem;
+    margin: 1rem auto;
+}
+
+.top {
+    border-bottom: var(--border-trim);
+    height: 25px;
+    background-color: var(--border-background);
+}
+
+.top,
+.middle,
+.bottom {
+    display: grid;
+    grid-template-columns: 25px 1fr 25px;
+}
+
+.top-left-corner,
+.bottom-left-corner {
+    border-right: var(--border-trim);
+}
+
+.top-right-corner,
+.bottom-right-corner {
+    border-left: var(--border-trim);
+}
+
+.left,
+.right {
+    background-color: var(--border-background);
+    /* background-image: url(/images/vine.png);
+    background-position: center; */
+}
+
+/* .top-middle,
+.bottom-middle {
+    background-image: url(/images/vine-rotate.png);
+    background-position: center;
+} */
+
+/* .top-left-corner,
+.top-right-corner,
+.bottom-left-corner,
+.bottom-right-corner {
+    background-image: url(/images/vine-corner.png);
+    background-position: center;
+} */
+
+.left {
+    border-right: var(--border-trim);
+}
+
+.right {
+    border-left: var(--border-trim);
+}
+
+.bottom {
+    border-top: var(--border-trim);
+    height: 25px;
+    background-color: var(--border-background);
+}
