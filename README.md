@@ -49,3 +49,5 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Add fancy initial letter to article posts (see [Fancy initial letter](https://blog.jacobdensford.com/fancy-initial-letter))
 - [ ] Remove shortform posts from homepage
 - [ ] Fix webmention code
+- [ ] Style RSS feed (see [here](https://www.cedricbonhomme.org/2025/08/18/rss-xslt-styling/))
+- [ ] Make blogroll fancy (see [here](https://opml.org/blogroll.opml))

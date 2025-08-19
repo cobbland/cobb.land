@@ -54,7 +54,7 @@ li {
 li::before {
     content: "† ";
     width: 1em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'EB Garamond', Garamond, Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2em;
     color: var(--lt-red);
 }
@@ -68,7 +68,6 @@ blockquote {
 }
 
 .dagger {
-    height: 1em;
     fill: var(--lt-red);
 }
 
