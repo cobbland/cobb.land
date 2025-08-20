@@ -21,9 +21,9 @@ async function getWebmentions(postUrl) {
                     if (!author) {
                         author = authorUrl;
                         if (!authorUrl) {
-                            author = 'somebody';
                             let urlObject = new URL(replyUrl);
                             authorUrl = urlObject.origin;
+                            author = authorUrl;
                         }
                     }
                     const newLi = document.createElement('li');
