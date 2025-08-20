@@ -15,4 +15,4 @@ I'll tell you more about me eventually. I just have to write it down. Come back 
 - Me, but elsewhere: [Contact](/contact/)
 - About this website: [Colophon](/colophon/)
 
-<p class="note triple-dagger"><a href="/articles">Seek the third depth of the modern obelus.</a><sup><img src="/images/triple-dagger.png" alt="Triple Dagger" class="dagger" height="13px" width="6px" style="display:inline;"></sup></p>
+<p class="note triple-dagger"><img src="/images/triple-dagger.png" alt="Triple Dagger" class="dagger" height="13px" width="6px" style="display:inline;">: <a href="/articles">Seek the third depth of the modern obelus.</a></p>
