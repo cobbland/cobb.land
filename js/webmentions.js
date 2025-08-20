@@ -13,13 +13,18 @@ async function getWebmentions(postUrl) {
             for (const reply of children) {
                 if (reply.author.name != "Cobb") {
                     let author = reply.author.name;
-                    const authorUrl = reply.author.url;
+                    let authorUrl = reply.author.url;
                     const property = reply["wm-property"];
                     const replyTargetUrl = reply["wm-target"];
                     const replyUrl = reply.url;
                     const received = new Date(reply["wm-received"]).toDateString();
                     if (!author) {
                         author = authorUrl;
+                        if (!authorUrl) {
+                            author = 'somebody';
+                            let urlObject = new URL(replyUrl);
+                            authorUrl = urlObject.origin;
+                        }
                     }
                     const newLi = document.createElement('li');
                     newLi.classList.add('note');
