@@ -19,11 +19,12 @@ async function getWebmentions(postUrl) {
                     const replyUrl = reply.url;
                     const received = new Date(reply["wm-received"]).toDateString();
                     if (!author) {
+                        let urlObject = new URL(replyUrl);
                         author = authorUrl;
                         if (!authorUrl) {
                             let urlObject = new URL(replyUrl);
                             authorUrl = urlObject.origin;
-                            author = authorUrl;
+                            author = urlObject.hostname;
                         }
                     }
                     const newLi = document.createElement('li');
