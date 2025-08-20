@@ -1,5 +1,6 @@
 ---
 layout: triple-dagger.html
+eleventyExcludeFromCollections: true
 ---
 
 # <a href="/triple-dagger"><img class="dagger" src="/images/triple-dagger.png" alt="Triple Dagger" height="50px"></a>
@@ -15,7 +16,7 @@ The Secret Web
 
 <br>
 
-Join, send to first  
+Join, [send to first](mailto:tripledagger@cobb.land)  
 Triumvirate:  
 Galatian text  
 Marked thrice bladed

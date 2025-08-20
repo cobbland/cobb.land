@@ -1,4 +1,9 @@
-Sitemap: https://www.yoursitename.dev/sitemap.xml
+Sitemap: https://cobb.land/sitemap.xml
+
+User-agent: *
+Disallow: /triple-dagger
+Disallow: /triple-dagger/
+Disallow: /triple-dagger/*
 
 User-agent: AI2Bot
 User-agent: Ai2Bot-Dolma
