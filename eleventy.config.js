@@ -9,6 +9,7 @@ export default async function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("_redirects");
     eleventyConfig.addPassthroughCopy("posts/photos/images");
     eleventyConfig.addPassthroughCopy("fonts");
+    eleventyConfig.addPassthroughCopy("5e_artisanal_database");
 
     eleventyConfig.addPlugin(feedPlugin, {
         type: "atom", // or "rss", "json"

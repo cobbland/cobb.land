@@ -242,10 +242,18 @@ a.logo-image:hover {
     box-shadow: 5px 5px 0 var(--border-color-alt);
 }
 
+.iframe {
+    height: 80vh;
+}
+
 .big-window {
     min-width: 100%;
     min-height: 100vh;
     margin: 0;
+}
+
+.big-window .iframe {
+    height: 97vh;
 }
 
 .title-bar {
