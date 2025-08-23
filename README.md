@@ -51,3 +51,5 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Fix webmention code
 - [ ] Style RSS feed (see [here](https://www.cedricbonhomme.org/2025/08/18/rss-xslt-styling/))
 - [ ] Make blogroll fancy (see [here](https://opml.org/blogroll.opml))
+- [ ] Maybe do something with [little pixel library](https://hillhouse.neocities.org/cliques/library/) on my media page or something
+- [ ] [Dark mode](https://www.codemzy.com/blog/dark-mode-to-static-site)?
