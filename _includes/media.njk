@@ -9,9 +9,29 @@ layout: window.html
     <li>{{cart}} ({{type}})</li>
     <li>{{date.toDateString()}}</li>
     {% if review %}
-        <li><a href="{{review}}">{{score}}/4</a></li>
+        <li><a href="{{review}}">{{score}}/4 — 
+            {% if score == 1 %}
+                do not recommend
+            {% elseif score == 2 %}
+                recommend with reservations
+            {% elseif score == 3 %}
+                recommend
+            {% elseif score == 4 %}
+                strongly recommend
+            {% endif %}
+        </a></li>
         {% elseif score %}
-            <li>{{score}}/4</li>
+            <li>{{score}}/4 — 
+            {% if score == 1 %}
+                do not recommend
+            {% elseif score == 2 %}
+                recommend with reservations
+            {% elseif score == 3 %}
+                recommend
+            {% elseif score == 4 %}
+                strongly recommend
+            {% endif %}
+            </li>
     {% endif %}
 </ul>
 

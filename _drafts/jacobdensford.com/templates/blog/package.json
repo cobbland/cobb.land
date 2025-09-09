@@ -1,0 +1,80 @@
+{
+  "thumb": "",
+  "locals": {
+    "max_width": 700,
+    "page_size": 6,
+    "text_color": "#1C1B19",
+    "background_color": "#FFF8E7",
+    "navigation_background_color": "#FFF8E7",
+    "accent_color": "#C15300",
+    "hide_dates": false,
+    "date_display": "MMMM D, Y",
+    "font": {
+      "name": "Vollkorn",
+      "id": "vollkorn",
+      "stack": "'Vollkorn'",
+      "tags": [
+        "sans"
+      ],
+      "line_height": "1.5",
+      "line_width": 38,
+      "font_size": 19,
+      "styles": "@font-face{font-family:Vollkorn;font-style:normal;font-weight:400;src:url(https://cdn.blot.im/fonts/vollkorn/400.eot?version=75a411&extension=.eot);src:url(https://cdn.blot.im/fonts/vollkorn/400.eot?version=75a411&extension=.eot#iefix) format('embedded-opentype'),url(https://cdn.blot.im/fonts/vollkorn/400.woff?version=4da221&extension=.woff) format('woff'),url(https://cdn.blot.im/fonts/vollkorn/400.ttf?version=726cd4&extension=.ttf) format('truetype'),url(https://cdn.blot.im/fonts/vollkorn/400.otf?version=8dae56&extension=.otf) format('opentype')}@font-face{font-family:Vollkornsmall-caps;font-style:normal;font-weight:400;src:url(https://cdn.blot.im/fonts/vollkorn/400-small-caps.eot?version=532d8d&extension=.eot);src:url(https://cdn.blot.im/fonts/vollkorn/400-small-caps.eot?version=532d8d&extension=.eot#iefix) format('embedded-opentype'),url(https://cdn.blot.im/fonts/vollkorn/400-small-caps.woff?version=db8123&extension=.woff) format('woff'),url(https://cdn.blot.im/fonts/vollkorn/400-small-caps.ttf?version=e1a1d1&extension=.ttf) format('truetype'),url(https://cdn.blot.im/fonts/vollkorn/400-small-caps.otf?version=90796d&extension=.otf) format('opentype')}@font-face{font-family:Vollkorn;font-style:italic;font-weight:400;src:url(https://cdn.blot.im/fonts/vollkorn/400-italic.eot?version=93b853&extension=.eot);src:url(https://cdn.blot.im/fonts/vollkorn/400-italic.eot?version=93b853&extension=.eot#iefix) format('embedded-opentype'),url(https://cdn.blot.im/fonts/vollkorn/400-italic.woff?version=8a4eb9&extension=.woff) format('woff'),url(https://cdn.blot.im/fonts/vollkorn/400-italic.ttf?version=c70b00&extension=.ttf) format('truetype'),url(https://cdn.blot.im/fonts/vollkorn/400-italic.otf?version=c74346&extension=.otf) format('opentype')}@font-face{font-family:Vollkornsmall-caps;font-style:normal;font-weight:600;src:url(https://cdn.blot.im/fonts/vollkorn/600-small-caps.eot?version=55b35c&extension=.eot);src:url(https://cdn.blot.im/fonts/vollkorn/600-small-caps.eot?version=55b35c&extension=.eot#iefix) format('embedded-opentype'),url(https://cdn.blot.im/fonts/vollkorn/600-small-caps.woff?version=ef8c0a&extension=.woff) format('woff'),url(https://cdn.blot.im/fonts/vollkorn/600-small-caps.ttf?version=f03fc4&extension=.ttf) format('truetype'),url(https://cdn.blot.im/fonts/vollkorn/600-small-caps.otf?version=b56b6e&extension=.otf) format('opentype')}@font-face{font-family:Vollkornsmall-caps;font-style:normal;font-weight:700;src:url(https://cdn.blot.im/fonts/vollkorn/700-small-caps.eot?version=d007f8&extension=.eot);src:url(https://cdn.blot.im/fonts/vollkorn/700-small-caps.eot?version=d007f8&extension=.eot#iefix) format('embedded-opentype'),url(https://cdn.blot.im/fonts/vollkorn/700-small-caps.woff?version=4ae98b&extension=.woff) format('woff'),url(https://cdn.blot.im/fonts/vollkorn/700-small-caps.ttf?version=5069a6&extension=.ttf) format('truetype'),url(https://cdn.blot.im/fonts/vollkorn/700-small-caps.otf?version=64b769&extension=.otf) format('opentype')}@font-face{font-family:Vollkornsmall-caps;font-style:normal;font-weight:900;src:url(https://cdn.blot.im/fonts/vollkorn/900-small-caps.eot?version=9837ac&extension=.eot);src:url(https://cdn.blot.im/fonts/vollkorn/900-small-caps.eot?version=9837ac&extension=.eot#iefix) format('embedded-opentype'),url(https://cdn.blot.im/fonts/vollkorn/900-small-caps.woff?version=2fd5dd&extension=.woff) format('woff'),url(https://cdn.blot.im/fonts/vollkorn/900-small-caps.ttf?version=e4c3e0&extension=.ttf) format('truetype'),url(https://cdn.blot.im/fonts/vollkorn/900-small-caps.otf?version=1210fe&extension=.otf) format('opentype')}.pull-double{margin-left:-.343em}.push-double{margin-right:.343em}.pull-single{margin-left:-.198em}.push-single{margin-right:.198em}.push-double,.push-single{display:inline-block}"
+    },
+    "syntax_highlighter": {
+      "id": "stackoverflow-light",
+      "styles": ".hljs{color:#2f3337;background:#f6f6f6}.hljs-subst{color:#2f3337}.hljs-comment{color:#656e77}.hljs-attr,.hljs-doctag,.hljs-keyword,.hljs-meta .hljs-keyword,.hljs-section,.hljs-selector-tag{color:#015692}.hljs-attribute{color:#803378}.hljs-name,.hljs-number,.hljs-quote,.hljs-selector-id,.hljs-template-tag,.hljs-type{color:#b75501}.hljs-selector-class{color:#015692}.hljs-link,.hljs-regexp,.hljs-selector-attr,.hljs-string,.hljs-symbol,.hljs-template-variable,.hljs-variable{color:#54790d}.hljs-meta,.hljs-selector-pseudo{color:#015692}.hljs-built_in,.hljs-literal,.hljs-title{color:#b75501}.hljs-bullet,.hljs-code{color:#535a60}.hljs-meta .hljs-string{color:#54790d}.hljs-deletion{color:#c02d2e}.hljs-addition{color:#2f6f44}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}pre code.hljs{display:block;overflow:auto;padding:1em;margin:1em 0;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word}.hljs,code.hljs{padding:0;margin:0}"
+    },
+    "syntax_highlighter_font": {
+      "name": "System mono",
+      "id": "system-mono",
+      "stack": "Consolas, monaco, monospace",
+      "tags": [
+        "mono"
+      ],
+      "line_height": 1.6,
+      "line_width": 39,
+      "font_size": 18,
+      "styles": ""
+    },
+    "index_layout": "titles",
+    "index_layout_options": [
+      "titles",
+      "title_and_summary",
+      "post_in_full"
+    ],
+    "navigation_location": "top",
+    "navigation_location_options": [
+      "top",
+      "left",
+      "right"
+    ],
+    "navigation_alignment": "justified",
+    "navigation_alignment_options": [
+      "justified",
+      "left",
+      "right",
+      "center"
+    ],
+    "site_alignment": "center",
+    "site_alignment_options": [
+      "center",
+      "left",
+      "right"
+    ],
+    "demo_folder": "david",
+    "template_categories": [
+      "writing"
+    ]
+  },
+  "shareID": "",
+  "localEditing": false,
+  "description": "",
+  "name": "Blog",
+  "previewPath": "/fancy-initial-letter",
+  "id": "blog_1a99798b75eb45b680ec3403058453cf:blog",
+  "slug": "blog",
+  "cloneFrom": "SITE:blog",
+  "owner": "blog_1a99798b75eb45b680ec3403058453cf",
+  "isPublic": false
+}

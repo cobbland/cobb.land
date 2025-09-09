@@ -1,9 +1,9 @@
 ---
-title: "Ambush at Corellia (Star Wars: The Corellian Trilogy #1)"
-creator: Roger MacBride Allen
-cart: bookcart
-type: novel
-date: 2025-07-03T15:13:00.00-04:00
+title: EMPTY
+creator: Empty
+cart: Empty
+type: Empty
+date: 2025-07-03T14:10:00.00-04:00
 score: 
 review: 
 ---

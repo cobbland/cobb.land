@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "2bd47cb2724c35b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "82590839a646719b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47b50cd80ec115dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Drafts/Play-by-Post.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Play-by-Post"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "966d225bb11a21f1",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0c542ef18394347b",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "c43009bceee0a61a",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "25e4d236dfb6b63b",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "e069d3eb10161a44",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "676626b5f1cdb3c3",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "732d32929ca2b365",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Posts/Peasant is finished!.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "39b9ffc8ca156a80",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Posts/Peasant is finished!.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "98e31e9a16652f65",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Posts/Peasant is finished!.md"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "47b50cd80ec115dd",
+  "lastOpenFiles": [
+    "Drafts/play-by-post.md.preview.html",
+    "Posts/What Child is This.md",
+    "Drafts/Play-by-Post.md",
+    "_stuff/attachments/PsJy20.png",
+    "_Start Here.md",
+    "Posts/Peasant is finished!.md",
+    "Pages/Now.md",
+    "Posts/The Big Trip - A Postmortem.md",
+    "Posts/The Big Trip Update.md",
+    "Posts/The Big Trip.md",
+    "Posts/Old Man's Journey.md",
+    "Posts/Milkmaid of the Milky Way.md",
+    "Posts/Finally Em Dashes.md",
+    "Posts/Cayne.md",
+    "_stuff/attachments/_old-mans-journey.jpg",
+    "Posts/Budget Cuts.md",
+    "_stuff/attachments/_20211107_080913.png",
+    "_stuff/attachments/jarjarmug.png",
+    "_stuff/attachments/_20211026_072714.png",
+    "_stuff/attachments/cayne.png",
+    "_stuff/attachments/_20211102_150334.png",
+    "_stuff/attachments/_Penelope.png",
+    "_stuff/attachments/jacobwinter.jpg",
+    "_stuff/attachments/_20211022_180543.png",
+    "Posts/Married.md",
+    "_stuff/attachments",
+    "Posts/Thoughts on D&D 2024.md",
+    "_stuff/post_templates/post.md",
+    "_stuff/post_templates",
+    "Posts/A Second Test.md",
+    "Posts/A Third Test.md",
+    "Posts/A Test Post.md"
+  ]
+}

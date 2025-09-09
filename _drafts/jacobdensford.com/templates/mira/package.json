@@ -1,0 +1,16 @@
+{
+  "isPublic": false,
+  "owner": "blog_1a99798b75eb45b680ec3403058453cf",
+  "name": "Mira",
+  "slug": "mira",
+  "cloneFrom": "SITE:mira",
+  "id": "blog_1a99798b75eb45b680ec3403058453cf:mira",
+  "locals": {
+    "page_size": 12
+  },
+  "description": "",
+  "thumb": "",
+  "localEditing": false,
+  "previewPath": "/",
+  "shareID": ""
+}
