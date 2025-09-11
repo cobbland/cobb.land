@@ -18,6 +18,8 @@ No regrets! On to my successes.
 
 I made five different types of IndieWeb posts—at least one of each: article, note, reply, bookmark, and review. (I also am all set up to post photos, but I just didn't take any worth posting.) I call that a success.
 
-I participated in the Blaugust community. I followed and engage with bloggers on Mastodon, took part in the great blog comment debate of 2025, and added a few blogs to my regular feed reader (hi, [Nick](https://www.nicksimson.com) and [Matt](https://mtwb.blog)—and I know there are a few others, but I can't remember who you are right now). Success again!
+I participated in the Blaugust community. I followed and engage with bloggers on Mastodon, took part in the great blog comment debate of 2025, and added a few blogs to my regular feed reader (hi, [Nick](https://www.nicksimson.com) and [Matt](https://mtwb.blog)—and I know there are a few others, but I can't remember who you are right now<sup><a href=#1down id="1up">edit</a></sup>). Success again!
 
 Anyway, I don't think I'll do Blaugust again next year. It just doesn't align with my goals for this website. But it was still a lot of fun. And just the kick I needed to get this new blog going.
+
+<p class="note footnote"><a href="#1up" id="1down">edit</a>: I remembered two more: <a href="https://gridranger.frama.io">Dávid</a> and <a href="https://hamatti.org">Juhis</a>!</p>
