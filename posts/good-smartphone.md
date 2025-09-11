@@ -3,7 +3,7 @@ title: Good Smartphone
 summary: A philosophy of smartphone use
 tags:
 date: 2025-09-11T18:27:00.00-04:00
-possed: 
+possed: https://dice.camp/@cobb/115188045462824463
 ---
 
 I just redid my smartphone so that it can serve what I view as its ideal purpose, free from the app attention economy. In this effort, I came up with a list of what a smartphone should not be and what it should be.
