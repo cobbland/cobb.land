@@ -27,5 +27,3 @@ My smartphone should be...
 - **A wallet.** It makes and receives payments, stores membership cards and ID information, assists in managing banking, and stores passwords and other login information.
 
 With six labeled app folders on my home screen, almost all notifications turned off, and colored set to black and white, I think I've achieved it.
-
-<img src="/images/good-smartphone.jpg" alt="Android smartphone homescreen displaying six folders full of apps—named as above—and weather, task, and calendar widgets.">
