@@ -8,7 +8,7 @@ This website was mostly crafted by hand in HTML and CSS (with a tiny bit of non-
 
 [Webmention.io](https://webmention.io/) and [webmention.app](https://webmention.app/) are used for receiving and sending webmentions, as well as [Bridgy](https://brid.gy/) for connecting to Mastodon (and sometimes Bluesky).
 
-The current design is inspired by the [GEOS operating system](https://en.wikipedia.org/wiki/GEOS_(8-bit_operating_system)) for the Commodore 64. Colors are mostly from [Calculating the color palette of the VIC II](https://www.pepto.de/projects/colorvic/).
+The current design is inspired by the [GEOS operating system](https://en.wikipedia.org/wiki/GEOS_(8-bit_operating_system)) ([more screenshots](https://guidebookgallery.org/screenshots/geosc64)) for the Commodore 64. Colors are mostly from [Calculating the color palette of the VIC II](https://www.pepto.de/projects/colorvic/).
 
 <div class="reply-buttons">
     <a class="link-button" href="https://indieweb.org/">
