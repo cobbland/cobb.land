@@ -1,9 +1,9 @@
 ---
-title: EMPTY
-creator: Empty
-cart: Empty
-type: Empty
-date: 2025-07-03T14:10:00.00-04:00
+title: Hollow Knight
+creator: Team Cherry
+cart: gamecart
+type: pc
+date: 2025-09-16T14:10:00.00-04:00
 score: 
 review: 
 ---
