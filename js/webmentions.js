@@ -11,30 +11,28 @@ async function getWebmentions(postUrl) {
             const children = await feed.children;
             const newUl = document.createElement('ul');
             for (const reply of children) {
-                if (reply.author.name != "Cobb") {
-                    let author = reply.author.name;
-                    let authorUrl = reply.author.url;
-                    const property = reply["wm-property"];
-                    const replyTargetUrl = reply["wm-target"];
-                    const replyUrl = reply.url;
-                    const received = new Date(reply["wm-received"]).toDateString();
-                    if (!author) {
-                        author = authorUrl;
-                        if (!authorUrl) {
-                            let urlObject = new URL(replyUrl);
-                            authorUrl = urlObject.origin;
-                            author = urlObject.hostname;
-                        }
+                let author = reply.author.name;
+                let authorUrl = reply.author.url;
+                const property = reply["wm-property"];
+                const replyTargetUrl = reply["wm-target"];
+                const replyUrl = reply.url;
+                const received = new Date(reply["wm-received"]).toDateString();
+                if (!author) {
+                    author = authorUrl;
+                    if (!authorUrl) {
+                        let urlObject = new URL(replyUrl);
+                        authorUrl = urlObject.origin;
+                        author = urlObject.hostname;
                     }
-                    const newLi = document.createElement('li');
-                    newLi.classList.add('note');
-                    newLi.innerHTML = ` 
-                    <a href="${replyUrl}">${property}</a> by 
-                    <a href="${authorUrl}">${author}</a> on
-                    ${received}
-                    `;
-                    newUl.insertBefore(newLi, newUl.firstChild);
                 }
+                const newLi = document.createElement('li');
+                newLi.classList.add('note');
+                newLi.innerHTML = ` 
+                <a href="${replyUrl}">${property}</a> by 
+                <a href="${authorUrl}">${author}</a> on
+                ${received}
+                `;
+                newUl.insertBefore(newLi, newUl.firstChild);
             }
             return newUl;
         }
