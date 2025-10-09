@@ -45,9 +45,11 @@ async function getWebmentions(postUrl) {
 };
 
 if (webmentions.childElementCount) {
-    const newHeading = document.createElement('h2');
+    const details = document.createElement('details');
+    const newHeading = document.createElement('summary');
     newHeading.textContent = "Mentions";
     newHeading.id = 'webmentions-heading';
-    webmentionsDiv.appendChild(newHeading);
-    webmentionsDiv.appendChild(webmentions);
+    webmentionsDiv.appendChild(details);
+    details.appendChild(newHeading);
+    details.appendChild(webmentions);
 }

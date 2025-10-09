@@ -578,13 +578,15 @@ ul.posts {
 }
 
 #webmentions-heading {
-    margin: 1rem 0 0.4rem;
+    margin: 1rem 0 -0.5rem;
     font-size: 1.4rem;
+    font-family: var(--main-font-family);
+    font-weight: bold;
 }
 
 #webmentions ul {
     padding: 0;
-    margin: 0;
+    margin: 0.5rem 0 0;
     list-style-type: none;
 }
 #webmentions li {
