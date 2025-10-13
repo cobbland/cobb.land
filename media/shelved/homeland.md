@@ -7,3 +7,5 @@ date: 2025-10-06T22:00:00.00-04:00
 score: 2
 review: 
 ---
+
+Maybe I'll read [them all](https://dungeonsanddragonsfan.com/legend-of-drizzt-books-in-order/)?

@@ -1,9 +1,15 @@
 ---
-title: EMPTY
-creator: empty
-cart: empty
-type: empty
-date: 2025-07-03T14:12:00.00-04:00
-score: 
+title: Hollow Knight
+creator: Team Cherry
+cart: gamecart
+type: pc
+date: 2025-10-08T09:00:00.00-04:00
+started: 
+finished: 
+score: 3
 review: 
 ---
+
+### 2025-10-10
+
+I thought I'd finished, but there is still so much more to do, so It's back in the playlist.
