@@ -1,10 +1,10 @@
 ---
-title: The Quarry
-creator: Supermassive Games
-cart: gamecart
-type: pc
-date: 2025-10-25T13:30:00.00-04:00
-started: 2025-10-25T13:30:00.00-04:00
+title: EMPTY
+creator: empty
+cart: empty
+type: empty
+date: 2025-07-04T12:13:00.00-04:00
+started: 
 finished:
 score: 
 review: 
