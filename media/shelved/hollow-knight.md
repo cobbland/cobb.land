@@ -8,6 +8,4 @@ score: 4
 review: 
 ---
 
-### 2025-10-10
-
-I thought I'd finished, but there is still so much more to do, so It's back in the playlist.
+Dark Souls with bugs and one fewer D—who needs 3 of them?! **I strongly recommend this game**.
