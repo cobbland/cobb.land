@@ -3,7 +3,7 @@ title: Hunt for the Last Owl Bear
 summary: A dnd adventure module that I wrote
 tags: dnd
 date: 2025-10-29T09:30:00.00-04:00
-possed: 
+possed: https://dice.camp/@cobb/115457702201542572
 ---
 
 *Only one of the foul creatures remains—abominations forged by the meddling hands of wizards. After generations of slaughtering us, we've finally driven them back to the brink. Let the final hunt commence: the hunt for the last Owl Bear.*
