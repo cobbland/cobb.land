@@ -34,6 +34,8 @@ Anyway, it's on sale now for 50% off as part of a big Halloween sale (because th
 
 <p class="note footnote"><a href="#2up" id="2down">2</a>: Lowercase "dnd" being my preferred generic term for tabletop roleplaying adventure games. Everything else is just too much of a mouthful.</p>
 
+<p class="note footnote triple-dagger"><img src="/images/triple-dagger.png" alt="Triple Dagger" class="dagger" height="13px" width="6px" style="display:inline;">: <a href="/triple-dagger">Proposal to add Medievalist punctuation characters to the UCS</a></p>
+
 <p class="note footnote"><a href="#3up" id="3down">3</a>: Don't call it "homebrew". Dnd is all homemade. Don't let the corporations that control the brand make your creations feel second class.</p>
 
 <p class="note footnote"><a href="#4up" id="4down">4</a>: Well, my two games—<a href="https://illuminatedsnail.itch.io/fell">Fell</a> and <a href="https://illuminatedsnail.itch.io/peasant">Peasant</a>—were already available to download. But those are free, so I don't count them.</p>
