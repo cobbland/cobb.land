@@ -1,16 +1,26 @@
 ---
-title: Articles
+title: Reviews
 layout: window-pages.html
 ---
 {% for post in collections.post | reverse %}
     {% if "review" in post.data.tags %}
         <div class="post-card">
             <h2><a href="{{ post.url }}">{{ post.data.title }}</a>
-                {% if post.data.score %}
-                    ({{post.data.score}}/4)
-                {% endif %}
             </h2>
-            <p class="post-card-summary">{{ post.data.summary }}</p>
+            <p class="post-card-summary">
+                {% if post.data.score %}
+                        {{post.data.score}}/4 — 
+                    {% if post.data.score == 1 %}
+                        do not recommend
+                    {% elseif post.data.score == 2 %}
+                        recommend with reservations
+                    {% elseif post.data.score == 3 %}
+                        recommend
+                    {% elseif post.data.score == 4 %}
+                        strongly recommend
+                    {% endif %}
+                {% endif %}
+            </p>
             <p class="date">{{ post.date.toDateString() }}</p>
         </div>
     {% endif %}

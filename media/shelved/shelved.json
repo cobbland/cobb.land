@@ -1,3 +1,4 @@
 {
-    "tags": "shelved"
+    "override:layout": "review.njk",
+    "tags": ["shelved", "post", "review"]
 }

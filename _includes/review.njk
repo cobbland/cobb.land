@@ -7,9 +7,42 @@ layout: "window.html"
 
     <p class="p-summary">{{ summary }}</p>
 
-    <div class="e-content">{{ content | safe}}</div>
+    <ul>
+        <li>{{creator}}</li>
+        <li>{{cart}} ({{type}})</li>
+        {% if started and finished %}
+            <li>{{started.toDateString()}} – {{finished.toDateString()}}</li>
+        {% else %}
+            <li>{{date.toDateString()}}</li>
+        {% endif %}
+        {% if review %}
+            <li><a href="{{review}}"><p class="p-rating">{{score}}/4 — 
+                {% if score == 1 %}
+                    do not recommend
+                {% elseif score == 2 %}
+                    recommend with reservations
+                {% elseif score == 3 %}
+                    recommend
+                {% elseif score == 4 %}
+                    strongly recommend
+                {% endif %}
+            </p></a></li>
+            {% elseif score %}
+                <li><p class="p-rating">{{score}}/4 — 
+                {% if score == 1 %}
+                    do not recommend
+                {% elseif score == 2 %}
+                    recommend with reservations
+                {% elseif score == 3 %}
+                    recommend
+                {% elseif score == 4 %}
+                    strongly recommend
+                {% endif %}
+                </p></li>
+        {% endif %}
+    </ul>
 
-    <p class="rating p-rating">{{ score }}/4</p>
+    <div class="e-content">{{ content | safe}}</div>
 
     <p class="article-date">Posted or edited on <a class="u-url" href="{{ page.url }}"><time class="dt-published dt-updated" datetime="{{ date }}">{{ date.toDateString() }}</time></a> by <a rel="author" class="p-author h-card" href="/">Cobb</a>.</p>
 

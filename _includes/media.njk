@@ -7,7 +7,11 @@ layout: window.html
 <ul>
     <li>{{creator}}</li>
     <li>{{cart}} ({{type}})</li>
-    <li>{{date.toDateString()}}</li>
+    {% if started and finished %}
+        <li>{{started.toDateString()}} – {{finished.toDateString()}}</li>
+    {% else %}
+        <li>{{date.toDateString()}}</li>
+    {% endif %}
     {% if review %}
         <li><a href="{{review}}">{{score}}/4 — 
             {% if score == 1 %}
