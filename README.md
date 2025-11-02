@@ -33,7 +33,7 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
     - [ ] Add RSVPs
 - [ ] Add proper visible h-card to home?
 - [ ] Stop bad bots that don't follow rules (???)
-- [ ] Join more webrings (or maybe start one)
+- [ ] Join more webrings (or maybe start one)?
 - [ ] Clean up CSS
 - [ ] Make more accessible
 - [ ] Finish "blogroll"
@@ -43,13 +43,14 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
     - [ ] Add summary
     - [ ] Fix replies
     - [ ] Fix bookmarks
-    - [ ] Make separate feeds for replies and bookmarks
+    - [ ] Fix reviews/shelved
+    - [ ] Make separate feeds for replies and bookmarks?
 - [ ] Consider doing some of these things from [100 things you can do on your personal website](https://jamesg.blog/2024/02/19/personal-website-ideas)
 - [x] Finish media system
-- [ ] Fix media system
-- [ ] Add shelved media to posts (maybe under reviews?)
+- [ ] Fix media system?
+- [x] Add shelved media to posts (maybe under reviews?)
 - [ ] Add fancy initial letter to article posts (see [Fancy initial letter](https://blog.jacobdensford.com/fancy-initial-letter))
-- [ ] Remove shortform posts from homepage
+- [ ] Remove shortform posts from homepage (and/or rename them so they're not so repetitive)
 - [ ] Fix webmention code
 - [ ] Style RSS feed (see [here](https://www.cedricbonhomme.org/2025/08/18/rss-xslt-styling/))
 - [ ] Make blogroll fancy (see [here](https://opml.org/blogroll.opml))
