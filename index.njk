@@ -30,7 +30,7 @@ special: home-title
         <h2>Posts</h2>
     
         <ul class="posts">
-            {% for post in collections.post | reverse | limit(12) %}
+            {% for post in collections.post | reverse | limit(6) %}
                 {# {% if "article" in post.data.tags or "review" in post.data.tags%} #}
                     <li>
                         <a href="{{ post.url }}">
