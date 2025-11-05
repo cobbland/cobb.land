@@ -6,7 +6,7 @@
             </a>
             <time class="dt-published dt-updated" datetime="{{ post.data.date }}"><p>{{ post.data.date.toDateString() }}</p></time>
             {% if post.data.reply %}
-                <p class="note">In reply to <a href="{{ post.data.reply }}" class="u-in-reply-to">{{ post.data.author }}</a></p>
+                <p class="note">Reply to <a href="{{ post.data.reply }}" class="u-in-reply-to">{{ post.data.name }}</a></p>
             {% elif post.data.bookmark %}
                 <p>
                     <a class="u-bookmark-of h-cite" href="{{ post.data.bookmark }}">

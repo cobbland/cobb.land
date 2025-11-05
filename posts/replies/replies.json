@@ -2,5 +2,8 @@
     "override:layout": "note.njk",
     "override:tags": ["post", "reply", "note"],
     "override:special": "notes",
-    "title": "A Reply"
+    "title": "Reply",
+    "eleventyComputed": {
+        "title": "{{ title }} to {{ name }}"
+    }
 }

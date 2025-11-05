@@ -39,7 +39,7 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Finish "blogroll"
 - [ ] Finish "uses"
 - [ ] Add automatic POSSE (maybe [EchoFeed](https://echofeed.app/), [Feed Classic](https://echo.rknight.me/), or [Bridgy](https://brid.gy/))
-- [ ] Customize atom feeds
+- [ ] Customize atom feeds using the [manual template](https://www.11ty.dev/docs/plugins/rss/#manual-template) method
     - [ ] Add summary
     - [ ] Fix replies
     - [ ] Fix bookmarks
@@ -49,8 +49,8 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [x] Finish media system
 - [ ] Fix media system?
 - [x] Add shelved media to posts (maybe under reviews?)
-- [ ] Add fancy initial letter to article posts (see [Fancy initial letter](https://blog.jacobdensford.com/fancy-initial-letter))
-- [ ] Remove shortform posts from homepage (and/or rename them so they're not so repetitive)
+- [ ] Add fancy initial letter to article posts (see [Fancy initial letter](https://blog.jacobdensford.com/fancy-initial-letter))?
+- [x] Rename shortform posts on homepage so they're not so repetitive
 - [ ] Fix webmention code
 - [ ] Style RSS feed (see [here](https://www.cedricbonhomme.org/2025/08/18/rss-xslt-styling/))
 - [ ] Make blogroll fancy (see [here](https://opml.org/blogroll.opml))

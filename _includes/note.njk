@@ -3,18 +3,23 @@ layout: "window.html"
 ---
 <article class="h-entry">
     {% if reply %}
-        <p class="note">In reply to <a href="{{ reply }}" class="u-in-reply-to p-author h-card">{{ author }}</a></p>
+        <p class="note p-name">Reply to 
+            <a href="{{ reply }}" class="u-in-reply-to">{{ name }}</a> 
+        </p>
     {% elif bookmark %}
-        <p>
+        <p class="note p-name">Bookmark of 
             <a class="u-bookmark-of h-cite" href="{{ bookmark }}">
                 {{ name }}
             </a>
         </p>
-        {% if quote %}
+    {% endif %}
+    <div class="p-content">
+        {% if quote and bookmark %}
             <blockquote cite="{{ bookmark }}">{{ quote }}</blockquote>
         {% endif %}
-    {% endif %}
-    <div class="p-content p-name">
+        {% if quote and reply%}
+            <blockquote cite="{{ reply }}">{{ quote }}</blockquote>
+        {% endif %}
         {{ content | safe }}
     </div>
     <p style="margin-top: 1rem;" class="article-date">Posted or edited on <a class="u-url" href="{{ page.url }}"><time class="dt-published dt-updated" datetime="{{ date }}">{{ date.toDateString() }}</time></a> by <a rel="author" class="p-author h-card" href="/">Cobb</a></p>

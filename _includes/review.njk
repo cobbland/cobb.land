@@ -7,6 +7,8 @@ layout: "window.html"
 
     <p class="p-summary">{{ summary }}</p>
 
+    <div class="e-content">
+
     <ul>
         <li>{{creator}}</li>
         <li>{{cart}} ({{type}})</li>
@@ -42,7 +44,9 @@ layout: "window.html"
         {% endif %}
     </ul>
 
-    <div class="e-content">{{ content | safe}}</div>
+    <div>{{ content | safe}}</div>
+
+    </div>
 
     <p class="article-date">Posted or edited on <a class="u-url" href="{{ page.url }}"><time class="dt-published dt-updated" datetime="{{ date }}">{{ date.toDateString() }}</time></a> by <a rel="author" class="p-author h-card" href="/">Cobb</a>.</p>
 
