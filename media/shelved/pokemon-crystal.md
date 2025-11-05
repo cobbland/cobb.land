@@ -12,3 +12,5 @@ As a child of the 90s and 00s, of course I played Pokémon. Blue was my first, f
 I told myself I'd do this one differently. I'd pick Pokemon I liked instead of the most powerful; I'd keep the interesting status moves and try to play smart. That lasted for almost half the game. But, in the end, I destroyed Lance with an under-leveled Alakazam. I hoped I could find a more complex game here, but any nuance crumbles under the power of using super effective damage types. (My six Pokémon can beat up your six Pokémon—as long as you don't switch them around too much.)
 
 I loved every minute of my thirty-hour playthrough. It's not all nostalgia, but it is mostly nostalgia.
+
+**I recommend it (with reservations).**
