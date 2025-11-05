@@ -57,3 +57,4 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Maybe do something with [little pixel library](https://hillhouse.neocities.org/cliques/library/) on my media page or something
 - [ ] [Dark mode](https://www.codemzy.com/blog/dark-mode-to-static-site)?
 - [ ] Consider [CC](https://creativecommons.org/ai-and-the-commons/cc-signals/) Signals and/or [RSL](https://rslstandard.org) (mostly for the purpose of keeping LLM crawlers off my site)
+- [ ] Fix footnotes in RSS feeds and when article is saved in reader
