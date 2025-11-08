@@ -21,4 +21,4 @@ Up next:
 - Tales from Jabba’s Palace
 - Et Cetera
 
-See: [https://starwars.fandom.com/wiki/List_of_novels_by_release_date](https://starwars.fandom.com/wiki/List_of_novels_by_release_date) and [https://starwars.fandom.com/wiki/Star_Wars_video_games](https://starwars.fandom.com/wiki/Star_Wars_video_games)
+See: [https://starwars.fandom.com/wiki/Star_Wars_Legends](https://starwars.fandom.com/wiki/Star_Wars_Legends), [https://starwars.fandom.com/wiki/List_of_novels_by_release_date](https://starwars.fandom.com/wiki/List_of_novels_by_release_date) and [https://starwars.fandom.com/wiki/Star_Wars_video_games](https://starwars.fandom.com/wiki/Star_Wars_video_games)
