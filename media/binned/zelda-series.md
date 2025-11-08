@@ -19,3 +19,5 @@ Up next:
 - Et Cetera
 
 See: [https://en.wikipedia.org/wiki/The_Legend_of_Zelda#Main_series](https://en.wikipedia.org/wiki/The_Legend_of_Zelda#Main_series)
+
+Maybe later: [The ALTTP Randomizer](https://alttpr.com/en)
