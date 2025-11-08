@@ -7,7 +7,7 @@ date: 2025-11-08T14:20:00.00-04:00
 started: 2025-08-09T16:00:00.00-04:00
 finished: 2025-11-08T14:20:00.00-04:00
 score: 4
-possed: 
+possed: https://dice.camp/@cobb/115515917723784014
 ---
 
 My first game console was the Super Nintendo. I got it for my birthday just as the N64 was coming out. It didn't bother me at all that I was rocking last-gen hardware—a benefit of the pre-social-media age, most likely—because I finally had a Nintendo!
