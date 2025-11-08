@@ -1,11 +1,11 @@
 ---
-title: "The Legend of Zelda: A Link to the Past"
-creator: Nintendo
-cart: gamecart
-type: snes
-date: 2025-08-09T16:00:00.00-04:00
+title: EMPTY
+creator: empty
+cart: empty
+type: empty
+date: 2025-07-04T12:13:00.00-04:00
 started: 
-finished: 
+finished:
 score: 
 possed: 
 ---
