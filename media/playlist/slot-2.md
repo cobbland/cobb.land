@@ -1,10 +1,10 @@
 ---
-title: EMPTY
-creator: empty
-cart: empty
-type: empty
-date: 2025-07-04T12:13:00.00-04:00
-started: 
+title: Super Star Wars
+creator: LucasArts
+cart: gamecart
+type: snes
+date: 2025-11-09T12:30:00.00-04:00
+started: 2025-11-09T12:30:00.00-04:00
 finished:
 score: 
 possed: 

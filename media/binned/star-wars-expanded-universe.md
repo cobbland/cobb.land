@@ -12,13 +12,20 @@ possed:
 
 I'm slowly making my way through all the Star Wars Expanded Universe media (mostly the books and video games) in release order, from the original Thrawn Trilogy beginning in 1991, to 2014's Honor Among Thieves—the last novel published before Disney, having purchased Lucasfilm, rebranded the Expanded Universe as Legends. 
 
-Up next:
+Up next books:
 
 - Assault at Selonia
 - Tales from the Mos Eisley Cantina
 - Showdown at Centerpoint
 - Darksaber
 - Tales from Jabba’s Palace
+- Et Cetera
+
+Up next games:
+
+- X-Wing (pc)
+- Rebel Assault (pc)
+- Super Star Wars: The Empire Strikes Back (snes)
 - Et Cetera
 
 See: [https://starwars.fandom.com/wiki/Star_Wars_Legends](https://starwars.fandom.com/wiki/Star_Wars_Legends), [https://starwars.fandom.com/wiki/List_of_novels_by_release_date](https://starwars.fandom.com/wiki/List_of_novels_by_release_date) and [https://starwars.fandom.com/wiki/Star_Wars_video_games](https://starwars.fandom.com/wiki/Star_Wars_video_games)
