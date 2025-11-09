@@ -8,4 +8,3 @@ score: 3
 review: 
 ---
 
-Maybe I'll read [them all](https://dungeonsanddragonsfan.com/legend-of-drizzt-books-in-order/)?
