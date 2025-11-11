@@ -1,11 +1,11 @@
 ---
-title: EMPTY
-creator: empty
-cart: empty
-type: empty
-date: 2025-07-04T12:13:00.00-04:00
-started: 
-finished:
+title: "Super Star Wars: The Empire Strikes Back"
+creator: LucasArts
+cart: gamecart
+type: snes
+date: 2025-11-10T20:30:00.00-04:00
+started: 2025-11-10T20:30:00.00-04:00
+finished: 
 score: 
 possed: 
 ---

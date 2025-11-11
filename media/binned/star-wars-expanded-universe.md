@@ -23,7 +23,6 @@ Up next books:
 
 Up next games:
 
-- X-Wing (pc)
 - Rebel Assault (pc)
 - Super Star Wars: The Empire Strikes Back (snes)
 - Et Cetera

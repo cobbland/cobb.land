@@ -1,10 +1,10 @@
 ---
-title: Super Star Wars
-creator: LucasArts
+title: X-Wing
+creator: Totally Games
 cart: gamecart
-type: snes
-date: 2025-11-09T12:30:00.00-04:00
-started: 2025-11-09T12:30:00.00-04:00
+type: PC
+date: 2025-11-11T15:00:00.00-04:00
+started: 2025-11-11T15:00:00.00-04:00
 finished:
 score: 
 possed: 
