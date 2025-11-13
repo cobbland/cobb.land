@@ -20,7 +20,9 @@ layout: "window.html"
 <div class="reply-buttons">
     <a class="link-button" href="https://webmention.io/cobb.land/webmention"><img src="/images/webmention-88x31.jpg" alt="webmention button" height="31" width="88" /></a>
     <a class="link-button" href="mailto:hello@cobb.land?subject={% uri title %}"><img src="/images/email-88x31.jpg" alt="email button" height="31" width="88" /></a>
-    <a class="link-button" href="{{ possed }}"><img src="/images/mastodon-88x31.jpg" alt="mastodon button" height="31" width="88" /></a>
+    {% if possed %}
+        <a class="link-button" href="{{ possed }}"><img src="/images/mastodon-88x31.jpg" alt="mastodon button" height="31" width="88" /></a>
+    {% endif %}
 </div>
 
 <div id="webmentions"></div>
