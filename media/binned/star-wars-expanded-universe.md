@@ -24,7 +24,11 @@ Up next books:
 Up next games:
 
 - Rebel Assault (pc)
-- Super Star Wars: The Empire Strikes Back (snes)
+- Star Wars Arcade (32x)
+- Star Wars Chess (sega cd)
+- TIE Fighter (pc)
+- Dark Forces (pc)
+- Rebel Assault II: The Hidden Empire (pc)
 - Et Cetera
 
 See: [https://starwars.fandom.com/wiki/Star_Wars_Legends](https://starwars.fandom.com/wiki/Star_Wars_Legends), [https://starwars.fandom.com/wiki/List_of_novels_by_release_date](https://starwars.fandom.com/wiki/List_of_novels_by_release_date) and [https://starwars.fandom.com/wiki/Star_Wars_video_games](https://starwars.fandom.com/wiki/Star_Wars_video_games)
