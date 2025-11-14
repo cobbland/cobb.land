@@ -4,20 +4,28 @@ layout: "window.html"
 <article class="h-entry">
     {% if reply %}
         <p class="note p-name">Reply to 
-            <a href="{{ reply }}" class="u-in-reply-to">{{ name }}</a> 
+            <a href="{{ reply }}" class="u-in-reply-to">{{ name }}</a>
+            {% if author and site %}
+                by <a class="" href="{{ site }}">{{ author }}</a>
+            {% elif author %}
+                by <span class"">{{ author }}</span>
+            {% endif %}
         </p>
     {% elif bookmark %}
         <p class="note p-name">Bookmark of 
-            <a class="u-bookmark-of h-cite" href="{{ bookmark }}">
-                {{ name }}
-            </a>
+            <a class="u-bookmark-of u-repost-of h-cite" href="{{ bookmark }}">{{ name }}</a>
+            {% if author and site %}
+                by <a class="" href="{{ site }}">{{ author }}</a>
+            {% elif author %}
+                by <span class"">{{ author }}</span>
+            {% endif %}
         </p>
     {% endif %}
     <div class="p-content">
         {% if quote and bookmark %}
             <blockquote cite="{{ bookmark }}">{{ quote }}</blockquote>
         {% endif %}
-        {% if quote and reply%}
+        {% if quote and reply %}
             <blockquote cite="{{ reply }}">{{ quote }}</blockquote>
         {% endif %}
         {{ content | safe }}
