@@ -4,7 +4,7 @@ name: "scriptorium@christdesert"
 author: Nick Simson
 site: https://www.nicksimson.com/
 date: 2025-11-14T12:13:00.00-04:00
-possed: 
+possed: https://dice.camp/@cobb/115549265617232420
 id: 
 quote: "Only in the Year of Our Lord 2025, did I learn about scriptorium@christdesert, a web design service run by Benedictine monks in remote New Mexico in the 1990s."
 ---
