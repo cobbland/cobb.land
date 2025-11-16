@@ -7,7 +7,7 @@ date: 2025-11-10T20:30:00.00-04:00
 started: 2025-11-09T20:30:00.00-04:00
 finished: 2025-11-10T20:30:00.00-04:00
 score: 2
-possed: 
+possed: https://dice.camp/@cobb/115561496957130424
 ---
 
 I was gifted this and the rest of the Super Star Wars trilogy along with my Super Nintendo for my eighth birthday (or somewhere around there). Super Star Wars was the only one of the three I didn't beat as a kid. Unlike the later two games, it doesn't have level codes, so when you get a game over you have to start again from the beginning.

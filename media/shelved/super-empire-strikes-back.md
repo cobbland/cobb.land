@@ -7,7 +7,7 @@ date: 2025-11-12T15:45:00.00-04:00
 started: 2025-11-10T20:30:00.00-04:00
 finished: 2025-11-12T15:45:00.00-04:00
 score: 2
-possed: 
+possed: https://dice.camp/@cobb/115561496957130424
 ---
 
 The sequel is better than the original in this case (as with the movies, arguably). Super Star Wars: The Empire Strikes Back is an improvement on [Super Star Wars](/media/shelved/super-star-wars/) in almost every way.

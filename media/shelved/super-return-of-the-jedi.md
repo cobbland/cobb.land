@@ -7,7 +7,7 @@ date: 2025-11-16T21:00:00.00-04:00
 started: 2025-11-13T8:30:00.00-04:00
 finished: 2025-11-16T21:00:00.00-04:00
 score: 2
-possed: 
+possed: https://dice.camp/@cobb/115561496957130424
 ---
 
 It could be argued that Return of the Jedi is the weakest of the original Star Wars trilogy. The same could be said for the Super Star Wars trilogy of Super Nintendo games. And yet, just like when I was a kid, I enjoyed the last one the most. Though it wasn't because it was the best game of the trilogy—it was just the easiest.
