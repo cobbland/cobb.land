@@ -7,6 +7,7 @@ export default async function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("robots.txt");
     eleventyConfig.addPassthroughCopy("hello@cobb.land-0x58E8E614B1589522-pub.asc");
     eleventyConfig.addPassthroughCopy("_redirects");
+    eleventyConfig.addPassthroughCopy("netlify.toml");
     eleventyConfig.addPassthroughCopy("posts/photos/images");
     eleventyConfig.addPassthroughCopy("fonts");
     eleventyConfig.addPassthroughCopy("5e_artisanal_database");
