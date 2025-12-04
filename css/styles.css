@@ -142,6 +142,8 @@ header {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    position: relative;
+    z-index: 2;
 }
 
 .time {
@@ -240,6 +242,8 @@ a.logo-image:hover {
     height: max-content;
     border: 2px solid var(--text-color);
     box-shadow: 5px 5px 0 var(--border-color-alt);
+    position: relative;
+    z-index: 2;
 }
 
 .iframe {
