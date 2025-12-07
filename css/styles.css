@@ -235,6 +235,15 @@ a.logo-image:hover {
 
 /* Content window */
 
+#middle-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#side-panel {
+    margin: 0 -16px;
+}
+
 .content-window {
     background-color: var(--bg-color);
     max-width: 90ch;
@@ -618,8 +627,7 @@ ul.posts {
 /* Footer */
 
 footer .content-window {
-    margin: 1rem 0.6rem;
-    max-width: 830px;
+    margin-top: 0;
 }
 
 #footer {
@@ -690,6 +698,19 @@ footer .content-window {
 }
 
 /* Media styles */
+
+@media (max-width: 1270px) {
+    #side-panel {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: -16px 0;
+    }
+
+    footer .content-window {
+        margin-top: 16px;
+    }
+}
 
 @media (max-width: 600px) {
     .time {

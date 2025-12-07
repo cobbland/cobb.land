@@ -58,5 +58,5 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] [Dark mode](https://www.codemzy.com/blog/dark-mode-to-static-site)?
 - [ ] Consider [CC](https://creativecommons.org/ai-and-the-commons/cc-signals/) Signals and/or [RSL](https://rslstandard.org) (mostly for the purpose of keeping LLM crawlers off my site)
 - [ ] Fix footnotes in RSS feeds and when article is saved in reader
-- [ ] Add RetroAchievements using their [API](https://api-docs.retroachievements.org)?
+- [ ] Add RetroAchievements using their [API](https://github.com/RetroAchievements/api-js)?
 - [ ] Add svg icon after external links (like [this](https://youtube.com/shorts/FJ4j6qltPss?si=JSCKktl910ypD_Tn)?)
