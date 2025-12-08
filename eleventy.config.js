@@ -11,6 +11,7 @@ export default async function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("posts/photos/images");
     eleventyConfig.addPassthroughCopy("fonts");
     eleventyConfig.addPassthroughCopy("5e_artisanal_database");
+    eleventyConfig.addPassthroughCopy("html");
 
     eleventyConfig.addPlugin(feedPlugin, {
         type: "atom", // or "rss", "json"
@@ -116,4 +117,5 @@ export default async function(eleventyConfig) {
 
     eleventyConfig.addShortcode("uri", function(text) { return `${encodeURIComponent(text)}` });
 
+    eleventyConfig.addShortcode("date", () => `${new Date().toDateString()}`);
 };

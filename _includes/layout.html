@@ -74,7 +74,7 @@
                             <div class="title-bar-line"></div>
                         </div>
                         <div class="title-bar-title">
-                            music
+                            h-card
                         </div>
                         <div class="lines lines-left" aria-hidden="true">
                             <div class="lines-left-of-button">
@@ -87,7 +87,94 @@
                         </div>
                     </div>
                 </div>
-                <a href="https://libre.fm/user/cobbland/"><img src="https://libre.fm/user/cobbland/now" alt loading="lazy" style="width: 100%; max-width: 90ch; height: auto;"></a>
+                <div class="h-card content">
+                    <img class="u-photo" src="/images/android-chrome-512x512.png" style="max-width: 100px;">
+                    <ul class="extra-panels no-decor">
+                        <li>Name: <a class="u-url p-name" rel="me" href="https://cobb.land">Cobb</a></li>
+                        <li>Pronouns: <strong>he/him</strong></li>
+                        <li>Fedeverse: <a rel="me" class="u-url" href="https://dice.camp/@cobb">@cobb@dice.camp</a></li>
+                        <li>Email: <a class="u-email" href="mailto:hello@cobb.land">hello@cobb.land</a></li>
+                    </ul>
+                    <p class="p-note">A writer, artist, programmer, and game designer currently dwelling in the foothills of Appalachia.</p>
+                    <a class="u-url" href="https://github.com/cobbland" rel="me"></a>
+                    <a class="u-logo u-photo" href="/images/android-chrome-512x512.png"></a>
+                </div>
+            </div>
+
+            <div class="content-window" onload="loadWindow">
+                <div class="title-bar">
+                    <div class="title-lines">
+                        <div class="lines" aria-hidden="true">
+                            <div class="title-bar-line"></div>
+                            <div class="title-bar-line"></div>
+                            <div class="title-bar-line"></div>
+                            <div class="title-bar-line"></div>
+                            <div class="title-bar-line"></div>
+                        </div>
+                        <div class="title-bar-title">
+                            <a href="https://libre.fm/user/cobbland">Libre.FM</a>
+                        </div>
+                        <div class="lines lines-left" aria-hidden="true">
+                            <div class="lines-left-of-button">
+                                <div class="title-bar-line"></div>
+                                <div class="title-bar-line"></div>
+                                <div class="title-bar-line"></div>
+                                <div class="title-bar-line"></div>
+                                <div class="title-bar-line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="recent-music" class="content">
+                    <h2>Recent Albums</h2>
+                    <ul class="extra">
+                        {% for item in recentMusic %}
+                        <li>
+                            <a href="{{ item.albumUrl }}"><strong>{{ item.album }}</strong></a>, <a href="{{ item.artistUrl }}" style="font-weight: normal;">{{ item.artist }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    <p><a href="https://libre.fm/user/cobbland">More music</a></p>
+                    <p class="note">Updated {% date %}</p>
+                </div>
+            </div>
+
+            <div class="content-window" onload="loadWindow">
+                <div class="title-bar">
+                    <div class="title-lines">
+                        <div class="lines" aria-hidden="true">
+                            <div class="title-bar-line"></div>
+                            <div class="title-bar-line"></div>
+                            <div class="title-bar-line"></div>
+                            <div class="title-bar-line"></div>
+                            <div class="title-bar-line"></div>
+                        </div>
+                        <div class="title-bar-title">
+                            <a href="https://retroachievements.org/user/cobbland">RetroAchievements</a>
+                        </div>
+                        <div class="lines lines-left" aria-hidden="true">
+                            <div class="lines-left-of-button">
+                                <div class="title-bar-line"></div>
+                                <div class="title-bar-line"></div>
+                                <div class="title-bar-line"></div>
+                                <div class="title-bar-line"></div>
+                                <div class="title-bar-line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="recent-games" class="content">
+                    <h2>Recent Games</h2>
+                    <ul>
+                        {% for item in recentGames %}
+                            <li>
+                                <a href="https://retroachievements.org/game/{{ item.GameID }}"><strong>{{ item.Title }}</strong></a>, {{ item.ConsoleName }}, {{ item.NumAchieved }}/{{ item.AchievementsTotal }} achievements
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    <p><a href="https://retroachievements.org/user/cobbland">More games</a></p>
+                    <p class="note">Updated {% date %}</p>
+                </div>
             </div>
 
             <div class="content-window" onload="loadWindow">
@@ -101,7 +188,7 @@
                         <div class="title-bar-line"></div>
                     </div>
                     <div class="title-bar-title">
-                        buttons
+                        88x31
                     </div>
                     <div class="lines lines-left" aria-hidden="true">
                         <div class="lines-left-of-button">
