@@ -235,13 +235,13 @@ a.logo-image:hover {
 
 /* Content window */
 
-#middle-content {
+#content {
     display: flex;
     flex-wrap: wrap;
 }
 
-#side-panel {
-    margin: 0 -16px;
+#extra-panels {
+    max-width: 458px;
 }
 
 .content-window {
@@ -626,10 +626,6 @@ ul.posts {
 
 /* Footer */
 
-footer .content-window {
-    margin-top: 0;
-}
-
 #footer {
     margin: 1rem;
     display: flex;
@@ -699,16 +695,13 @@ footer .content-window {
 
 /* Media styles */
 
-@media (max-width: 1270px) {
-    #side-panel {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin: -16px 0;
+@media (max-width: 1235px) {
+    #content {
+        display: block;
     }
 
-    footer .content-window {
-        margin-top: 16px;
+    #extra-panels {
+        max-width: inherit;
     }
 }
 

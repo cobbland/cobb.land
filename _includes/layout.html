@@ -57,11 +57,11 @@
         <div class="time invisible" aria-hidden="true">00/00/0000 00:00</div>
     </header>
 
-    <div id="middle-content">
+    <div id="content">
 
         {{ content }}
 
-        <div id="side-panel">
+        <div id="extra-panels">
 
             <div class="content-window" onload="loadWindow">
                 <div class="title-bar">
@@ -90,12 +90,7 @@
                 <a href="https://libre.fm/user/cobbland/"><img src="https://libre.fm/user/cobbland/now" alt loading="lazy" style="width: 100%; max-width: 90ch; height: auto;"></a>
             </div>
 
-        </div>
-
-    </div>
-    
-    <footer>
-        <div class="content-window" onload="loadWindow">
+            <div class="content-window" onload="loadWindow">
             <div class="title-bar">
                 <div class="title-lines">
                     <div class="lines" aria-hidden="true">
@@ -188,6 +183,13 @@
                 </a>
             </div>
         </div>
+
+        </div>
+
+    </div>
+    
+    <footer>
+        <p class="note" style="display: none;">cobb.land © {% year %}</p>
     </footer>
 
     <div class="h-card invisible">
