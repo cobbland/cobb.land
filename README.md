@@ -62,3 +62,4 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Add svg icon after external links (like [this](https://youtube.com/shorts/FJ4j6qltPss?si=JSCKktl910ypD_Tn)?)
 - [ ] Add comments??? (https://isso-comments.de)
 - [ ] Check out [Pages CMS](https://pagescms.org)?
+- [ ] Leave GitHub (consider [this](https://omglol.news/2025/11/20/say-hello-to-sourcetube-the-omg-lol-community-code-forge))
