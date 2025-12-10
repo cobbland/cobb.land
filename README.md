@@ -60,3 +60,4 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Fix footnotes in RSS feeds and when article is saved in reader
 - [ ] Add RetroAchievements using their [API](https://github.com/RetroAchievements/api-js)?
 - [ ] Add svg icon after external links (like [this](https://youtube.com/shorts/FJ4j6qltPss?si=JSCKktl910ypD_Tn)?)
+- [ ] Add comments??? (https://isso-comments.de)
