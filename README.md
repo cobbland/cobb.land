@@ -37,6 +37,7 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Clean up CSS
 - [ ] Make more accessible
 - [ ] Finish "blogroll"
+ - [ ] And add an OPML blogroll so I can join the [Blogroll Network Map](https://alexsci.com/rss-blogroll-network/)
 - [ ] Finish "uses"
 - [ ] Add automatic POSSE (maybe [EchoFeed](https://echofeed.app/), [Feed Classic](https://echo.rknight.me/), or [Bridgy](https://brid.gy/))
 - [ ] Customize atom feeds using the [manual template](https://www.11ty.dev/docs/plugins/rss/#manual-template) method
