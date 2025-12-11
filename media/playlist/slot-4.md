@@ -1,10 +1,10 @@
 ---
-title: EMPTY
-creator: empty
-cart: empty
-type: empty
-date: 2025-07-04T12:13:00.00-04:00
-started: 
+title: "Pokémon Emerald"
+creator: Game Freak
+cart: gamecart
+type: gba
+date: 2025-12-10T23:33:00.00-05:00
+started: 2025-12-10T23:33:00.00-05:00
 finished:
 score: 
 possed: 

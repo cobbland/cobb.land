@@ -1,5 +1,6 @@
 // _data/recentGames.js
 import https from "https";
+import 'dotenv/config';
 
 // Change these to your RA username and API key
 const RA_USERNAME = "cobbland";
