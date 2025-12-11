@@ -64,3 +64,4 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Add comments??? (https://isso-comments.de)
 - [ ] Check out [Pages CMS](https://pagescms.org)?
 - [ ] Leave GitHub (consider [this](https://omglol.news/2025/11/20/say-hello-to-sourcetube-the-omg-lol-community-code-forge))
+- [ ] Fix webmentions webhook on Netlify (which requires me fixing my RSS feed—must include mentioned URLs) or add them some other way
