@@ -4,6 +4,7 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("images");
     eleventyConfig.addPassthroughCopy("css");
     eleventyConfig.addPassthroughCopy("js");
+    eleventyConfig.addPassthroughCopy("data");
     eleventyConfig.addPassthroughCopy("robots.txt");
     eleventyConfig.addPassthroughCopy("hello@cobb.land-0x58E8E614B1589522-pub.asc");
     eleventyConfig.addPassthroughCopy("_redirects");
@@ -11,7 +12,6 @@ export default async function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("posts/photos/images");
     eleventyConfig.addPassthroughCopy("fonts");
     eleventyConfig.addPassthroughCopy("5e_artisanal_database");
-    eleventyConfig.addPassthroughCopy("html");
 
     eleventyConfig.addPlugin(feedPlugin, {
         type: "atom", // or "rss", "json"

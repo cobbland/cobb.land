@@ -52,7 +52,7 @@ function parseRecentAlbums(html, count = 5) {
 
 module.exports = function () {
     // Load your libre.fm page snapshot
-    const html = fs.readFileSync("html/libre.fm.html", "utf8");
+    const html = fs.readFileSync("data/libre.fm.html", "utf8");
 
     // Return data that Eleventy will expose as `recentMusic`
     return parseRecentAlbums(html, 5).map(item => ({
