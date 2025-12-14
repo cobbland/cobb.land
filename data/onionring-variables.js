@@ -128,3 +128,5 @@ var woodPaneledRingID = "woodpanel";
 var useWoodpaneledIndex = false;
 var woodPaneledIndexPage = "https://woodpaneled.org/";
 var useWoodPaneledRandom = true;
+
+export {woodPaneledSites};
