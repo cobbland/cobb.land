@@ -21,12 +21,15 @@ const ringVarsRequest = https.get(ringVars, ((res) => {
             ringVarsFile.close();
             gotRingVars = true;
             console.log("Downloaded: onionring-variables.js");
+            fs.appendFileSync('data/onionring-variables.js', '\nexport {woodPaneledSites};');
+            console.log('Appended export statement!');
         });
     } else {
         ringVarsFile.close();
         console.error('Something is not right. Double check ringVars');
     }
 }));
+
 const ringWidgetRequest = https.get(ringWidget, ((res) => {
     res.pipe(ringWidgetFile);
     if (res.statusCode === 200) {
@@ -40,9 +43,3 @@ const ringWidgetRequest = https.get(ringWidget, ((res) => {
         console.error('Something is not right. Double check ringWidget');
     }
 }));
-
-if (gotRingVars && gotRingWidget) {
-    console.log('All onionring files downloaded!');
-} else {
-    console.error('Some onionring files NOT downloaded successfully!');
-}

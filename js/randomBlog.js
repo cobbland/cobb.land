@@ -1,4 +1,4 @@
-import { woodPaneledSites } from '/data/onionring-variables.js';
+import { woodPaneledSites } from '../data/onionring-variables.js';
 
 const button = document.querySelector("#random-blog-button");
 
