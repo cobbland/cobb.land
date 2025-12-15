@@ -31,9 +31,9 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
     - [x] Add replies
     - [x] Add reviews
     - [ ] Add RSVPs
-- [ ] Add proper visible h-card to home?
+- [x] Add proper visible h-card to home?
 - [ ] Stop bad bots that don't follow rules (???)
-- [ ] Join more webrings (or maybe start one)?
+- [x] Join more webrings (or maybe start one)?
 - [ ] Clean up CSS
 - [ ] Make more accessible
 - [ ] Finish "blogroll"
@@ -59,7 +59,7 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] [Dark mode](https://www.codemzy.com/blog/dark-mode-to-static-site)?
 - [ ] Consider [CC](https://creativecommons.org/ai-and-the-commons/cc-signals/) Signals and/or [RSL](https://rslstandard.org) (mostly for the purpose of keeping LLM crawlers off my site)
 - [ ] Fix footnotes in RSS feeds and when article is saved in reader
-- [ ] Add RetroAchievements using their [API](https://github.com/RetroAchievements/api-js)?
+- [x] Add RetroAchievements using their [API](https://github.com/RetroAchievements/api-js)?
 - [ ] Add svg icon after external links (like [this](https://youtube.com/shorts/FJ4j6qltPss?si=JSCKktl910ypD_Tn)?)
 - [ ] Add comments??? (https://isso-comments.de)
 - [ ] Check out [Pages CMS](https://pagescms.org)?
