@@ -1,7 +1,7 @@
 ---
 title: Remove Unread Counts from Miniflux
 summary: Because numbers are stressful
-tags: 
+tags: tech
 date: 2025-08-23T12:23:00.00-04:00
 possed: https://dice.camp/@cobb/115079051116418769
 ---
