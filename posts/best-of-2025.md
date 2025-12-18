@@ -3,7 +3,7 @@ title: Best of 2025
 summary: Some of my favorite things of the year
 tags: personal
 date: 2025-12-18T03:36:00.00-05:00
-possed: 
+possed: https://dice.camp/@cobb/115738509230247660
 ---
 
 Looking back on the twenty twenty-five as I was making this list, I kept thinking of things I wanted to put on it, only to realize they're from two thousand twenty-four. This past year has blown by without so much as a hi-how-are-you. But here we are: Some of my favorite things.
