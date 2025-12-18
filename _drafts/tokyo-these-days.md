@@ -1,1 +1,0 @@
-https://www.robinsloan.com/newsletters/double-pulse/
