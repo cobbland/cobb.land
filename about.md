@@ -6,7 +6,7 @@ tags: [slashpage, page]
 
 <img src="/images/android-chrome-192x192.png" alt="" height="192">
 
-I'm Cobb (or cobbland or cobb-dot-land or even Jacob), a writer, artist, programmer, and game designer currently dwelling in the foothills of Appalachia.
+I'm Cobb (or cobbland or cobb-dot-land or even Jacob), a writer, artist, programmer, and [game designer](/illuminated-snail/) currently dwelling in the foothills of Appalachia.
 
 I'll tell you more about me eventually. I just have to write it down. Come back later.
 

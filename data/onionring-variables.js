@@ -52,9 +52,9 @@ var woodPaneledSites = [
     description: "Thoughts on RPGs, and plans for a Call of Cthulhu regional monograph.",
   },
   { 
-    title: "Jacob Densford", 
-    url: "https://jacobdensford.com/", 
-    description: "Writer, artist and game designer currently developing Cobb Land.",
+    title: "cobb.land", 
+   	url: "https://cobb.land/", 
+  	description: "A writer, artist, programmer and game designer currently dwelling in the foothills of Appalachia."
   },
    { 
     title: "Cartweel's TTRPG Web Ring", 
@@ -100,11 +100,6 @@ var woodPaneledSites = [
     title: "brutalism.space", 
     url: "https://brutalism.space/about", 
     description: "A photo-blog dedicated to brutalist architecture.",
-  },
-  { 
-    title: "Get Haunted Industries", 
-    url: "https://gethauntedindustries.com/", 
-    description: "Makers of Weird Heroes of Public Access and other great RPGS.",
   },
   { 
     title: "Advantage on Arcana", 
