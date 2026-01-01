@@ -2,7 +2,7 @@ import fs from 'fs';
 import * as cheerio from 'cheerio';
 import { woodPaneledSites } from '../data/onionring-variables.js';
 
-const ownUrl = 'https://jacobdensford.com/'
+const ownUrl = 'https://cobb.land/'
 
 const htmlPath = '_includes/layout.html';
 const html = fs.readFileSync(htmlPath, 'utf-8');
