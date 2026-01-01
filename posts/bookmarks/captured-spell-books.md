@@ -1,7 +1,7 @@
 ---
-bookmark: https://youseethis.blog/2025/12/29/consider-this-captured-spell-books/
+bookmark: "https://youseethis.blog/2025/12/29/consider-this-captured-spell-books/"
 name: "Consider this: Captured spell books"
-author: ""You see this.""
+author: "You see this."
 site: "https://youseethis.blog/"
 date: 2025-12-31T23:30:00.00-05:00
 possed: 
