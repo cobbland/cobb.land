@@ -1,0 +1,32 @@
+---
+title: C64 Dice Roller
+summary: 'LOAD "DICE", 8'
+date: 2026-01-03T10:30:00.00-05:00
+possed: https://dice.camp/@cobb/114880281882248530
+---
+
+<p>Back when I was messing around with an emulated C64 and reading through the user manual, I made this little dice roller. Forgot to post it back then. Now that the new C64 Ultimate is out (and I am once again wanting one), I figured I'd post it now.
+
+<div class="c64-code-outer">
+
+<div class="c64-code-inner">
+
+<pre><code class="c64-code">10 PRINT "<span style="background-color:#706deb;color:#2e2c9b;">❤</span>";
+20 PRINT "TIME TO ROLL SOME DICE!"
+30 INPUT "HOW MANY FACES"; F%
+40 INPUT "HOW MANY DICE"; N%
+50 PRINT "ROLLING "N%"D"F%"..."
+60 T% = 0
+70 FOR CT = N% TO 1 STEP -1
+80 R% = INT(F%*RND(1))+1
+90 PRINT R%
+100 T% = T% + R%
+110 NEXT CT
+120 PRINT: PRINT "ROLL TOTAL: "T%
+130 INPUT "ROLL AGAIN (Y/N)"; Q$
+140 IF Q$ = "Y" THEN 30
+</code></pre>
+
+</div>
+
+</div>
