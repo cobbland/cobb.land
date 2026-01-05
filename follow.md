@@ -11,6 +11,7 @@ Subscribe via RSS (well, Atom, really):
 - [Notes](/feed-notes.xml) (including replies and bookmarks)
 - [Photos](/feed-photos.xml)
 - [Reviews](/feed-reviews.xml)
+- [Now](/feed-now.xml)
 
 <div class="reply-buttons">
     <a class="link-button" href="http://validator.w3.org/feed/check.cgi?url=https%3A//cobb.land/feed.xml">
