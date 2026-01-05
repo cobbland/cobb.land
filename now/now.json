@@ -1,0 +1,5 @@
+{
+    "tags": ["now", "current"],
+    "special": "now",
+    "layout": "note.njk"
+}

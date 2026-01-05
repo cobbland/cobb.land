@@ -2,18 +2,20 @@
 title: Now
 layout: page.njk
 tags: [slashpage, page]
-date: 2025-09-17T08:26:00.00-04:00
 ---
-<p>Aside from trying to piece together this website, I'm also:</p>
+<p><a href="https://nownownow.com/about">Now</a>:</p>
 
 <ul>
-    <li>Getting really into emulating old games and other software</li>
-    <li>Working my way through <a href="https://www.theodinproject.com/">The Odin Project</a></li>
-    <li>Trying to learn Thai</li>
-    <li>Editing recipes for my wife's <a href="https://ohsopeasy.com">upcoming cookbook project</a></li>
+    {% for post in collections.now | reverse %}
+        {% if "current" in post.data.tags %}
+            <li>
+                {{post.content | safe}}
+            </li>
+        {% endif %}
+    {% endfor %}
 </ul>
 
-<p>And I'm reading/watching/playing:</p>
+<p>Reading/watching/playing:</p>
 
 <ul>
     {% for post in collections.media | reverse %}
@@ -24,3 +26,7 @@ date: 2025-09-17T08:26:00.00-04:00
     {% endif %}
     {% endfor %}
 </ul>
+
+<p>Also, see side (or bottom) panels for music and more games</p>
+
+<p class="note">Subscribe via <a href="/follow">RSS</a>.</p>
