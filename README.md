@@ -69,3 +69,4 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
     - [ ] Fix date updating
     - [ ] Fix feed and individual pages
     - [ ] Maybe combine with notes
+- [ ] Add [octothorpes](https://octothorp.es)
