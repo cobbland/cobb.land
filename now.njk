@@ -2,10 +2,9 @@
 title: Now
 layout: page.njk
 tags: [slashpage, page]
-date: 2026-01-05T17:22:00.00-05:00
+date: 2026-01-06T11:51:00.00-05:00
 ---
 <p><a href="https://nownownow.com/about">Now</a>:</p>
-
 <ul>
     {% for post in collections.now | reverse %}
         {% if "current" in post.data.tags %}
@@ -16,8 +15,7 @@ date: 2026-01-05T17:22:00.00-05:00
     {% endfor %}
 </ul>
 
-<p>Reading/watching/playing:</p>
-
+<p><a href="/media">Reading/watching/playing</a>:</p>
 <ul>
     {% for post in collections.media | reverse %}
     {% if "playlist" in post.data.tags %}
@@ -25,6 +23,24 @@ date: 2026-01-05T17:22:00.00-05:00
     <li><a href="{{post.url}}">{{post.data.title}}</a></li>
     {% endif %}
     {% endif %}
+    {% endfor %}
+</ul>
+
+<p><a href="https://retroachievements.org/user/cobbland">RetroAchievements</a>:</p>
+<ul>
+    {% for item in recentGames %}
+        <li>
+            <a href="https://retroachievements.org/game/{{ item.GameID }}"><strong>{{ item.Title }}</strong></a>, {{ item.ConsoleName }}, {{ item.NumAchieved }}/{{ item.AchievementsTotal }} achievements
+        </li>
+    {% endfor %}
+</ul>
+
+<p><a href="https://libre.fm/user/cobbland">Listening</a>:</p>
+<ul class="extra">
+    {% for item in recentMusic %}
+    <li>
+        <a href="{{ item.albumUrl }}"><strong>{{ item.album }}</strong></a>, <a href="{{ item.artistUrl }}" style="font-weight: normal;">{{ item.artist }}</a>
+    </li>
     {% endfor %}
 </ul>
 
