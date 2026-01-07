@@ -23,6 +23,7 @@ Up next books:
 
 Up next games:
 
+- X-Wing
 - Rebel Assault (pc)
 - Star Wars Arcade (32x)
 - Star Wars Chess (sega cd)
