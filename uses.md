@@ -1,12 +1,14 @@
 ---
 title: Uses
-layout: window.html
+layout: page.njk
 tags: [slashpage, page]
+date: 2026-01-07
 ---
 
 **WORK IN PROGRESS**
 
 I'm not sure exactly how I want to format this yet. And there's still more to add. Check back sometime for more.
+
 
 ## Desktop Computer
 
@@ -51,3 +53,7 @@ Yes, I've nicknamed some of my little gaming handhelds—so what!
     - Running Batocera
     - Plugged into whatever CRT TV I have working at any given time
     - For emulating games and consoles I don't physically own (up to PS1)
+
+## Programs and Apps
+
+See [App Defaults](/app-defaults).

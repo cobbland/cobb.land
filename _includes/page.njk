@@ -3,4 +3,6 @@ layout: window.html
 ---
 {{content | safe}}
 
-<p class="note">Last updated on {{ date.toDateString() }}</p>
+{% if date %}
+    <p class="note">Last updated on {{ date.toDateString() }}</p>
+{% endif %}
