@@ -1,10 +1,10 @@
 ---
-title: Kero Kero Cowboy
-creator: MetagameMike
-cart: gamecart
-type: gbc
-date: 2025-12-27T11:13:00.00-04:00
-started: 2025-12-27T11:13:00.00-04:00
+title: EMPTY
+creator: empty
+cart: empty
+type: empty
+date: 2025-10-27T11:13:00.00-04:00
+started: 
 finished: 
 score: 
 possed: 
