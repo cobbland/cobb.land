@@ -6,7 +6,7 @@ tags: page
 date: 2026-01-07
 ---
 
-My [default "apps"](https://defaults.rknight.me). (Most of these are programs on my desktop computer—I try to avoid as many mobile apps as I can.)
+My [default "apps"](https://defaults.rknight.me). (Most of these are programs on my desktop computer—I try to avoid as many mobile apps as I can. See [Good Smartphone](/posts/good-smartphone).)
 
 - 📨 **Mail Client**: Thunderbird (and sometimes Vivaldi)
 - 📮 **Mail Server**: Migadu (and sometimes Proton)
