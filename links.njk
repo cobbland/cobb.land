@@ -29,7 +29,7 @@ tags: [slashpage, page]
 
     {% for shortcut in collections.bookmark | sort(attribute='data.id') %}
         {% if shortcut.data.id %}
-            <li rel="bookmark" id="{{shortcut.data.id}}" data-url="{{shortcut.data.site}}">
+            <li rel="bookmark" id="{{shortcut.data.id}}" data-url="{{shortcut.data.bookmark}}">
                 <a href="{{shortcut.data.bookmark}}" class="shortcut">{{shortcut.data.bookmark}}</a>
             </li>
         {% endif %}
@@ -40,7 +40,13 @@ tags: [slashpage, page]
 <p class="note">Copied from <a href="https://mat.tl/s/">mattl</a>.</p>
 
 <script>
-    var hash = window.location.hash.substring(1);
+document.addEventListener("DOMContentLoaded", () => {
+    const hash = window.location.hash.slice(1);
+    if (!hash) return;
+
     const article = document.getElementById(hash);
-    location.replace(article.dataset.url)
+    if (!article || !article.dataset.url) return;
+
+    location.replace(article.dataset.url);
+});
 </script>

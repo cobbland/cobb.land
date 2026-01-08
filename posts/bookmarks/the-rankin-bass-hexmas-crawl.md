@@ -5,7 +5,7 @@ author: "Prismatic Wasteland"
 site: "https://www.prismaticwasteland.com/"
 date: 2026-01-06T13:18:00.00-05:00
 possed: https://dice.camp/@cobb/115849535882903359
-id: 
+id: hexmas
 quote: "Today is the 12th and final day of Christmas (if you take down your tree and garlands before New Year’s, you are missing out on bonus Christmastime), so it is proper to roundup all the entries to the Merry Hexmas blogwagon that ran in December 2025."
 ---
 
