@@ -10,6 +10,6 @@ score: 3
 possed: https://dice.camp/@cobb/115860060767579520
 ---
 
-Kero Kero Cowboy was a great little platformer for the Game Boy Color (which I played on my Anbee, aka my Anbernic RG 35XX Plus). The first half of the game is near perfection, but there are some problems with the later levels: the game's framerate drops during some tight spots, the timing for the super jump off of enemy heads—and especially mushrooms—is a little too unforgiving, and the difficulty spikes almost unreasonably near the end. Still, it was a really fun time, and **I recommend it**.
+Kero Kero Cowboy is a great little platformer for the Game Boy Color (which I played on my Anbee, aka my Anbernic RG 35XX Plus). The first half of the game is near perfection, but there are some problems with the later levels: the game's framerate drops during some tight spots, the timing for the super jump off of enemy heads—and especially mushrooms—is a little too unforgiving, and the difficulty spikes almost unreasonably near the end. Still, it was a really fun time, and **I recommend it**.
 
 *I got Kero Kero Cowboy as part of [Playtiles](https://get.playtil.es)' first season of games.*
