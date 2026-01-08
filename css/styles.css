@@ -507,6 +507,12 @@ p.date {
     line-height: 0.7rem;
 }
 
+/* code {
+    background-color: var(--border-color);
+    color: var(--border-color-alt);
+    overflow: auto;    
+} */
+
 .c64-code,
 .c64-code-inner {
     background-color: var(--blue);
