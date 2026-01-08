@@ -1,8 +1,8 @@
 ---
 layout: page.njk
-title: 'App Defaults'
-permalink: /app-defaults/
-tags: page
+title: 'Defaults'
+permalink: /defaults/
+tags: [slashpage, page]
 date: 2026-01-07
 ---
 
