@@ -1,5 +1,0 @@
-# This directory is a Syncthing folder marker.
-# Do not delete.
-
-folderID: ak6ga-pkapm
-created: 2024-11-03T14:55:47-05:00
