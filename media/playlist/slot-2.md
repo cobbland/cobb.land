@@ -1,10 +1,10 @@
 ---
-title: EMPTY
-creator: empty
-cart: empty
-type: empty
-date: 2025-10-11T15:00:00.00-04:00
-started: 
+title: Super Mario World
+creator: Nintendo
+cart: gamecart
+type: snes
+date: 2026-01-11T15:00:00.00-05:00
+started: 2026-01-11T15:00:00.00-05:00
 finished:
 score: 
 possed: 
