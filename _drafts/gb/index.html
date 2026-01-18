@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Game Boy Screen Demo</title>
+
+  <!-- Pixel font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+    rel="stylesheet"
+  >
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #444;
+      font-family: system-ui, sans-serif;
+    }
+
+    /*
+      ==========================
+      GAME BOY BODY
+      ==========================
+    */
+    .gameboy {
+/*       width: 360px; */
+      background: #cfcfc4;
+      border-radius: 18px;
+      padding: 24px 22px 28px;
+      box-shadow: inset 0 -6px 0 rgba(0,0,0,0.15);
+    }
+
+    /*
+      ==========================
+      SCREEN AREA
+      ==========================
+    */
+    .screen-frame {
+      background: #6b6b6b;
+      padding: 14px;
+      border-radius: 6px;
+    }
+
+    .screen-label {
+      font-size: 10px;
+      letter-spacing: 0.5px;
+      color: #ddd;
+      margin-bottom: 6px;
+    }
+
+    .screen-container {
+      --px: 4px;
+
+      position: relative;
+      width: calc(160 * var(--px));
+      height: calc(144 * var(--px));
+      background: #c4cfa1;
+
+      font-family: "Press Start 2P", monospace;
+      font-size: calc(8 * var(--px));
+      line-height: calc(8 * var(--px));
+      -webkit-font-smoothing: none;
+      font-smooth: never;
+
+      border: 4px solid #111;
+      overflow: hidden;
+    }
+
+    .screen-content {
+      padding: calc(8 * var(--px));
+      color: #0f380f;
+    }
+
+    h1 {
+      font-size: calc(16 * var(--px));
+      line-height: calc(16 * var(--px));
+      margin: 0 0 calc(8 * var(--px)) 0;
+    }
+
+    p {
+      margin: 0 0 calc(8 * var(--px)) 0;
+    }
+
+    /*
+      ==========================
+      PIXEL GRID OVERLAY
+      ==========================
+    */
+    .grid-overlay {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(to right, rgba(0,0,0,0.25) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0,0,0,0.25) 1px, transparent 1px);
+      background-size: var(--px) var(--px);
+      opacity: 0.35;
+    }
+
+    /*
+      ==========================
+      CONTROLS AREA
+      ==========================
+    */
+    .controls {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 26px;
+      gap: 24px;
+    }
+
+    /* D-pad */
+    .dpad {
+      position: relative;
+      width: 90px;
+      height: 90px;
+      margin-left: 10px;
+    }
+
+    .dpad div {
+      position: absolute;
+      background: #333;
+      border-radius: 4px;
+    }
+
+    .dpad .vert {
+      width: 30px;
+      height: 90px;
+      left: 30px;
+      top: 0;
+    }
+
+    .dpad .horiz {
+      width: 90px;
+      height: 30px;
+      left: 0;
+      top: 30px;
+    }
+
+    /* A / B buttons */
+    .buttons {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 18px;
+      padding-right: 10px;
+    }
+
+    .btn {
+      width: 42px;
+      height: 42px;
+      background: #7b2f4b;
+      border-radius: 50%;
+      box-shadow: inset -3px -3px 0 rgba(0,0,0,0.25);
+    }
+
+    /*
+      ==========================
+      START / SELECT
+      ==========================
+    */
+    .start-select {
+      margin-top: 24px;
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+    }
+
+    .pill {
+      width: 44px;
+      height: 10px;
+      background: #666;
+      border-radius: 5px;
+    }
+
+    /*
+      ==========================
+      SPEAKER
+      ==========================
+    */
+    .speaker {
+      margin-top: 26px;
+      display: grid;
+      grid-template-columns: repeat(6, 6px);
+      gap: 6px;
+      justify-content: end;
+      padding-right: 10px;
+    }
+
+    .hole {
+      width: 6px;
+      height: 6px;
+      background: #444;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="gameboy">
+    <div class="screen-frame">
+      <div class="screen-label">DOT MATRIX WITH STEREO SOUND</div>
+
+      <div class="screen-container">
+        <div class="screen-content">
+          <h1>HELLO WORLD</h1>
+
+          <p>
+            check out this wide boy.
+          </p>
+
+            <p>
+                The buttons don't work. Yet.
+            </p>
+
+            <p>
+                Check back sometime for a possibly completed project. Maybe someday. Maybe...
+            </p>
+        </div>
+
+        <div class="grid-overlay"></div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <div class="dpad">
+        <div class="vert"></div>
+        <div class="horiz"></div>
+      </div>
+
+      <div class="buttons">
+        <div class="btn"></div>
+        <div class="btn"></div>
+      </div>
+    </div>
+
+    <div class="start-select">
+      <div class="pill"></div>
+      <div class="pill"></div>
+    </div>
+
+    <div class="speaker">
+      <div class="hole"></div><div class="hole"></div><div class="hole"></div>
+      <div class="hole"></div><div class="hole"></div><div class="hole"></div>
+      <div class="hole"></div><div class="hole"></div><div class="hole"></div>
+      <div class="hole"></div><div class="hole"></div><div class="hole"></div>
+    </div>
+  </div>
+
+</body>
+</html>
