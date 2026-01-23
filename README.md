@@ -61,7 +61,7 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Fix footnotes in RSS feeds and when article is saved in reader
 - [x] Add RetroAchievements using their [API](https://github.com/RetroAchievements/api-js)?
 - [ ] Add svg icon after external links (like [this](https://youtube.com/shorts/FJ4j6qltPss?si=JSCKktl910ypD_Tn)?)
-- [ ] Add comments??? (https://isso-comments.de)
+- [ ] Add comments??? (https://isso-comments.de, https://utteranc.es, https://giscus.app)
 - [ ] Check out [Pages CMS](https://pagescms.org)?
 - [ ] Leave GitHub (consider [this](https://omglol.news/2025/11/20/say-hello-to-sourcetube-the-omg-lol-community-code-forge))
 - [ ] Fix webmentions webhook on Netlify (which requires me fixing my RSS feed—must include mentioned URLs) or add them some other way
