@@ -1,5 +1,15 @@
 /* From https://aleclownes.com/2017/02/01/crt-display.html */
 
+@keyframes glitch-anim {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
 @keyframes flicker {
   0% {
     opacity: 0.27861;
@@ -131,6 +141,22 @@
   }
 } */
 .crt::after {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  content: '';
+  background:
+      linear-gradient(0deg, black 50%, transparent 50%) center / 5px 5px,
+      transparent 50%;
+  animation: glitch-anim 0.2s infinite;
+  opacity: 0.1;
+  pointer-events: none;
+
+}
+.crt::before {
   content: " ";
   display: block;
   position: fixed;
@@ -143,19 +169,6 @@
   z-index: 2;
   pointer-events: none;
   animation: flicker 0.15s infinite;
-}
-.crt::before {
-  content: " ";
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
-  z-index: 2;
-  background-size: 100% 2px, 3px 100%;
-  pointer-events: none;
 }
 /* .crt {
   animation: textShadow 1.6s infinite;
