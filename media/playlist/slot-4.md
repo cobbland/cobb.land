@@ -1,11 +1,11 @@
 ---
-title: "Pokémon Omega Ruby"
-creator: Game Freak
-cart: gamecart
-type: 3ds
-date: 2025-12-10T23:33:00.00-05:00
-started: 2025-12-10T23:33:00.00-05:00
-finished:
+title: EMPTY
+creator: Empty
+cart: Empty
+type: Empty
+date: 2025-07-5T11:13:00.00-04:00
+started: 
+finished: 
 score: 
 possed: 
 ---

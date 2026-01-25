@@ -12,6 +12,7 @@ possed:
 
 Up next:
 
+- Third generation (Pokémon Emerald or Pokémon Omega Ruby)
 - Fourth generation (Pokémon Platinum)
 - Fifth generation (Either Pokémon Black 2 or White 2)
 - Et Cetera
