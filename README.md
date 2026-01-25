@@ -70,3 +70,4 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
     - [ ] Fix feed and individual pages
     - [ ] Maybe combine with notes
 - [ ] Add [octothorpes](https://octothorp.es)
+- [ ] Join the [RSS Club](https://daverupert.com/rss-club/)
