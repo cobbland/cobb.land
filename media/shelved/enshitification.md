@@ -3,7 +3,7 @@ title: "Enshittification"
 creator: Cory Doctorow
 cart: bookcart
 type: nonfiction
-date: 2026-01-23T12:00:00.00-05:00
+date: 2026-01-25T9:30:00.00-05:00
 started: 2026-01-23T12:00:00.00-05:00
 finished: 2026-01-25T9:30:00.00-05:00
 score: 3
