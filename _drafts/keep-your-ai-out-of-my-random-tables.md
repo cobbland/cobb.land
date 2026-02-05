@@ -1,1 +1,0 @@
-https://ofdiceanddragons.com/good-morning-dave/
