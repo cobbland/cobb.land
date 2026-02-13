@@ -462,8 +462,10 @@ main *:last-child {
 
 .photo-wall {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 160px);
+    justify-self: center;
+    grid-auto-rows: 143px;
+    grid-template-rows: 143px;
     gap: 1rem;
 }
 
