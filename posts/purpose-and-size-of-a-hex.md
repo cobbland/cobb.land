@@ -3,7 +3,7 @@ title: "The Purpose and Size of a Hex"
 summary: "What is the purpose and what size best serves said purpose"
 tags: dnd
 date: 2026-02-15T10:53:00.00-05:00
-possed: 
+possed: https://dice.camp/@cobb/116075477194583814
 ---
 
 [This topic](https://discourse.rpgcauldron.com/t/book-club-26-in-praise-of-the-6-mile-hex/3461?u=cobb.land) over on [The Cauldron](https://discourse.rpgcauldron.com/) talking about hexes (originally, in reference to [this blog post](https://steamtunnel.blogspot.com/2009/12/in-praise-of-6-mile-hex.html) has me thinking about the purpose and, by extension, size of a hex in dnd<sup><a href=#1down id="1up">1</a></sup>.
