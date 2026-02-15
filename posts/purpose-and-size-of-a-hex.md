@@ -1,6 +1,6 @@
 ---
 title: "The Purpose and Size of a Hex"
-summary: "What is the purpose and what size best serves said purpose"
+summary: "What is the purpose of a hex and what size best serves said purpose?"
 tags: dnd
 date: 2026-02-15T10:53:00.00-05:00
 possed: https://dice.camp/@cobb/116075477194583814
