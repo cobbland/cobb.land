@@ -3,7 +3,7 @@ title: "My Introduction to TTRPGs"
 summary: "Where I started, where I've been, and why system doesn't matter"
 tags: dnd
 date: 2026-02-17T15:15:00.00-05:00
-possed: 
+possed: https://dice.camp/@cobb/116087849038273350
 ---
 
 I was introduced to [TTRPGs](https://en.wikipedia.org/wiki/Tabletop_role-playing_game) by the bassist of the band I was in right out of college. This was back in 2012 in Akron, Ohio (USA). We started with *D&D 4E*, premade characters, and a simple three-room dungeon full of combat. I was amazed and instantly obsessed. It was like a video game but using imagination (hah!).
