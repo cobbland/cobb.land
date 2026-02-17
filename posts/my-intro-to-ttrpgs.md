@@ -30,7 +30,7 @@ At that time, [The Gauntlet](https://www.gauntlet-rpg.com) wasn't a publisher of
 
 Over the next six months my whole perspective of what a tabletop roleplaying game was and could be completely transformed. First, via *Dungeon World* (and [accompanying advice](https://drive.google.com/file/d/0B8_Fz4m5hcoiTXpTbklDOF9iUHc/view) online), then through all the subsequent games. I played everything from *[The Shab Al-Hiri Roach](https://bullypulpitgames.com/products/roach)* and *[In a Wicked Age](http://www.lumpley.com/wicked.html)* to *[InSpectres](https://jaredsorensen.itch.io/inspectres)* and *[The Final Girl](https://www.drivethrurpg.com/en/product/182628/the-final-girl)*.
 
-(This is around the time I started designing my own games. More on that in another post.)
+(This is around the time I started designing [my own games](/illuminated-snail/). More on that in another post.)
 
 Occasionally, I would also join their Wednesday One-Shot game night. When it came my turn to run something, I returned to my roots and picked up the *D&D 5E Starter Set: Lost Mine of Phandelver*. Taking everything I'd learned from story games and applying it to 5E turned out to be a revelatory experience. The story wasn't what I prepared—it was the emergent narrative that happened at the table as a result of the mechanics and player choices.
 
