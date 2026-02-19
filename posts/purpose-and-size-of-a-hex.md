@@ -14,4 +14,4 @@ Something else linked in the Cauldron topic ([this blog post](https://silverarmp
 
 These are just questions right now, but I hope I'll be able to form some coherent opinions after some more thought and discussion. More soon!
 
-<p class="note footnote"><a href="#1up" id="1down">1</a>: I'm speaking about the folk tradition of dnd and tabletop roleplaying adventure games here, and not corporate D&D.</p>
+<p class="note footnote" id="1down">1: I'm speaking about the folk tradition of dnd and tabletop roleplaying adventure games here, and not corporate D&D. <a href="#1up">↩︎</a></p>
