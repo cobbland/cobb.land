@@ -5,6 +5,11 @@ permalink: /mahjong/
 tags: [game, page]
 date: 2026-02-26
 ---
+> 十亿人民九亿麻，还有一亿在观察
+> 
+> Among a billion people, nine hundred million are playing mahjong, and the rest are watching.
+
+<p class="note">— Chinese saying taken from <b>Mahjong for Dummies</b></p>
 
 From smoke-filled parlors to kitchen tables, [Mahjong](https://en.wikipedia.org/wiki/Mahjong) is a game with a long history that spans countries and centuries. There are many variations of mahjong. Here, I've collected some resources for learning and playing [old Hong Kong mahjong](https://en.wikipedia.org/wiki/Mahjong#Old_Hong_Kong_mahjong_rules) (and [riichi mahjong](https://en.wikipedia.org/wiki/Japanese_mahjong), marked with a fleuron).
 
