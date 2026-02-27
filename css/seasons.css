@@ -1,4 +1,4 @@
-.winterContainer {
+.seasonContainer {
   position:fixed;
   top:0;
   left:0;
@@ -8,12 +8,12 @@
   overflow:hidden;
   z-index:1;
 }
+
 @keyframes snowfall {
   0% {
     transform: translateY(-5vh) translateX(0) rotate(0deg);
     opacity: 0.9;
   }
-
   100% {
     transform: translateY(105vh) translateX(var(--swirl)) rotate(var(--rot));
     opacity: 0.9;
@@ -27,5 +27,26 @@
   color: white;
   opacity: 0;
   animation: snowfall linear infinite;
+  will-change: transform;
+}
+
+@keyframes flowers {
+  0% {
+    transform: translateY(-5vh) translateX(0) rotate(0deg);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(105vh) translateX(var(--swirl)) rotate(var(--rot));
+    opacity: 0.9;
+  }
+}
+.springFlower {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  color: #FCD3DE;
+  opacity: 0;
+  animation: flowers linear infinite;
   will-change: transform;
 }

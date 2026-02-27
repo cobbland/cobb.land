@@ -1,4 +1,4 @@
-const container = document.getElementById('winterContainer');
+const container = document.getElementById('seasonContainer');
 const snowflakeCount = 150;
 const snowflakeSymbols = ['❄︎', '❅', '❆', '❇︎', '❈', '❉', '❊', '❋']
 
