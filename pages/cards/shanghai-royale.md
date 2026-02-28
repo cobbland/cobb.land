@@ -102,4 +102,4 @@ Each player may go down with any hand, as long as they haven't gone down with it
 
 ## Suggested Decks
 
-- Bicycle Nertz Game Pack (from [Bicycle Cards](https://bicyclecards.com/shop/bicycle-nertz-game-pack-for-up-to-8-players-10031922) or [Amazon](https://www.amazon.com/Bicycle-Playing-Multiplayer-Solitaire-Players/dp/B0BC9YD4LZ/)).
+- Bicycle Nertz Game Pack (from [Cardtopia](https://cardtopia.com/na-en/bicycle-nertz-8-pack/) or [Amazon](https://www.amazon.com/Bicycle-Playing-Multiplayer-Solitaire-Players/dp/B0BC9YD4LZ/)).
