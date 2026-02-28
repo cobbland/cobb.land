@@ -1,0 +1,18 @@
+---
+layout: window.html
+title: 'Cards'
+permalink: /cards/
+tags: [page, game]
+---
+
+<p>I enjoy card games sometimes. Collected here are games I've modified or made up.
+
+<ul class="pages">
+    {% for page in collections.cards | sort(attribute='data.title') | limit(20) %}
+        <li>
+            <a href="{{ page.url }}">
+                {{ page.data.title }}
+            </a>
+        </li>
+    {% endfor %}
+</ul>

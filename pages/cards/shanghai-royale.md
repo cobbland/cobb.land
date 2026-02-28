@@ -1,8 +1,9 @@
 ---
 layout: window.html
 title: 'Shanghai Royale'
-permalink: /shanghai-royale/
-tags: [page, game]
+special: cards
+permalink: /cards/shanghai-royale/
+tags: [game, cards]
 ---
 
 # Shanghai Royale
