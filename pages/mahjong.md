@@ -24,8 +24,9 @@ From smoke-filled parlors to kitchen tables, [Mahjong](https://en.wikipedia.org/
 
 ## Play
 
-- [PlayMahjong.io](https://playmahjong.io) for online play (or with bots)
-- [Four Winds Mah Jong](https://www.4windsmj.com) for offline play (also with bots)
+- [PlayMahjong.io](https://playmahjong.io) for online play
+- [MahJongo](https://mahjongo.com) also for online play
+- [Four Winds Mah Jong](https://www.4windsmj.com) for offline play
 - ❁[Yakuman](https://en.wikipedia.org/wiki/Yakuman_(video_game)) for Game Boy (with [English translation](https://www.romhacking.net/translations/6349/))
 - [Hong Kong Mahjong Club](https://play.google.com/store/apps/details?id=com.recax.mjclub) for Android (also for [iOS](https://apps.apple.com/us/app/hong-kong-mahjong-club/id488514298))
 - [Let's Mahjong](https://play.google.com/store/apps/details?id=com.gdapp.mjlafree) for Android (also for [iOS](https://apps.apple.com/ca/app/lets-mahjong/id933694165))
