@@ -11,7 +11,7 @@ date: 2026-02-26
 
 <p class="note">— Chinese saying taken from <b>Mahjong for Dummies</b></p>
 
-From smoke-filled parlors to kitchen tables, [Mahjong](https://en.wikipedia.org/wiki/Mahjong) is a game with a long history that spans countries and centuries. There are many variations of mahjong. Here, I've collected some resources for learning and playing [old Hong Kong mahjong](https://en.wikipedia.org/wiki/Mahjong#Old_Hong_Kong_mahjong_rules) (and [riichi mahjong](https://en.wikipedia.org/wiki/Japanese_mahjong), marked with a fleuron).
+From smoke-filled parlors to kitchen tables, [Mahjong](https://en.wikipedia.org/wiki/Mahjong) is a game with a long history that spans countries and centuries. There are many variations of mahjong. Here, I've collected some resources for learning and playing [old Hong Kong mahjong](https://en.wikipedia.org/wiki/Mahjong#Old_Hong_Kong_mahjong_rules)<sup><a href=#1down id="1up">1</a></sup> (and [riichi mahjong](https://en.wikipedia.org/wiki/Japanese_mahjong), marked with a fleuron).
 
 ## Learn
 
@@ -35,3 +35,5 @@ From smoke-filled parlors to kitchen tables, [Mahjong](https://en.wikipedia.org/
 
 - [Yellow Mountain Imports](https://www.ymimports.com/collections/mahjong)
 - [Chop Suey Club](https://www.chopsueyclub.com/collections/mahjong)
+
+<p class="note footnote" id="1down">1: Also called Cantonese mahjong. I think. As far as I can tell, old Hong Kong and Cantonese mahjong are the same. There is also some blurring of the line between them and new Hong Kong mahjong. I think. Listen, I'm still learning.<a href="#1up">↩︎</a></p>
