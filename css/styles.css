@@ -110,6 +110,14 @@ img {
     display: block;
 }
 
+table {
+    margin: 1rem 0;
+}
+
+td {
+    padding-right: 1rem;
+}
+
 hr {
     border: none;
     display:flex;
@@ -509,11 +517,14 @@ p.date {
     line-height: 0.7rem;
 }
 
-/* code {
-    background-color: var(--border-color);
-    color: var(--border-color-alt);
-    overflow: auto;    
-} */
+code {
+    background-color: #1b1b1b22;
+    overflow: auto;
+}
+
+pre code {
+    display: block;
+}
 
 .c64-code,
 .c64-code-inner {
