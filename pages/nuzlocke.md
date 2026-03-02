@@ -8,7 +8,7 @@ date: 2026-03-26
 
 ## Rules
 
-Here are my slightly modified Nuzlocke Challenge rules:
+Here are my slightly modified [Nuzlocke Challenge](https://bulbapedia.bulbagarden.net/wiki/Nuzlocke_Challenge) rules:
 
 - Can only (try to) catch the first pokemon encountered in each area
     - Pokemon encountered before obtaining pokeballs don't count
