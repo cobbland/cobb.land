@@ -2,8 +2,8 @@
 layout: page.njk
 title: 'Nuzlocke'
 permalink: /nuzlocke/
-tags: [game, pokemon]
-date: 2026-03-26
+tags: [page, game, pokemon]
+date: 2026-03-02T14:30:00.00-05:00
 ---
 
 ## Rules
@@ -20,22 +20,22 @@ Here are my slightly modified [Nuzlocke Challenge](https://bulbapedia.bulbagarde
 
 ## Pokemon LeafGreen
 
-### Runs
+### ~~1st Run~~
 
-#### ~~1st~~
-
-Party:
+**Party**:
 
 - ~~Robert (Squirtle)~~
 - ~~Penny (Rattata)~~
 - ~~Sarah (Spearow)~~
 
-"Died" to my rival on Route 22.
+**Ended**: "Died" to my rival on Route 22.
 
-#### 2nd
+### 2nd Run
 
-Party:
+**Party**:
 
 - Robert (Squirtle)
 - Peter (Rattata)
 - Sarah (Mankey)
+
+**Currently**: Training on Route 1.
