@@ -72,3 +72,4 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Add [octothorpes](https://octothorp.es)
 - [ ] Join the [RSS Club](https://daverupert.com/rss-club/)
 - [ ] Finish seasons script
+- [ ] Move all pages into the pages folder

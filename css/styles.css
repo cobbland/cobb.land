@@ -144,6 +144,11 @@ hr::after {
     display: block;
 }
 
+/* [href^="http"]::after {
+    content: '➚';
+    text-decoration: none;
+} */
+
 /* Navigation */
 
 header {
