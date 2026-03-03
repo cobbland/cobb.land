@@ -15,6 +15,9 @@ Here are my slightly modified [Nuzlocke Challenge](https://bulbapedia.bulbagarde
     - Encountered pokemon from evolutionary lines already caught don't count
 - Once a pokemon faints it must be released
 - Nickname all caught pokemon
+- Pokemon above a certain level can't be used, depending on the number of badges attained
+    - None: 15
+    - Each additional badge: +5
 - Each badge grants one "life"—a "white out" uses one life, after which all pokemon but the starter must be released
 - After three failed runs, the challenge is considered failed
 
@@ -37,5 +40,8 @@ Here are my slightly modified [Nuzlocke Challenge](https://bulbapedia.bulbagarde
 - Robert (Squirtle)
 - Peter (Rattata)
 - Sarah (Mankey)
+- Philippe (Metapod)
 
-**Currently**: Training on Route 1.
+**Max level**: 15
+
+**Currently**: Braving the Viridian Forest.
