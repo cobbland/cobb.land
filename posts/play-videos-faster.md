@@ -16,3 +16,5 @@ Anyway, if you also have these problems—or want to have them—I can help. The
 <a class="bookmarklet" href="javascript:(()%20%3D%3E%20document.getElementsByTagName(%27video%27)%5B0%5D.playbackRate%20%3D%202.5)()%3B">Play fast!</a>
 
 <a class="bookmarklet" href="javascript:(()%20%3D%3E%20document.getElementsByTagName(%27video%27)%5B0%5D.playbackRate%20%3D%203)()%3B">Play FASTER!</a>
+
+**Edit**: See [bookmarklets](/bookmarklets) for more.

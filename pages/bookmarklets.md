@@ -8,7 +8,7 @@ date: 2026-03-03T11:50:00.00-05:00
 
 Bookmarklets let you modify webpages with custom JavaScript, which is fun.
 
-To use one of the below bookmarklets, drag it into your web browser's bookmarks bar. Or manually create a new bookmark with the url beginning with `javascript:` followed by the js from one of the options below (potentially after [URL encoding](https://meyerweb.com/eric/tools/dencoder/) it).
+To use one of the below bookmarklets, drag it into your web browser's bookmarks bar, or manually create a new bookmark with the url beginning with `javascript:` followed by the js from one of the options below (potentially after [URL encoding](https://meyerweb.com/eric/tools/dencoder/) it).
 
 (See [A Complete Guide to Bookmarklets](https://css-tricks.com/a-complete-guide-to-bookmarklets/) for more information.)
 
