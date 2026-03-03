@@ -15,11 +15,11 @@ Here are my slightly modified [Nuzlocke Challenge](https://bulbapedia.bulbagarde
     - Encountered pokemon from evolutionary lines already caught don't count
 - Once a pokemon faints it must be released
 - Nickname all caught pokemon
-- Pokemon above a certain level can't be used, depending on the number of badges attained
-    - None: 15
-    - Each additional badge: +5
-- Each badge grants one "life"—a "white out" uses one life, after which all pokemon but the starter must be released
-- After three failed runs, the challenge is considered failed
+- Pokemon whose level is above that of the next gym leader's highest level pokemon can't be used
+    - Levels: 14, 21, 24, 29, 43, 43, 47, 50, 63 (elite four), 75 (elite four rematch)
+- Each badge grants one "life", and a "white out" uses one life
+    - If no pokemon remain in boxes, the starter may be kept
+- After three failed runs, the challenge is considered unsuccessful
 
 ## Pokemon LeafGreen
 
@@ -45,6 +45,8 @@ Here are my slightly modified [Nuzlocke Challenge](https://bulbapedia.bulbagarde
 
 **Badges**: 0
 
-**Max level**: 15
+**Lives**: 0
+
+**Max level**: 14
 
 **Currently**: Braving the Viridian Forest.
