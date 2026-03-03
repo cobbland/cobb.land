@@ -13,6 +13,6 @@ My second problem is that two times speed isn't fast enough anymore. Luckily, my
 
 Anyway, if you also have these problems—or want to have them—I can help. The following bookmarklets work on YouTube (yuck), PeerTube (better?), and maybe even elsewhere. Drag one or both and drop them into your bookmarks bar for on-demand video speed in a click (2.5x and 3x, respectively):
 
-<a class="bookmarklet" href="javascript:void%20function(){document.getElementsByTagName(%22video%22)[0].playbackRate=2.5}();">Play fast!</a>
+<a class="bookmarklet" href="javascript:(()%20%3D%3E%20document.getElementsByTagName(%27video%27)%5B0%5D.playbackRate%20%3D%202.5)()%3B">Play fast!</a>
 
-<a class="bookmarklet" href="javascript:void%20function(){document.getElementsByTagName(%22video%22)[0].playbackRate=3}();">Play FASTER!</a>
+<a class="bookmarklet" href="javascript:(()%20%3D%3E%20document.getElementsByTagName(%27video%27)%5B0%5D.playbackRate%20%3D%203)()%3B">Play FASTER!</a>
