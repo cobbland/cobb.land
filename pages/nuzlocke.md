@@ -3,7 +3,7 @@ layout: page.njk
 title: 'Nuzlocke'
 permalink: /nuzlocke/
 tags: [page, game, pokemon]
-date: 2026-03-02T14:30:00.00-05:00
+date: 2026-03-03T16:20:00.00-05:00
 ---
 
 ## Rules
@@ -37,10 +37,13 @@ Here are my slightly modified [Nuzlocke Challenge](https://bulbapedia.bulbagarde
 
 **Party**:
 
-- Robert (Squirtle)
-- Peter (Rattata)
-- Sarah (Mankey)
-- Philippe (Metapod)
+- Robert (Squirtle, Lv11)
+- Peter (Rattata, Lv8)
+- Sarah (Mankey, Lv8)
+- Lucas (Pidgey, Lv10)
+- Philippe (Metapod, Lv4)
+
+**Badges**: 0
 
 **Max level**: 15
 
