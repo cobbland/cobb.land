@@ -18,6 +18,7 @@ Here are my slightly modified [Nuzlocke Challenge](https://bulbapedia.bulbagarde
 - Pokemon whose level is above that of the next gym leader's highest level pokemon can't be used
     - Levels: 14, 21, 24, 29, 43, 43, 47, 50, 63 (elite four), 75 (elite four rematch)
 - Each badge grants one "life", and a "white out" uses one life
+    - Once all lives are used, the run is failed
     - If no pokemon remain in boxes, the starter may be kept
 - After three failed runs, the challenge is considered unsuccessful
 
@@ -38,9 +39,9 @@ Here are my slightly modified [Nuzlocke Challenge](https://bulbapedia.bulbagarde
 **Party**:
 
 - Robert (Squirtle, Lv11)
+- Lucas (Pidgey, Lv10)
 - Peter (Rattata, Lv8)
 - Sarah (Mankey, Lv8)
-- Lucas (Pidgey, Lv10)
 - Philippe (Metapod, Lv4)
 
 **Badges**: 0
