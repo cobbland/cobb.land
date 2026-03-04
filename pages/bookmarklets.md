@@ -31,7 +31,7 @@ Force light mode on websites that are designed by evil people who live in the sh
 ```js
 (() => {
     const style = document.createElement("style");
-    style.innerHTML = 'body { background: #FFF !important; color: #000 !important; }';
+    style.innerHTML = '*, .post__content { background: #FFF !important; color: #000 !important; }';
     document.head.appendChild(style);
 })();
 ```
