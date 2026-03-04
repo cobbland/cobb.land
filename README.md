@@ -37,7 +37,7 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Clean up CSS
 - [ ] Make more accessible
 - [ ] Finish "blogroll"
- - [ ] And add an OPML blogroll so I can join the [Blogroll Network Map](https://alexsci.com/rss-blogroll-network/)
+- [ ] And add an OPML blogroll so I can join the [Blogroll Network Map](https://alexsci.com/rss-blogroll-network/)
 - [ ] Finish "uses"
 - [ ] Add automatic POSSE (maybe [EchoFeed](https://echofeed.app/), [Feed Classic](https://echo.rknight.me/), or [Bridgy](https://brid.gy/))
 - [ ] Customize atom feeds using the [manual template](https://www.11ty.dev/docs/plugins/rss/#manual-template) method
@@ -56,7 +56,7 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Style RSS feed (see [here](https://www.cedricbonhomme.org/2025/08/18/rss-xslt-styling/))
 - [ ] Make blogroll fancy (see [here](https://opml.org/blogroll.opml))
 - [ ] Maybe do something with [little pixel library](https://hillhouse.neocities.org/cliques/library/) on my media page or something
-- [ ] [Dark mode](https://www.codemzy.com/blog/dark-mode-to-static-site)?
+- [x] [Dark mode](https://www.codemzy.com/blog/dark-mode-to-static-site)?
 - [ ] Consider [CC](https://creativecommons.org/ai-and-the-commons/cc-signals/) Signals and/or [RSL](https://rslstandard.org) (mostly for the purpose of keeping LLM crawlers off my site)
 - [ ] Fix footnotes in RSS feeds and when article is saved in reader
 - [x] Add RetroAchievements using their [API](https://github.com/RetroAchievements/api-js)?
