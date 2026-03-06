@@ -133,3 +133,8 @@ User-agent: YandexAdditionalBot
 User-agent: YouBot
 User-agent: ZanistaBot
 Disallow: /
+
+User-agent: search.marginalia.nu
+Allow: /
+
+Sitemap: https://cobb.land/sitemap.xml
