@@ -3,7 +3,7 @@ layout: page.njk
 title: 'Nuzlocke'
 permalink: /nuzlocke/
 tags: [page, game, pokemon]
-date: 2026-03-03T16:20:00.00-05:00
+date: 2026-03-05T20:00:00.00-05:00
 ---
 
 ## Rules
