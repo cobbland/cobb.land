@@ -38,16 +38,19 @@ Here are my slightly modified [Nuzlocke Challenge](https://bulbapedia.bulbagarde
 
 **Party**:
 
-- Robert (Squirtle, Lv11)
-- Lucas (Pidgey, Lv10)
-- Peter (Rattata, Lv8)
-- Sarah (Mankey, Lv8)
-- Philippe (Metapod, Lv4)
+- Robert (Squirtle, Lv17)
+- Lucas (Pidgey, Lv17)
+- Peter (Rattata, Lv16)
+- Sarah (Mankey, Lv17)
+- Philippe (Metapod, Lv17)
+- Gracie (Zubat, Lv10, boxed)
+- ~~Tomo (Sandshrew, Lv14)~~
+- Samuel (Bellsprout, Lv14)
 
-**Badges**: 0
+**Badges**: 1
 
 **Lives**: 0
 
-**Max level**: 14
+**Max level**: 21
 
-**Currently**: Braving the Viridian Forest.
+**Currently**: Visiting Bill.
