@@ -4,7 +4,7 @@ layout: window.html
 tags: [slashpage, page]
 ---
 
-This website was mostly crafted by hand in HTML and CSS (with a tiny bit of non-essential JavaScript for fun stuff) using <a href="https://vscodium.com/">VSCodium</a> and generated using [11ty](https://www.11ty.dev/). It's hosted on <a href="https://www.netlify.com/">Netlify</a> and deployed from <a href="https://github.com/cobbland/cobb.land">Github</a> (for now).</a>
+This website was mostly crafted by hand in HTML and CSS (with a tiny bit of non-essential JavaScript for fun stuff) using <a href="https://www.vim.org">Vim</a> and generated using [11ty](https://www.11ty.dev/). It's hosted on <a href="https://www.netlify.com/">Netlify</a> and deployed from <a href="https://github.com/cobbland/cobb.land">Github</a> (for now).</a>
 
 [Webmention.io](https://webmention.io/) and [webmention.app](https://webmention.app/) are used for receiving and sending webmentions, as well as [Bridgy](https://brid.gy/) for connecting to Mastodon (and sometimes Bluesky).
 
