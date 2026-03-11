@@ -112,6 +112,12 @@ img {
 
 table {
     margin: 1rem 0;
+    font-family: var(--main-font-family);
+}
+
+thead th {
+    border-bottom: 2px solid var(--black);
+    border-top: 4px solid var(--black);
 }
 
 td {
