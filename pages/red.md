@@ -44,6 +44,10 @@ From [The only leftist reading list you'll ever need (lol)](https://www.youtube.
 - [Hakim](https://www.youtube.com/@YaBoiHakim/videos)
     - [What Should New Leftists Do? A Guide.](https://www.youtube.com/watch?v=DYeXbWzI6l0)
 - [The Deprogram](https://pca.st/ismas56y)
+- [Rev Left Radio](https://pca.st/dBAz)
+- [The Dig](https://pca.st/5vle)
+- [Workers' Lit](https://pca.st/lwgx71at)
+- [Proles Pod](https://pca.st/1JX0)
 
 ## Organizations
 
@@ -57,6 +61,9 @@ From [The only leftist reading list you'll ever need (lol)](https://www.youtube.
 ## Other Resources
 
 - [Marxist Internet Archive](https://www.marxists.org/)
+- [Dessalines Marxism Study Plan](https://dessalines.github.io/essays/dessalines_marxism_study_plan.html)
+- [Marxism-Leninism Study Guide: Basic Course](https://retrolemmy.com/post/33810847)
+- [Marxism-Leninism Study Guide: Advanced Course](https://lemmy.ml/post/22417306)
 
 ## Communism and Tech
 
