@@ -3,11 +3,34 @@
     "url": "https://cobb.land",
     "vouches": [
         {
+            "url": "https://densford.net",
+            "vouched_at": "2026-03-11"
+        }, 
+        {
+            "url": "https://jacob.densford.net",
+            "vouched_at": "2026-03-11"
+        },
+        {
+            "url": "https://julia.densford.net",
+            "vouched_at": "2026-03-11"
+        },        {
+            "url": "https://sai.densford.net",
+            "vouched_at": "2026-03-11"
+        },
+        {
+            "url": "https://jacobdensford.com",
+            "vouched_at": "2026-03-11"
+        },
+        {
+            "url": "https://saisarida.com",
+            "vouched_at": "2026-03-11"
+        },
+        {
             "url": "https://blog.saisarida.com",
 	    "vouched_at": "2026-03-11"
         },
         {
-            "url": "https://julia.densford.net",
+            "url": "https://mothposs.com",
             "vouched_at": "2026-03-11"
         }
     ]
