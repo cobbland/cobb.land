@@ -1,0 +1,14 @@
+{
+    "version": "0.1.1",
+    "url": "https://cobb.land",
+    "vouches": [
+        {
+            "url": "https://blog.saisarida.com",
+	    "vouched_at": "2026-03-11"
+        },
+        {
+            "url": "https://julia.densford.net",
+            "vouched_at": "2026-03-11"
+        }
+    ]
+}

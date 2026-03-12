@@ -1,2 +1,11 @@
 [build.environment]
-  TZ='America/Chicago'
+  TZ = 'America/Chicago'
+
+[[headers]]
+  for = "/*xml"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+  for = "/data/human.json"
+  [headers.values]
+    Content-Type = "application/json"
+    Access-Control-Allow-Origin = "*"
