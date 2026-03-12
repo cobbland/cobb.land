@@ -9,24 +9,6 @@ special: home-title
 <div class="home-latest">
 
     <div>
-        <h2>Pages</h2>
-    
-        <div>
-            <ul class="pages">
-                {% for page in collections.page | sort(attribute='data.title') | limit(20) %}
-                    <li>
-                        <a href="{{ page.url }}">
-                            {{ page.data.title }}
-                        </a>
-                    </li>
-                {% endfor %}
-            </ul>
-        </div>
-    
-        <p class="pushdown"><a href="/pages">More pages</a></p>
-    </div>
-
-    <div>
         <h2>Posts</h2>
     
         <ul class="posts">
@@ -43,6 +25,24 @@ special: home-title
         </ul>
     
         <p class="pushdown"><a href="/posts">More posts</a></p>
+    </div>
+
+    <div>
+        <h2>Pages</h2>
+    
+        <div>
+            <ul class="pages">
+                {% for page in collections.page | sort(attribute='data.title') | limit(24) %}
+                    <li>
+                        <a href="{{ page.url }}">
+                            {{ page.data.title }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    
+        <p class="pushdown"><a href="/pages">More pages</a></p>
     </div>
 
     <div>
