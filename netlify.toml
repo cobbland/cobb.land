@@ -5,6 +5,8 @@
   for = "/*xml"
   [headers.values]
     Access-Control-Allow-Origin = "*"
+
+[[headers]]
   for = "/data/human.json"
   [headers.values]
     Content-Type = "application/json"
