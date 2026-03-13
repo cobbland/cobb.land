@@ -64,7 +64,7 @@ From [The only leftist reading list you'll ever need (lol)](https://www.youtube.
 
 - [Marxist Internet Archive](https://www.marxists.org/)
 - [ProleWiki](https://en.prolewiki.org/wiki/ProleWiki:Main_page)
-- [Dessalines Marxism Study Plan](https://dessalines.github.io/essays/dessalines_marxism_study_plan.html)
+- [Dessalines Essays](https://dessalines.github.io/essays/)
 - [Marxism-Leninism Study Guide: Basic Course](https://lemmy.ml/post/43309494)
 - [Marxism-Leninism Study Guide: Advanced Course](https://lemmy.ml/post/22417306)
 
