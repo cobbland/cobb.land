@@ -20,7 +20,7 @@ Follow these courses:
 
 3. [Marxism-Leninism Study Guide: Basic Course](https://lemmy.ml/post/43309494)
 4. [Marxism-Leninism Study Guide: Advanced Course](https://lemmy.ml/post/22417306)
-- (and [Crash Course Socialism](https://dessalines.github.io/essays/crash_course_socialism.html) and [Dessalines Marxism Study Plan](https://dessalines.github.io/essays/dessalines_marxism_study_plan.html) at the same time)
+- (overlapping with [Crash Course Socialism](https://dessalines.github.io/essays/crash_course_socialism.html) and [Dessalines Marxism Study Plan](https://dessalines.github.io/essays/dessalines_marxism_study_plan.html) if feeling ambitious)
 
 ## Resources
 
