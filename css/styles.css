@@ -728,6 +728,10 @@ ul.extra {
     position: absolute;
 }
 
+.link-icon img {
+    image-rendering: pixelated;
+}
+
 .icon-image {
     max-height: 62px;
     max-width: 176px;
