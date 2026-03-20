@@ -1,0 +1,4 @@
+TKTK.
+
+1. The barrow-wights succeeded in killing the hobbits, the one ring falling into their bony clutches. But before the dark lord manages to reclaim it, the ring falls into the hands of some level-one would-be adventurers while attempting to plunder the barrows.
+2. You're a group of scoundrels staying in Bree. You hear that the famous hobbit, Bilbo Baggins, is having a grand party to celebrate his 111 birthday—the perfect opportunity to ransack his cozy hole. But while loading up your sacks, he returns. Caught in the act, you kill him and take his jewelry (the one ring) before fleeing across country. Before you know it, strange riders in black (and perhaps one in grey) are hounding your trial.
