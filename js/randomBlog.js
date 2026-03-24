@@ -9,6 +9,7 @@ const choose = () => {
     const choices = [
         "https://xn--sr8hvo.ws/random", 
         "https://fediring.net/random",
+	"https://rootr.ing/random",
         woodChoice.url,
         hotlineChoice,
     ];
