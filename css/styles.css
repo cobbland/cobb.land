@@ -777,6 +777,12 @@ ul.extra {
     pointer-events: none;
 }
 
+.spell {
+    background-color: var(--border-color);
+    border: solid 2px var(--border-color-alt);
+    padding: 1rem;
+}
+
 /* Media styles */
 
 @media (max-width: 1235px) {
