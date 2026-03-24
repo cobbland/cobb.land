@@ -3,7 +3,7 @@ title: "TTRPG Webrings"
 summary: "Four of 'em, because just two magic rings is a dumb rule"
 tags: [dnd, meta]
 date: 2026-03-24T10:00:00.00-04:00
-possed:
+possed: "https://dice.camp/@cobb/116284964396686261"
 ---
 
 I've heard some folks only allow characters in dnd to wear two magic rings—one on each hand. Well, I say that's dumb. I've got ten fingers, after all (and that's before we even get to toes), so why can't I wear more rings? In the spirit of my bountiful phalanges, I present four TTRPG webrings followed by a well-intentioned sermon and a magic item:
@@ -24,6 +24,6 @@ Join me!
 
 (Okay, I'll stop preaching now. On to the magic item.)
 
-<p class="spell"><strong>Ring of the Web.</strong> Crafted by an ancient race of interdimensional hyper-intelligent spiders, this magic ring creates telepathic links between other rings crafted of mundane metals. Each mundane ring can be linked to two other rings in this way, granting the wearer one daily use of the spell <a href="https://oldschoolessentials.necroticgnome.com/srd/index.php/ESP">ESP</a>, targeted at the bearer of one of that rings linked rings or the bearer of the Ring of the Web.</p>
+<p class="spell"><strong>Ring of the Web.</strong> Crafted by an ancient race of interdimensional hyper-intelligent spiders, this magic ring creates telepathic links between other rings crafted of mundane metals. Each mundane ring can be linked to two other rings in this way, granting the bearer one daily use of the spell <a href="https://oldschoolessentials.necroticgnome.com/srd/index.php/ESP">ESP</a>, targeted at the bearer of one of that rings linked rings or the bearer of the Ring of the Web.</p>
 
 <p class="note footnote" id="1down">1: The first three blogrolls are all powered by <a href="https://allium.house/garden/onionring/">onionring</a>. Onionring is nice because setup is easy—it's just a few JavaScript files and some CSS. But it's not so nice if you prefer to keep on-site JS to a minimum, and there are security implications to running JS files you don't host yourself—they could be changed at any time. (I've got a hacky local way to get around this, but that's a topic for another time.)<a href="#1up">↩︎</a></p>
