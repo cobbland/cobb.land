@@ -1,12 +1,12 @@
 ---
 title: "More Hexes"
-summary: "SUMMARY"
-tags: [TAGS]
+summary: "More isn't always better, but in this case it is"
+tags: [dnd]
 date: 2026-03-13T12:00:00.00-04:00
-possed: "URL"
+possed: 
 ---
 
-This post is a follow up to [The Purpose and Size of a Hex](/posts/purpose-and-size-of-a-hex/), as well as [this topic](https://discourse.rpgcauldron.com/t/book-club-26-in-praise-of-the-6-mile-hex/3461?u=cobb.land) on [The Cauldron](https://discourse.rpgcauldron.com) and [this topic](https://forum.illuminatedsnail.com/t/the-purpose-of-a-hex-and-the-best-hex-size-also-encumbrance-and-speed-considerations/47?u=cobbland) on [the Illuminated Snail forum](https://forum.illuminatedsnail.com). It is also my entry for [Bandwagon: Maps!](https://www.prismaticwasteland.com/blog/bandwagon-the-map-is-not-the-territory-but-it-is-the-topic).
+This post is a follow up to [The Purpose and Size of a Hex](/posts/purpose-and-size-of-a-hex/), as well as [this topic](https://discourse.rpgcauldron.com/t/book-club-26-in-praise-of-the-6-mile-hex/3461?u=cobb.land) on [The Cauldron](https://discourse.rpgcauldron.com) and [this topic](https://forum.illuminatedsnail.com/t/the-purpose-of-a-hex-and-the-best-hex-size-also-encumbrance-and-speed-considerations/47?u=cobbland) on [the Illuminated Snail forum](https://forum.illuminatedsnail.com). (And while you're reading all that, might as well check out [Hexcrawl to Pointcrawl](/posts/hexcrawl-to-pointcrawl/)—it's somewhat relevant.) It is also my entry for [Bandwagon: Maps!](https://www.prismaticwasteland.com/blog/bandwagon-the-map-is-not-the-territory-but-it-is-the-topic).
 
 TKTK definitions
 
