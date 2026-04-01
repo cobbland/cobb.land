@@ -37,23 +37,23 @@ Here are my slightly modified [Nuzlocke Challenge](https://bulbapedia.bulbagarde
 
 **Party**:
 
-- Robert (Squirtle, Lv21)
+- Robert (Wartortle, Lv23)
 - ~~Lucas (Pidgey, Lv20)~~
-- Peter (Rattata, Lv20)
-- Sarah (Mankey, Lv20)
-- Philippe (Metapod, Lv20)
+- Peter (Rattata, Lv23)
+- Sarah (Mankey, Lv23)
+- Philippe (Butterfree, Lv23)
 - Hiro (Weedle, Lv8, boxed)
 - Gracie (Zubat, Lv10, boxed)
 - ~~Tomo (Sandshrew, Lv14)~~
-- Samuel (Bellsprout, Lv20)
+- Samuel (Weepinbell, Lv23)
 - Tofu (Meowth, Lv10, boxed)
 - Goldie (Magikarp, Lv5, boxed)
-- Larry (Diglette, Lv22) 
+- Larry (Diglette, Lv23) 
 
-**Badges**: 2
+**Badges**: 3
 
-**Lives**: 2
+**Lives**: 3
 
-**Max level**: 24
+**Max level**: 29
 
-**Currently**: Visiting Bill.
+**Currently**: Chillin' in Vermilion City.
