@@ -1,9 +1,9 @@
 ---
 title: "Hexcrawl to Pointcrawl"
-summary: "It's easy to turn a hexcrawl into a pointcrawl"
+summary: "It's easy to turn a hexcrawl into a pointcrawl (but not so much the other way around)"
 tags: [dnd]
 date: 2026-04-01T14:00:00.00-04:00
-possed:
+possed: "https://dice.camp/@cobb/116330942672312473"
 ---
 
 I just read [Cats Have No Lords](https://blog.catshavenolord.page)'s post [Tyranny of the Crawl](https://blog.catshavenolord.page/tyranny-of-the-crawl/) (as well as the accompanying [topic on The Cauldron](https://discourse.rpgcauldron.com/t/tyranny-of-the-crawl/3533?u=cobb.land)), and it got me thinking about the relationship between hexcrawls and pointcrawls.
