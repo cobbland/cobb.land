@@ -35,7 +35,7 @@ Press and hold one of the following button combinations while turning on the gb.
 
 1. Format a microSD card with FAT32
 2. Download and write to the formatted card the contents of the latest [OS file(s)](https://krikzz.com/pub/support/everdrive-gb/x-series/OS/)
-3. Add roms (preferably in a new "roms" folder)
+3. Add roms to card
 4. Sort roms using [FATsort](https://fatsort.sourceforge.io)
     1. [Install](https://formulae.brew.sh/formula/fatsort)
     2. Find the drive to sort using `lsblk`
