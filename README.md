@@ -49,6 +49,8 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Consider doing some of these things from [100 things you can do on your personal website](https://jamesg.blog/2024/02/19/personal-website-ideas)
 - [x] Finish media system
 - [ ] Fix media system?
+    - [ ] Maybe use json file(s) instead of individual md
+    - [ ] If so, add some js to display things in different ways
 - [x] Add shelved media to posts (maybe under reviews?)
 - [ ] Add fancy initial letter to article posts (see [Fancy initial letter](https://blog.jacobdensford.com/fancy-initial-letter))?
 - [x] Rename shortform posts on homepage so they're not so repetitive

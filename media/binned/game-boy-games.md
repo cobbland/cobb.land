@@ -10,7 +10,7 @@ score:
 possed: 
 ---
 
-Games to play on Game Boy, Game Boy Color, and Game Boy Advanced, sorted by release order.
+Games to play on Game Boy, Game Boy Color, and Game Boy Advanced, sorted by release year and then alphabetically, based on [this](https://nintendo.fandom.com/wiki/List_of_Game_Boy_games), [this](https://nintendo.fandom.com/wiki/List_of_Game_Boy_Color_games), and [this list](https://nintendo.fandom.com/wiki/List_of_Game_Boy_Advance_games).
 
 ## Game Boy
 
@@ -25,159 +25,181 @@ Games to play on Game Boy, Game Boy Color, and Game Boy Advanced, sorted by rele
 
 ### 1990
 
-- [ ] Motocross Maniacs
-- [ ] Golf
-- [ ] Revenge of the 'Gator
-- [ ] Qix
-- [ ] Batman
-- [ ] Gargoyle's Quest
-- [ ] Double Dragon
-- [ ] Teenage Mutant Ninja Turtles: Fall of the Foot Clan
-- [ ] Catrap
-- [ ] The Final Fantasy Legend
 - [ ] Balloon Kid
-- [ ] DuckTales
+- [ ] Batman
+- [ ] Catrap
+- [ ] Double Dragon
 - [ ] Dr. Mario
+- [ ] DuckTales
+- [ ] Gargoyle's Quest
+- [ ] Golf
+- [ ] Heiankyo Alien
+- [ ] Motocross Maniacs
+- [ ] Parodius
+- [ ] Qix
+- [ ] Revenge of the 'Gator
+- [ ] Teenage Mutant Ninja Turtles: Fall of the Foot Clan
+- [ ] The Final Fantasy Legend
 
 ### 1991
 
-- [ ] F-1 Race
-- [ ] Operation C
-- [ ] Bubble Bobble
-- [ ] R-Type 
-- [ ] Castlevania II: Belmont's Revenge
-- [ ] Navy Seals
 - [ ] Atomic Punk
-- [ ] Super R.C. Pro-Am
+- [ ] Bubble Bobble
+- [ ] Castlevania II: Belmont's Revenge
+- [ ] Double Dragon II
+- [ ] F-1 Race
+- [ ] Faceball 2000
 - [ ] Final Fantasy Adventure
 - [ ] Final Fantasy Legend 2
-- [x] Kid Icarus: Of Myths and Monsters (GB)
+- [x] Kid Icarus: Of Myths and Monsters
 - [ ] Metroid 2: Return of Samus
-- [ ] Double Dragon II
+- [ ] Navy Seals
 - [ ] Ninja Gaiden Shadow
+- [ ] Operation C
+- [ ] R-Type 
+- [ ] Super R.C. Pro-Am
 - [ ] Teenage Mutant Ninja Turtles II: Back from the Sewers
 
 ### 1992
 
-*Left off [here](https://nintendo.fandom.com/wiki/List_of_Game_Boy_games#'92).*
-
-### Unsorted
-
-- [ ] Faceball 2000
-- [ ] Wave Race
-- [ ] Kirby's Pinball Land
-- [ ] The Legend of Zelda: Link's Awakening
-- [ ] Super Mario Land 2: 6 Golden Coins
-- [ ] Wario Land: Super Mario Land 3
-- [ ] Wario Land 2
-- [ ] Wario Blast: Featuring Bomberman!
-- [ ] Tetris 2
+- [ ] Avenging Spirit
 - [ ] Bionic Commando
-- [ ] Mortal Kombat II
+- [ ] Gradius: The Interstellar Assault
 - [ ] Kirby's Dream Land
-- [ ] Kirby's Dream Land 2
-- [ ] Donkey Kong Game Boy
-- [ ] Final Fantasy Legend 3
-- [ ] Mole Mania
-- [ ] DuckTales 2
+- [ ] Mario & Yoshi
+- [ ] Star Wars
+- [ ] Super Mario Land 2: 6 Golden Coins
+- [ ] Tiny Toon Adventures: Babs' Big Break
+- [ ] Wave Race
+
+### 1993
+
 - [ ] Darkwing Duck
-- [ ] Game & Watch Gallery
-- [x] Trip World
+- [ ] DuckTales 2
+- [ ] F1 Pole Position
+- [ ] Final Fantasy Legend 3
+- [ ] Kirby's Pinball Land
 - [ ] Kid Dracula 
-- [ ] Harvest Moon GB
+- [ ] Star Wars: The Empire Strikes Back
+- [ ] Tetris 2
+- [ ] The Legend of Zelda: Link's Awakening
+- [ ] The New Chessmaster
+- [x] Trip World
+
+### 1994
+
+- [ ] Contra: The Alien Wars
+- [ ] Donkey Kong
+- [ ] Mega Man V
+- [ ] Mortal Kombat II
+- [ ] Space Invaders
+- [ ] Wario Blast: Featuring Bomberman!
+- [ ] Wario Land: Super Mario Land 3
+
+### 1995
+
+- [ ] Killer Instinct
+- [ ] Kirby's Dream Land 2
 - [ ] Mario's Picross
+
+### 1996
+
 - [ ] Picross 2
 - [ ] Tetris Attack
-- [ ] Mega Man V
-- [x] Pokémon Red/Blue/Yellow
-- [ ] Turok: Battle Of The Bionosaurs
-- [ ] Killer Instinct
-- [ ] Mario & Yoshi
-- [ ] James Bond 007
-- [ ] Avenging Spirit
-- [ ] Space Invaders
-- [ ] Contra: The Alien Wars
-- [ ] Parodius
-- [ ] Heiankyo Alien
-- [ ] Gradius: The Interstellar Assault
-- [ ] Tiny Toon Adventures: Babs' Big Break
 
-- [ ] Hermano
+### 1997
+
+- [ ] Game & Watch Gallery
+- [ ] Mole Mania
+- [ ] Tamagotchi
+- [ ] Turok: Battle Of The Bionosaurs
+
+### 1998
+
+- [ ] Bomberman GB
+- [ ] Game Boy Camera
+- [ ] Harvest Moon GB
+- [ ] James Bond 007
+- [x] Pokémon Red/Blue
+- [ ] Wario Land 2
+
+### 1999
+
+- [x] Pokémon Yellow
+
+### Modern
+
 - [ ] DAEDEUS
+- [ ] Hermano
 
 ## Game Boy Color
 
 ### 1998
 
 - [ ] Game & Watch Gallery 2
-- [ ] Tetris DX
-- [ ] The Legend of Zelda: Link's Awakening DX
 - [ ] Harvest Moon
 - [ ] Pokemon Trading Card Game
+- [ ] Tetris DX
+- [ ] The Legend of Zelda: Link's Awakening DX
 
 ### 1999
 
-*Left off [here](https://nintendo.fandom.com/wiki/List_of_Game_Boy_Color_games#'99).*
-
-- [ ] Pokemon Pinball
+- [ ] Bionic Commando: Elite Forces
+- [ ] Duke Nukem
+- [ ] Game & Watch Gallery 3
+- [ ] Legend of the River King
 - [ ] Mario Golf
+- [ ] Mickey's Racing Adventure
+- [ ] Ms. Pac-Man: Special Color Edition 
+- [ ] Pac-Man: Special Color Edition
+- [ ] Pokemon Pinball
+- [ ] R-Type DX
+- [ ] Super Mario Bros. Deluxe
+- [ ] Survival Kids
 
 ### 2000
 
-- [ ] Metal Gear Solid
-- [ ] Warlocked
-- [ ] Pokemon Puzzle Challenge
-- [ ] Mario Tennis
+- [ ] Dragon Warrior I & II
+- [ ] Dragon Warrior Monsters
+- [ ] Crystalis
+- [ ] Ghosts ‘n Goblins
+- [ ] Harvest Moon 2
 - [ ] Kirby Tilt 'n' Tumble
+- [ ] Mario Tennis
+- [ ] Metal Gear Solid
+- [ ] Mr. Driller
+- [ ] Perfect Dark
+- [x] Pokémon Gold/Silver
+- [ ] Pokémon Puzzle Challenge
+- [ ] Rayman
+- [ ] Street Fighter Alpha: Warriors' Dreams
+- [ ] Tomb Raider
+- [ ] Wario Land 2
+- [ ] Wario Land 3
+- [ ] Warlocked
 
 ### 2001
 
+- [ ] Croc 2
+- [ ] Dragon Warrior III
+- [ ] Dragon Warrior Monsters 2: Tara's Adventure & Cobi's Journey
+- [ ] Harry Potter And The Philosopher's Stone
+- [ ] Harvest Moon 3
+- [ ] Lufia: The Legend Returns
+- [ ] Mega Man Xtreme
+- [ ] Mega Man Xtreme 2
+- [x] Pokémon Crystal
 - [ ] The Legend of Zelda: Oracle of Ages
 - [ ] The Legend of Zelda: Oracle of Seasons
+- [ ] Toki Tori
 
 ### 2002
 
+- [ ] Dragon Ball Z: Legendary Super Warriors
+- [ ] Hamtaro: Ham-Hams Unite!
+- [ ] Harry Potter and the Chamber of Secrets 
 - [ ] Shantae
 
-### Unsorted
-
-- [ ] Bionic Commando: Elite Forces
-- [ ] Crystalis
-- [ ] Dragon Ball Z: Legendary Super Warriors
-- [ ] Duke Nukem
-- [ ] Harvest Moon 2
-- [ ] Harvest Moon 3
-- [ ] Harry Potter and the Chamber of Secrets 
-- [ ] Harry Potter And The Philosopher's Stone
-- [ ] Legend of the River King
-- [ ] Mega Man Xtreme
-- [ ] Mega Man Xtreme 2
-- [ ] Mr. Driller
-- [ ] Ms. Pac-Man: Special Color Edition 
-- [ ] Pac-Man: Special Color Edition
-- [ ] Perfect Dark
-- [ ] Rayman
-- [ ] Street Fighter Alpha: Warriors' Dreams
-- [ ] Super Mario Bros. Deluxe
-- [ ] Toki Tori
-- [x] Pokémon Gold/Silver/Crystal
-- [ ] Dragon Warrior III
-- [ ] R-Type DX
-- [ ] Dragon Warrior Monsters 2: Tara's Adventure & Cobi's Journey
-- [ ] Dragon Warrior Monsters
-- [ ] Dragon Warrior III
-- [ ] Dragon Warrior I & II
-- [ ] Wario Land 2
-- [ ] Wario Land 3
-- [ ] Metroid II – Return Of Samus
-- [ ] Tomb Raider
-- [ ] Mickey's Racing Adventure
-- [ ] Croc 2
-- [ ] Mega Man Xtreme
-- [ ] Survival Kids
-- [ ] Ghosts ‘n’ Goblins
-- [ ] Game & Watch Gallery 3
-- [ ] Hamtaro: Ham-Hams Unite!
-- [ ] Lufia: The Legend Returns
+### Modern
 
 - [ ] Dragonyhm
