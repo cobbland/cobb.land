@@ -10,18 +10,20 @@ score:
 possed: 
 ---
 
-Games to play on Game Boy, Game Boy Color, and Game Boy Advanced, sorted by release year and then alphabetically, based on [this](https://nintendo.fandom.com/wiki/List_of_Game_Boy_games), [this](https://nintendo.fandom.com/wiki/List_of_Game_Boy_Color_games), and [this list](https://nintendo.fandom.com/wiki/List_of_Game_Boy_Advance_games).
+A collection of games to play on Game Boy, Game Boy Color, and Game Boy Advanced, derived from various "best games" lists, sorted by release year and then alphabetically, based on [this](https://nintendo.fandom.com/wiki/List_of_Game_Boy_games), [this](https://nintendo.fandom.com/wiki/List_of_Game_Boy_Color_games), and [this list](https://nintendo.fandom.com/wiki/List_of_Game_Boy_Advance_games).
+
+Note that checked-off games were not necessarily finished, completed, or abandoned. See [Media](/media) for more details on finished games. Also note that games in bold are physically owned and games prepended by a heart (♥) are favorites and by a recycle symbol (♻) are still being played off and on.
 
 ## Game Boy
 
 ### 1989
 
-- [ ] Alleyway
-- [x] Baseball
-- [x] Super Mario Land
-- [ ] Tennis
-- [ ] Tetris
-- [x] Yakuman
+- [x] Alleyway ♻
+- [x] **Baseball** ♻
+- [x] **Super Mario Land** ♥
+- [x] Tennis ♻
+- [x] Tetris ♻
+- [x] **Yakuman** ♥ ♻
 
 ### 1990
 
