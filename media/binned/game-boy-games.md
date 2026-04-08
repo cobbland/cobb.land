@@ -27,6 +27,8 @@ Games to play on Game Boy, Game Boy Color, and Game Boy Advanced, sorted by rele
 
 - [ ] Balloon Kid
 - [ ] Batman
+- [ ] Boulder Dash
+- [ ] Burai Fighter Deluxe
 - [ ] Catrap
 - [ ] Double Dragon
 - [ ] Dr. Mario
@@ -37,15 +39,19 @@ Games to play on Game Boy, Game Boy Color, and Game Boy Advanced, sorted by rele
 - [ ] Motocross Maniacs
 - [ ] Parodius
 - [ ] Qix
+- [ ] Quarth
 - [ ] Revenge of the 'Gator
 - [ ] Teenage Mutant Ninja Turtles: Fall of the Foot Clan
 - [ ] The Final Fantasy Legend
 
 ### 1991
 
+- [ ] Amazing Tater
 - [ ] Atomic Punk
 - [ ] Bubble Bobble
+- [ ] BurgerTime Deluxe
 - [ ] Castlevania II: Belmont's Revenge
+- [ ] Choplifter II: Rescue Survive
 - [ ] Double Dragon II
 - [ ] F-1 Race
 - [ ] Faceball 2000
@@ -67,6 +73,7 @@ Games to play on Game Boy, Game Boy Color, and Game Boy Advanced, sorted by rele
 - [ ] Gradius: The Interstellar Assault
 - [ ] Kirby's Dream Land
 - [ ] Mario & Yoshi
+- [ ] Prince of Persia
 - [ ] Star Wars
 - [ ] Super Mario Land 2: 6 Golden Coins
 - [ ] Tiny Toon Adventures: Babs' Big Break
@@ -74,6 +81,7 @@ Games to play on Game Boy, Game Boy Color, and Game Boy Advanced, sorted by rele
 
 ### 1993
 
+- [ ] Alfred Chicken
 - [ ] Darkwing Duck
 - [ ] DuckTales 2
 - [ ] F1 Pole Position
@@ -88,10 +96,13 @@ Games to play on Game Boy, Game Boy Color, and Game Boy Advanced, sorted by rele
 
 ### 1994
 
+- [ ] Choplifter III
 - [ ] Contra: The Alien Wars
 - [ ] Donkey Kong
 - [ ] Mega Man V
+- [ ] Monster Max
 - [ ] Mortal Kombat II
+- [ ] Samurai Shodown
 - [ ] Space Invaders
 - [ ] Wario Blast: Featuring Bomberman!
 - [ ] Wario Land: Super Mario Land 3
@@ -129,6 +140,7 @@ Games to play on Game Boy, Game Boy Color, and Game Boy Advanced, sorted by rele
 
 ### Modern
 
+- [ ] Chantey
 - [ ] DAEDEUS
 - [ ] Hermano
 
@@ -144,16 +156,21 @@ Games to play on Game Boy, Game Boy Color, and Game Boy Advanced, sorted by rele
 
 ### 1999
 
+- [ ] Asteroids
 - [ ] Bionic Commando: Elite Forces
 - [ ] Duke Nukem
 - [ ] Game & Watch Gallery 3
 - [ ] Legend of the River King
 - [ ] Mario Golf
 - [ ] Mickey's Racing Adventure
+- [ ] Mission: Impossible
+- [ ] Motocross Maniacs 2
 - [ ] Ms. Pac-Man: Special Color Edition 
 - [ ] Pac-Man: Special Color Edition
 - [ ] Pokemon Pinball
+- [ ] Prince of Persia
 - [ ] R-Type DX
+- [ ] Space Invaders
 - [ ] Super Mario Bros. Deluxe
 - [ ] Survival Kids
 
@@ -161,14 +178,21 @@ Games to play on Game Boy, Game Boy Color, and Game Boy Advanced, sorted by rele
 
 - [ ] Dragon Warrior I & II
 - [ ] Dragon Warrior Monsters
+- [ ] Cannon Fodder
 - [ ] Crystalis
+- [ ] F1 Racing Championship
 - [ ] Ghosts ‘n Goblins
 - [ ] Harvest Moon 2
 - [ ] Kirby Tilt 'n' Tumble
+- [ ] Konami GB Collection: Vol.1
+- [ ] Konami GB Collection: Vol.2
+- [ ] Konami GB Collection: Vol.3
+- [ ] Konami GB Collection: Vol.4
 - [ ] Mario Tennis
 - [ ] Metal Gear Solid
 - [ ] Mr. Driller
 - [ ] Perfect Dark
+- [ ] Project S-11
 - [x] Pokémon Gold/Silver
 - [ ] Pokémon Puzzle Challenge
 - [ ] Rayman
@@ -192,6 +216,7 @@ Games to play on Game Boy, Game Boy Color, and Game Boy Advanced, sorted by rele
 - [ ] The Legend of Zelda: Oracle of Ages
 - [ ] The Legend of Zelda: Oracle of Seasons
 - [ ] Toki Tori
+- [ ] Tomb Raider: Curse of the Sword
 
 ### 2002
 
