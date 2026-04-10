@@ -23,22 +23,22 @@ Dashed (-) games are being activily played. Checked-off (x) games were not neces
 - [x] **Super Mario Land** ♥
 - [x] Tennis ♻
 - [x] Tetris ♻
-- [x] **Yakuman** ♥ ♻
+- [x] **Yakuman** ♻
 
 ### 1990
 
-- [ ] Balloon Kid
+- [-] Balloon Kid
 - [x] Batman ♻
 - [x] Boulder Dash ♻
-- [ ] Burai Fighter Deluxe
-- [ ] Catrap
-- [ ] Double Dragon
-- [ ] Dr. Mario
-- [ ] DuckTales
+- [-] Burai Fighter Deluxe
+- [-] Catrap
+- [-] Double Dragon
+- [-] Dr. Mario
+- [-] DuckTales
 - [ ] Gargoyle's Quest
-- [-] Golf
+- [x] Golf ♻
 - [ ] Heiankyo Alien
-- [-] Kwirk
+- [x] Kwirk ♻
 - [x] Motocross Maniacs ♻
 - [ ] Parodius
 - [ ] Qix
