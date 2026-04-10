@@ -12,7 +12,7 @@ possed:
 
 A collection of games to play on Game Boy, Game Boy Color, and Game Boy Advanced, derived from various "best games" lists, sorted by release year (somewhat inaccurately) and then alphabetically, based on [this](https://nintendo.fandom.com/wiki/List_of_Game_Boy_games), [this](https://nintendo.fandom.com/wiki/List_of_Game_Boy_Color_games), and [this list](https://nintendo.fandom.com/wiki/List_of_Game_Boy_Advance_games).
 
-Dashed (-) games are being activily played. Checked-off (x) games were not necessarily finished, completed, or abandoned (see [Media](/media) for more details on finished games). Games in bold are physically owned, and games prepended by a heart (♥) are favorites and by a recycle symbol (♻) are still being played off and on.
+Dashed (-) games are being activily played. Checked-off (x) games were not necessarily finished, completed, or abandoned (see [Media](/media) for more details on finished games), rather they were tried for a half hour or so and put away for now. Games in bold are physically owned, and games prepended by a heart (♥) are favorites and by a recycle symbol (♻) are still being played off and on.
 
 ## Game Boy
 
@@ -30,17 +30,17 @@ Dashed (-) games are being activily played. Checked-off (x) games were not neces
 - [-] Balloon Kid
 - [x] Batman ♻
 - [x] Boulder Dash ♻
-- [-] Burai Fighter Deluxe
+- [x] Burai Fighter Deluxe
 - [-] Catrap
-- [-] Double Dragon
-- [-] Dr. Mario
+- [x] Double Dragon
+- [x] Dr. Mario
 - [-] DuckTales
-- [ ] Gargoyle's Quest
+- [-] Gargoyle's Quest
 - [x] Golf ♻
-- [ ] Heiankyo Alien
+- [-] Heiankyo Alien
 - [x] Kwirk ♻
 - [x] Motocross Maniacs ♻
-- [ ] Parodius
+- [-] Parodius
 - [ ] Qix
 - [ ] Quarth
 - [x] Revenge of the 'Gator ♻
