@@ -10,15 +10,15 @@ score:
 possed: 
 ---
 
-A collection of games to play on Game Boy, Game Boy Color, and Game Boy Advanced, derived from various "best games" lists, sorted by release year and then alphabetically, based on [this](https://nintendo.fandom.com/wiki/List_of_Game_Boy_games), [this](https://nintendo.fandom.com/wiki/List_of_Game_Boy_Color_games), and [this list](https://nintendo.fandom.com/wiki/List_of_Game_Boy_Advance_games).
+A collection of games to play on Game Boy, Game Boy Color, and Game Boy Advanced, derived from various "best games" lists, sorted by release year (somewhat inaccurately) and then alphabetically, based on [this](https://nintendo.fandom.com/wiki/List_of_Game_Boy_games), [this](https://nintendo.fandom.com/wiki/List_of_Game_Boy_Color_games), and [this list](https://nintendo.fandom.com/wiki/List_of_Game_Boy_Advance_games).
 
-Note that checked-off games were not necessarily finished, completed, or abandoned. See [Media](/media) for more details on finished games. Also note that games in bold are physically owned and games prepended by a heart (♥) are favorites and by a recycle symbol (♻) are still being played off and on.
+Dashed (-) games are being activily played. Checked-off (x) games were not necessarily finished, completed, or abandoned (see [Media](/media) for more details on finished games). Games in bold are physically owned, and games prepended by a heart (♥) are favorites and by a recycle symbol (♻) are still being played off and on.
 
 ## Game Boy
 
 ### 1989
 
-- [x] Alleyway ♻
+- [x] Alleyway
 - [x] **Baseball** ♻
 - [x] **Super Mario Land** ♥
 - [x] Tennis ♻
@@ -28,21 +28,23 @@ Note that checked-off games were not necessarily finished, completed, or abandon
 ### 1990
 
 - [ ] Balloon Kid
-- [ ] Batman
-- [ ] Boulder Dash
+- [x] Batman ♻
+- [x] Boulder Dash ♻
 - [ ] Burai Fighter Deluxe
 - [ ] Catrap
 - [ ] Double Dragon
 - [ ] Dr. Mario
 - [ ] DuckTales
 - [ ] Gargoyle's Quest
-- [ ] Golf
+- [-] Golf
 - [ ] Heiankyo Alien
-- [ ] Motocross Maniacs
+- [-] Kwirk
+- [x] Motocross Maniacs ♻
 - [ ] Parodius
 - [ ] Qix
 - [ ] Quarth
-- [ ] Revenge of the 'Gator
+- [x] Revenge of the 'Gator ♻
+- [ ] Sword of Hope
 - [ ] Teenage Mutant Ninja Turtles: Fall of the Foot Clan
 - [ ] The Final Fantasy Legend
 
@@ -153,7 +155,7 @@ Note that checked-off games were not necessarily finished, completed, or abandon
 - [ ] Game & Watch Gallery 2
 - [ ] Harvest Moon
 - [ ] Pokemon Trading Card Game
-- [ ] Tetris DX
+- [x] Tetris DX
 - [ ] The Legend of Zelda: Link's Awakening DX
 
 ### 1999
