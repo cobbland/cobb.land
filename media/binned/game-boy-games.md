@@ -10,9 +10,11 @@ score:
 possed: 
 ---
 
-A collection of games to play on Game Boy, Game Boy Color, and Game Boy Advanced, derived from various "best games" lists, sorted by release year (somewhat inaccurately) and then alphabetically, based on [this](https://nintendo.fandom.com/wiki/List_of_Game_Boy_games), [this](https://nintendo.fandom.com/wiki/List_of_Game_Boy_Color_games), and [this list](https://nintendo.fandom.com/wiki/List_of_Game_Boy_Advance_games).
+A collection of games to play on Game Boy, Game Boy Color, and Game Boy Advanced, derived from various "best games" lists, sorted by release year (somewhat inaccurately) and then alphabetically. 
 
-Dashed (-) games are being activily played. Checked-off (x) games were not necessarily finished, completed, or abandoned (see [Media](/media) for more details on finished games), rather they were tried for a half hour or so and put away for now. Games in bold are physically owned, and games prepended by a heart (♥) are favorites and by a recycle symbol (♻) are still being played off and on.
+Dashed (-) games are being activily tried. Marked-off (x) games were not necessarily finished, completed, or abandoned (see [shelved media](/media#shelf) for more details on finished games), rather they were tried for a half hour or so and put away for now. Games in bold are physically owned, and games prepended by a heart (♥) are favorites and by a recycle symbol (♻) are planned to be played.
+
+Once all the games in a release year have been tried, games marked to be played will be chosen, one-by-one, and moved to the [media playlist](/media#playlist). (Multiple games may be added if each is of a completely different genre.)
 
 ## Game Boy
 
@@ -31,22 +33,22 @@ Dashed (-) games are being activily played. Checked-off (x) games were not neces
 - [x] Batman ♻
 - [x] Boulder Dash ♻
 - [x] Burai Fighter Deluxe
-- [-] Catrap
+- [x] Catrap ♻
 - [x] Double Dragon
 - [x] Dr. Mario
 - [-] DuckTales
-- [-] Gargoyle's Quest
+- [x] Gargoyle's Quest ♻
 - [x] Golf ♻
-- [-] Heiankyo Alien
+- [x] Heiankyo Alien
 - [x] Kwirk ♻
 - [x] Motocross Maniacs ♻
 - [-] Parodius
-- [ ] Qix
-- [ ] Quarth
+- [x] Qix ♻
+- [-] Quarth
 - [x] Revenge of the 'Gator ♻
-- [ ] Sword of Hope
-- [ ] Teenage Mutant Ninja Turtles: Fall of the Foot Clan
-- [ ] The Final Fantasy Legend
+- [-] Sword of Hope
+- [-] Teenage Mutant Ninja Turtles: Fall of the Foot Clan
+- [-] The Final Fantasy Legend
 
 ### 1991
 
