@@ -4,13 +4,13 @@ creator: "Nintendo"
 cart: gamecart
 type: game collection
 date: 2026-04-07T11:00:00.00-04:00
-started: 
-finished: 
-score: 
-possed: 
+started:
+finished:
+score:
+possed:
 ---
 
-A collection of games to play on Game Boy, Game Boy Color, and Game Boy Advanced, derived from various "best games" lists, sorted by release year (somewhat inaccurately) and then alphabetically. 
+A collection of games to play on Game Boy, Game Boy Color, and Game Boy Advanced, derived from various "best games" lists, sorted by release year (somewhat inaccurately) and then alphabetically.
 
 Dashed (-) games are being activily tried. Marked-off (x) games were not necessarily finished, completed, or abandoned (see [shelved media](/media#shelf) for more details on finished games), rather they were tried for a half hour or so and put away for now. Games in bold are physically owned, and games prepended by a heart (♥) are favorites and by a recycle symbol (♻) are planned to be played.
 
@@ -29,26 +29,26 @@ Once all the games in a release year have been tried, games marked to be played 
 
 ### 1990
 
-- [-] Balloon Kid
+- [x] Balloon Kid ♻
 - [x] Batman ♻
 - [x] Boulder Dash ♻
 - [x] Burai Fighter Deluxe
 - [x] Catrap ♻
 - [x] Double Dragon
 - [x] Dr. Mario
-- [-] DuckTales
+- [x] DuckTales
 - [x] Gargoyle's Quest ♻
 - [x] Golf ♻
 - [x] Heiankyo Alien
 - [x] Kwirk ♻
 - [x] Motocross Maniacs ♻
-- [-] Parodius
+- [x] Parodius ♻
 - [x] Qix ♻
-- [-] Quarth
+- [x] Quarth
 - [x] Revenge of the 'Gator ♻
-- [-] Sword of Hope
-- [-] Teenage Mutant Ninja Turtles: Fall of the Foot Clan
-- [-] The Final Fantasy Legend
+- [x] Sword of Hope ♻
+- [x] Teenage Mutant Ninja Turtles: Fall of the Foot Clan
+- [x] The Final Fantasy Legend ♻
 
 ### 1991
 
@@ -68,7 +68,7 @@ Once all the games in a release year have been tried, games marked to be played 
 - [ ] Navy Seals
 - [ ] Ninja Gaiden Shadow
 - [ ] Operation C
-- [ ] R-Type 
+- [ ] R-Type
 - [ ] Super R.C. Pro-Am
 - [ ] Teenage Mutant Ninja Turtles II: Back from the Sewers
 
@@ -93,7 +93,7 @@ Once all the games in a release year have been tried, games marked to be played 
 - [ ] F1 Pole Position
 - [ ] Final Fantasy Legend 3
 - [ ] Kirby's Pinball Land
-- [ ] Kid Dracula 
+- [ ] Kid Dracula
 - [ ] Star Wars: The Empire Strikes Back
 - [ ] Tetris 2
 - [ ] The Legend of Zelda: Link's Awakening
@@ -171,7 +171,7 @@ Once all the games in a release year have been tried, games marked to be played 
 - [ ] Mickey's Racing Adventure
 - [ ] Mission: Impossible
 - [ ] Motocross Maniacs 2
-- [ ] Ms. Pac-Man: Special Color Edition 
+- [ ] Ms. Pac-Man: Special Color Edition
 - [ ] Pac-Man: Special Color Edition
 - [ ] Pokemon Pinball
 - [ ] Prince of Persia
@@ -228,7 +228,7 @@ Once all the games in a release year have been tried, games marked to be played 
 
 - [ ] Dragon Ball Z: Legendary Super Warriors
 - [ ] Hamtaro: Ham-Hams Unite!
-- [ ] Harry Potter and the Chamber of Secrets 
+- [ ] Harry Potter and the Chamber of Secrets
 - [ ] Shantae
 
 ### Modern
