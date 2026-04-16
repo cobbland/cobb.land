@@ -6,7 +6,7 @@ type: graphic novel
 date: 2026-04-15T19:30:00.00-04:00
 started: 2026-03-27T12:00:00.00-04:00
 finished: 2026-04-15T19:30:00.00-04:00
-0score: 3
+score: 3
 possed: 
 ---
 
