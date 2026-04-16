@@ -51,6 +51,7 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
 - [ ] Fix media system?
     - [ ] Maybe use json file(s) instead of individual md
     - [ ] If so, add some js to display things in different ways
+    - [ ] Maybe use some APIs (like [this one](https://www.igdb.com/api))?
 - [x] Add shelved media to posts (maybe under reviews?)
 - [ ] Add fancy initial letter to article posts (see [Fancy initial letter](https://blog.jacobdensford.com/fancy-initial-letter))?
 - [x] Rename shortform posts on homepage so they're not so repetitive
