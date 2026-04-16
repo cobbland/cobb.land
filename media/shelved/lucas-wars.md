@@ -10,4 +10,4 @@ score: 3
 possed: 
 ---
 
-I often struggle with graphic novels. It's probably because I usually read them on a $50 tablet that's as slow as a slug and not quite big enough. With *Lucas Wars* it was no different, though through no fault of it's own. I did enjoy reading it. And I even learned a few things. But I still prefer the massive tomes that are Paul Duncan's *The Star Wars Archives*. And yet, if the graphic novel is your preferred medium, **I recommend it**. 
+I often struggle with graphic novels. It's probably because I usually read them on a $50 tablet that's as slow as a slug and not quite big enough. With *Lucas Wars* it was a little different though. I enjoyed reading it enough to finish it in two sittings. And I even learned a few things (did you know R2 met Jesus?!). While I still prefer the massive tomes that are Paul Duncan's *The Star Wars Archives* for experiencing the creation of my favorite franchise, if the graphic novel is your preferred medium, **I recommend it**. 
