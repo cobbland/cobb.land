@@ -53,10 +53,9 @@ A collection of (almost) organized links.
 
 ### Modding Resources 
 
-- https://moddedgameboy.club/
-- https://gbwiki.org/
-- https://gameboy.github.io
-- https://consolemods.org/wiki/Game_Boy:Game_Boy_Mods_Wiki
+- [Modded Gameboy [sic] Club](https://moddedgameboy.club/)
+- [https://gbwiki.org/](Game Boy Wiki) ([Game Boy Wiki mirror](https://gameboy.github.io))
+- [ConsoleMods Wiki](https://consolemods.org/wiki/Main_Page) (specifically the [Game Boy](https://consolemods.org/wiki/Game_Boy:Game_Boy_Mods_Wiki) section)
 
 ### Dev Resources
 
@@ -84,9 +83,8 @@ A collection of (almost) organized links.
 - [Source for a game](https://github.com/QuinnPainter/CrossConnect) and [another game](https://github.com/QuinnPainter/Wyrmhole) built with GBSDK
 - [lsdpack](https://github.com/jkotlinski/lsdpack) and [lsdlack-kit](https://github.com/rondnelson99/lsdpack-kit) for making LSDJ playback ROMs (other audio drivers in ROM form are ok too)
 - [awesome-gbdev](https://github.com/gbdev/awesome-gbdev) and **[here](https://gbdev.io/resources.html)**
-- https://gbdev.io
-- https://gbadev.net
-- https://gbwiki.org
+- [gbdev](https://gbdev.io)
+- [gbadev](https://gbadev.net)
 
 ### Camera
 
