@@ -54,7 +54,7 @@ A collection of (almost) organized links.
 ### Modding Resources 
 
 - [Modded Gameboy [sic] Club](https://moddedgameboy.club/)
-- [https://gbwiki.org/](Game Boy Wiki) ([Game Boy Wiki mirror](https://gameboy.github.io))
+- [Game Boy Wiki](https://gbwiki.org/) ([Game Boy Wiki mirror](https://gameboy.github.io))
 - [ConsoleMods Wiki](https://consolemods.org/wiki/Main_Page) (specifically the [Game Boy](https://consolemods.org/wiki/Game_Boy:Game_Boy_Mods_Wiki) section)
 
 ### Dev Resources
