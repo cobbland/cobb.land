@@ -100,3 +100,11 @@ A collection of (almost) organized links.
 - https://www.reddit.com/r/Gameboy/
 - https://gbatemp.net
 - https://www.videogamesage.com
+
+### Tools
+
+- [Game Tools Collection](https://game-tools-collection.com) (not just for Game Boy)
+
+### Pokemon
+
+- [Poke Transporter GB](https://github.com/GearsProgress/Poke_Transporter_GB)
