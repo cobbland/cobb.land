@@ -9,3 +9,5 @@ finished:
 score: 
 possed: 
 ---
+
+See the [nuzlocke page](/nuzlocke).

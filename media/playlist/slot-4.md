@@ -1,10 +1,10 @@
 ---
-title: "Titanfall 2"
-creator: "Respawn Entertainment"
-cart: gamecart
-type: pc
-date: 2026-03-15T11:13:00.00-04:00
-started: 2026-03-15T11:13:00.00-04:00
+title: "EMPTY"
+creator: "EMPTY"
+cart: 
+type: 
+date: 2025-09-15T11:13:00.00-04:00
+started: 
 finished: 
 score: 
 possed: 
