@@ -37,22 +37,23 @@ Here are my slightly modified [Nuzlocke Challenge](https://bulbapedia.bulbagarde
 
 **Party**:
 
-- Robert (Wartortle, Lv23)
+- Robert (Wartortle, Lv28)
 - ~~Lucas (Pidgey, Lv20)~~
 - ~~Peter (Rattata, Lv23)~~
 - ~~Sarah (Mankey, Lv23)~~
-- Philippe (Butterfree, Lv23)
+- Philippe (Butterfree, Lv28)
 - Hiro (Weedle, Lv8, boxed)
 - Gracie (Zubat, Lv10, boxed)
 - ~~Tomo (Sandshrew, Lv14)~~
-- Samuel (Weepinbell, Lv23, 1 revive)
+- Samuel (Weepinbell, Lv28, 1 revive)
 - Tofu (Meowth, Lv10, boxed)
 - Goldie (Magikarp, Lv5, boxed)
-- Larry (Diglette, Lv23) 
+- Larry (Diglette, Lv28) 
+- Puki (Vulpix, Lv16, 1 revive)
 
 **Badges**: 3
 
-**Lives**: 2
+**Lives**: 1
 
 **Max level**: 29
 
