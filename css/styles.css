@@ -686,6 +686,15 @@ ul.extra {
     margin-top: 0.2rem;
 }
 
+img.gb {
+    width: 100%; /* 320, 480, 640, etc */
+    max-width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    display: block;
+    image-rendering: pixelated;
+}
+
 .triple-dagger {
     color: var(--lt-red);
 }
