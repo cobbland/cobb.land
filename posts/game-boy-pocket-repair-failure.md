@@ -22,7 +22,7 @@ I had my work cut out for me, but I was undeterred.
 
 And here was where I made my first mistake. Instead of taking one apart and working on it until I either fixed it or broke it beyond repair, I opened them both.
 
-Things went okay at first. The Boys disassembled, I soaked the shells in some mildly soapy water and cleaned the boards with q-tips and isopropyl alcohol. Red's board wasn't bad. Blue's, on the other hand, was covered in battery acid and corrosion. It was bludging within the layers of the PCB. 
+Things went okay at first. The Boys disassembled, I soaked the shells in some mildly soapy water and cleaned the boards with q-tips and isopropyl alcohol. Red's board wasn't bad. Blue's, on the other hand, was covered in battery acid and corrosion. It was bludging within the layers of the PCB.
 
 There was little hope for Blue. It would have been a perfect time for me to set Red aside and use blue as a learning experience—try all of my planned repairs when there was nothing to lose.
 
@@ -32,17 +32,17 @@ Then came time for the screen repair. I read several tutorials and watched sever
 
 (Foreshadowing.)
 
-Using the blade from a box cutter, q-tips, and about another twelve gallons of isopropyl alcohol, I went to town on those things. Peeling, scrubbing, wetting, waiting, and scrubbing some more. While I left one with its surface covered in alcohol, I scrubbed the other. 
+Using the blade from a box cutter, q-tips, and about another twelve gallons of isopropyl alcohol, I went to town on those things. Peeling, scrubbing, wetting, waiting, and scrubbing some more. While I left one with its surface covered in alcohol, I scrubbed the other.
 
 Back and forth I went over the course of two days. I probably spent six hours on those things. Until, finally, the screens were clean and free from sunburn and adhesive.
 
-(As an aside, it turns out it isn't the polarizing film that get's burned—it's the adhesive: LOCA, or liquid optically-clear adhesive. In this case, I don't think it's *quite* optically-clear, because it seems to be the adhesive that makes the Game Boy Pocket's screen gray instead of green.)
+(As an aside, it turns out it isn't the polarizing film that get's burned—it's the adhesive: LOCA, or liquid optically-clear adhesive. In this case, I don't think it's _quite_ optically-clear, because it seems to be the adhesive that makes the Game Boy Pocket's screen gray instead of green.)
 
 <img class="gb" src="/images/IMG_PC03.png">
 
-With the Game Boys cleaned and reassembled, and with fresh polarizing film applied, the moment when all of my hard work would pay off had come. 
+With the Game Boys cleaned and reassembled, and with fresh polarizing film applied, the moment when all of my hard work would pay off had come.
 
-Batteries in. 
+Batteries in.
 
 Power one.
 
@@ -64,4 +64,4 @@ Well, that just wouldn't do. I'd got it in my head that I wanted a Game Boy Pock
 
 Now, I'm in for a few hundred dollars worth of (hopefully mostly functional) Game Boys and replacement parts. Fingers crossed.
 
-<img class="gb" src="/images/IMG_PC17.png">
+<img class="gb" src="/images/IMG_PC16.png">
