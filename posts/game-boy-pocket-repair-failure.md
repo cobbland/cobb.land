@@ -3,7 +3,7 @@ title: "Game Boy Pocket Repair Failure"
 summary: "Or 'Why if you have to perform a new delicate task multiple times, you should do each sequentially instead of all at once'"
 tags: [tech]
 date: 2026-05-14T09:00:00.00-04:00
-possed: "URL"
+possed: "https://dice.camp/@cobb/116584363310772994"
 ---
 
 <img class="gb" src="/images/IMG_PC01.png">
