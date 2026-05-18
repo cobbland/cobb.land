@@ -46,6 +46,7 @@ This website was mostly crafted by hand in HTML and CSS using <a href="https://v
     - [ ] Fix bookmarks
     - [ ] Fix reviews/shelved
     - [ ] Make separate feeds for replies and bookmarks?
+    - [ ] Consider these links as well: [A quick guide to creating syndication feeds](https://piccalil.li/blog/a-quick-guide-to-creating-syndication-feeds/?ref=main-rss-feed), [Sample Feed templates](https://www.11ty.dev/docs/plugins/rss/#sample-feed-templates), [Intro to Atom](https://validator.w3.org/feed/docs/atom.html), [11ty Config](https://www.11ty.dev/docs/config/#input-directory), [Building post types and category RSS feeds in Eleventy](https://localghost.dev/blog/building-post-types-and-category-rss-feeds-in-eleventy/)
 - [ ] Consider doing some of these things from [100 things you can do on your personal website](https://jamesg.blog/2024/02/19/personal-website-ideas)
 - [x] Finish media system
 - [ ] Fix media system?

@@ -1,0 +1,2 @@
+- https://www.thecodedtype.com/pixel-and-paper-release/
+- https://slowpress.pub
