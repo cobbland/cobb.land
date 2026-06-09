@@ -1,0 +1,1 @@
+- https://manuelmoreale.com/thoughts/ai-blog-question-challenge
